@@ -1,3 +1,21 @@
-import React from "react"
+import React from 'react'
+import { Link } from 'gatsby'
 
-export default () => <div>Hello world!</div>
+import Layout from '../components/layout'
+
+const IndexPage = () => {
+    return (
+        <Layout>
+            <h1>WELCOME / BIENVENUE</h1>
+            <div>
+                <Link to='/welcome'><button>ENGLISH</button></Link>
+                <button>FRANÇAIS</button>
+            </div>
+            <p>*Please note that this is a new referral service that is only available to youth 11 to 25 years old in the following communities in Canada as part of a pilot project:</p>
+            <p>Sites</p>
+            <p>Coming Soon!</p>
+        </Layout>
+    )
+}
+
+export default IndexPage

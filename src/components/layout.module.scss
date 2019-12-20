@@ -1,0 +1,106 @@
+$title-color: #ef6c00;
+$title-level2-color: #595959;
+$title-level3-color: #000000;
+$p-color: #000000;
+$p-sidebar-color: white;
+
+
+$button-background-color: #006d68ff;
+$content-background-color: white;
+$sidebar-background-color: #ef6c00ff;
+
+
+$font-family: 'Arial';
+$title-font-size: 36px;
+$title-level2-font-size: 36px;
+$title-level3-font-size: 16px;
+$p-font-size: 14px;
+
+h1 {
+    color: $title-color;
+    font-size: $title-font-size;
+}
+
+h2 {
+    text-align: left;
+    color: $title-level2-color;
+    font-size: $title-level2-font-size;
+}
+
+p {
+    text-align: left;
+    color: $p-font-size;
+    font-family: $font-family;
+    font-size: $p-font-size;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: $content-background-color;
+    width: 85%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.main {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    width: 15%;
+    background-color: $sidebar-background-color;
+    color: white;
+    overflow-x: hidden;
+    
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+$font-family: 'Arial';
+
+* {
+    font-family: $font-family;
+}
+
+button {
+    background-color: $button-background-color;
+    color: white;
+    border: 0;
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-size: $title-font-size;
+    font-weight: bold;
+}
+
+.forms button  {
+    background-color: $button-background-color;
+    width: 35%;
+    color: white;
+    border: 0;
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-size: $p-font-size;
+    font-weight: bold;
+}
