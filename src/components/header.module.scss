@@ -18,3 +18,13 @@
 .active-nav-item {
     color: #333333;
 }
+
+.logo {
+    width: 35rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 85%;
+    }
+}

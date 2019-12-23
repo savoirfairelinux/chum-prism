@@ -1,8 +1,10 @@
 import React from 'react'
 
+import footerStyles from './footer.module.scss'
+
 const Footer = () => {
     return (
-        <div>
+        <div className={footerStyles.footer}>
             <a href='http://www.ymhtech.com/welcome'><img src={'/footer.png'} alt="Prism" width='200'/></a>
         </div>
     )

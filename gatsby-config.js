@@ -17,5 +17,6 @@ module.exports = {
         ],
       },
     },
+    'semantic-ui-react',
   ]
 }

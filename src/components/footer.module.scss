@@ -1,0 +1,21 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+
+.footer img {
+    width: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer img {
+        width: 9rem;
+    }
+}

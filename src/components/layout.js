@@ -9,12 +9,12 @@ import layoutStyles from './layout.module.scss'
 const Layout = (props) => {
     return (
         <div className={layoutStyles.container}>
-            <div className={layoutStyles.content}>
+            <div id='content' className={layoutStyles.content}>
+                <Header />
                 <div className={layoutStyles.main}>
-                    <Header />
                     {props.children}
-                    <Footer />
                 </div>
+                <Footer />
             </div>
             <Sidebar />
         </div>

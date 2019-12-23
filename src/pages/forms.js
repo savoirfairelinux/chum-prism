@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import layoutStyles from '../components/layout.module.scss'
@@ -11,14 +10,14 @@ const IndexPage = () => {
             <div className={layoutStyles.forms}>
                 <a href='http://www.ymhtech.com/welcome'>
                     <button>
-                        Click here if you are filling out this form for YOURSELF
+                        FOR MY SELF
                         <br/><br/>
                         <i class="material-icons">accessibility</i>
                     </button>
                 </a>
                 <a href='http://www.ymhtech.com/welcome'>
                     <button>
-                        Click here if you are filling out this form for SOMEONE ELSE
+                        FOR SOMEONE ELSE
                         <br/><br/>
                         <i class="material-icons">emoji_people</i>
                     </button>

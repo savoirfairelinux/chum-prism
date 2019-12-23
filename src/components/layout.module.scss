@@ -10,21 +10,32 @@ $content-background-color: white;
 $sidebar-background-color: #ef6c00ff;
 
 
-$font-family: 'Arial';
+$font-family: 'Roboto';
 $title-font-size: 36px;
 $title-level2-font-size: 36px;
 $title-level3-font-size: 16px;
 $p-font-size: 14px;
 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+
+
 h1 {
     color: $title-color;
+    font-family: $font-family;
     font-size: $title-font-size;
 }
 
 h2 {
     text-align: left;
     color: $title-level2-color;
+    font-family: $font-family;
     font-size: $title-level2-font-size;
+    margin-bottom: 20px;
 }
 
 p {
@@ -32,6 +43,7 @@ p {
     color: $p-font-size;
     font-family: $font-family;
     font-size: $p-font-size;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -47,9 +59,39 @@ p {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .content {
+        background-color: $content-background-color;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
 .main {
     margin: 0 auto;
     width: 50%;
+    min-height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+.main {
+
+    ul {
+        padding-left: 2rem;
+
+        li {
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: $p-font-size;
+        }
+    }
 }
 
 .sidebar {
@@ -61,21 +103,62 @@ p {
     background-color: $sidebar-background-color;
     color: white;
     overflow-x: hidden;
-    
+}
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar-header {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.full-content {    
+    display: none;
+}
+
+.full-sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    width: 100%;
+    background-color: $sidebar-background-color;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sidebar nav {
+        display: none;
+    }
+
+    .sidebar {
+        position: fixed;
+        margin-top: 30%;
+        height: 4rem;
+    }
 }
 
 .nav-list {
     list-style-type: none;
+    margin-left: 0;
+    padding: 0.5rem;
+    font-weight: normal;
 }
 
 .nav-item {
     text-decoration: none;
+    margin-left: 0;
+    padding: 0;
 }
 
-$font-family: 'Arial';
-
-* {
-    font-family: $font-family;
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 button {
@@ -89,6 +172,7 @@ button {
     padding-bottom: 1rem;
     font-size: $title-font-size;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .forms button  {
@@ -103,4 +187,20 @@ button {
     padding-bottom: 1rem;
     font-size: $p-font-size;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        margin: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .forms button  {
+        width: 100%;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
 }
