@@ -7,16 +7,13 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [
-          'material icons',
-          'roboto:300,400,500,700',
-        ],
+        fonts: ["material icons", "Montserrat:300,400,500,700"],
       },
     },
-    'semantic-ui-react',
-  ]
+    "semantic-ui-react",
+  ],
 }

@@ -1,206 +1,206 @@
-$title-color: #ef6c00;
+$title-color: #175389;
 $title-level2-color: #595959;
 $title-level3-color: #000000;
 $p-color: #000000;
 $p-sidebar-color: white;
 
-
-$button-background-color: #006d68ff;
+$background-color: #f3f3f3;
+$button-background-color: #fcb215;
 $content-background-color: white;
 $sidebar-background-color: #ef6c00ff;
 
-
-$font-family: 'Roboto';
-$title-font-size: 36px;
+$font-family: "Montserrat", sans-serif;
+$title-font-size: 54px;
 $title-level2-font-size: 36px;
 $title-level3-font-size: 16px;
 $p-font-size: 14px;
 
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: $background-color;
 }
 
-
 h1 {
-    color: $title-color;
-    font-family: $font-family;
-    font-size: $title-font-size;
+  color: $title-color;
+  font-family: $font-family;
+  font-size: $title-font-size;
+  font-weight: 500;
 }
 
 h2 {
-    text-align: left;
-    color: $title-level2-color;
-    font-family: $font-family;
-    font-size: $title-level2-font-size;
-    margin-bottom: 20px;
+  text-align: left;
+  color: $title-level2-color;
+  font-family: $font-family;
+  font-size: $title-level2-font-size;
+  margin-bottom: 20px;
 }
 
 p {
-    text-align: left;
-    color: $p-font-size;
-    font-family: $font-family;
-    font-size: $p-font-size;
-    margin-bottom: 20px;
+  text-align: left;
+  color: $p-font-size;
+  font-family: $font-family;
+  font-size: $p-font-size;
+  margin-bottom: 20px;
 }
 
 .container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
+  background-color: $content-background-color;
+  width: 100%;
+  text-align: center;
+  background-color: $background-color;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
     background-color: $content-background-color;
-    width: 85%;
+    width: 100%;
     margin-left: 0;
     text-align: center;
-}
-
-@media only screen and (max-width: 600px) {
-    .content {
-        background-color: $content-background-color;
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-    }
+  }
 }
 
 .main {
+  margin: 0 auto;
+  width: 50%;
+  min-height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
     margin: 0 auto;
-    width: 50%;
-    min-height: 500px;
-}
-
-@media only screen and (max-width: 600px) {
-    .main {
-        margin: 0 auto;
-        width: 90%;
-    }
+    width: 90%;
+  }
 }
 
 .main {
+  ul {
+    padding-left: 2rem;
 
-    ul {
-        padding-left: 2rem;
-
-        li {
-            text-align: left;
-            margin-bottom: 10px;
-            font-size: $p-font-size;
-        }
+    li {
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: $p-font-size;
     }
+  }
 }
 
 .sidebar {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    width: 15%;
-    background-color: $sidebar-background-color;
-    color: white;
-    overflow-x: hidden;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  width: 15%;
+  background-color: $sidebar-background-color;
+  color: white;
+  overflow-x: hidden;
 }
 
 .sidebar a {
-    color: white;
+  color: white;
 }
 
 .sidebar-header {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.full-content {    
-    display: none;
+.full-content {
+  display: none;
 }
 
 .full-sidebar {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    width: 100%;
-    background-color: $sidebar-background-color;
-    color: white;
-    overflow-x: hidden;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  width: 100%;
+  background-color: $sidebar-background-color;
+  color: white;
+  overflow-x: hidden;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .sidebar nav {
-        display: none;
-    }
+  .sidebar nav {
+    display: none;
+  }
 
-    .sidebar {
-        position: fixed;
-        margin-top: 30%;
-        height: 4rem;
-    }
+  .sidebar {
+    position: fixed;
+    margin-top: 30%;
+    height: 4rem;
+  }
 }
 
 .nav-list {
-    list-style-type: none;
-    margin-left: 0;
-    padding: 0.5rem;
-    font-weight: normal;
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0.5rem;
+  font-weight: normal;
 }
 
 .nav-item {
-    text-decoration: none;
-    margin-left: 0;
-    padding: 0;
+  text-decoration: none;
+  margin-left: 0;
+  padding: 0;
 }
 
 .nav-item a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 button {
-    background-color: $button-background-color;
-    color: white;
-    border: 0;
-    margin: 2rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    font-size: $title-font-size;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: $button-background-color;
+  color: white;
+  border: 0;
+  margin: 2rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  font-size: $title-level2-font-size;
+  border-radius: 15px;
+  box-shadow: 3px 3px #c5c5c5;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.forms button  {
-    background-color: $button-background-color;
-    width: 35%;
-    color: white;
-    border: 0;
-    margin: 2rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    font-size: $p-font-size;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 600px) {
-    button {
-        margin: 0;
-        margin-bottom: 1rem;
-        width: 100%;
-    }
+.forms button {
+  background-color: $button-background-color;
+  width: 35%;
+  color: white;
+  border: 0;
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  font-size: $p-font-size;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-    .forms button  {
-        width: 100%;
-        margin: 0rem;
-        margin-bottom: 1rem;
-    }
+  button {
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .forms button {
+    width: 100%;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
 }

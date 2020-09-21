@@ -1,21 +1,44 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import { Link } from "gatsby"
 
-import Layout from '../components/layout'
+import Layout from "../components/homeLayout"
+
+import headStyle from "../components/head.module.scss"
 
 const IndexPage = () => {
-    return (
-        <Layout>
-            <h1>Welcome / Bienvenue</h1>
-            <div>
-                <Link to='/welcome'><button>English</button></Link>
-                <button>Français</button>
-            </div>
-            <p>*Please note that this is a new referral service that is only available to youth 11 to 25 years old in the following communities in Canada as part of a pilot project:</p>
-            <p>Sites</p>
-            <p>Coming Soon!</p>
-        </Layout>
-    )
+  return (
+    <Layout>
+      <h1>WELCOME | BIENVENUE</h1>
+      <div>
+        <Link to="/welcome">
+          <button>ENGLISH</button>
+        </Link>
+        <button>FRANÇAIS</button>
+      </div>
+      <div className={headStyle.headContainer}>
+        <div className={headStyle.headImage}>
+          <img src={"/head.png"} alt="Head" className={headStyle.logohead} />
+        </div>
+        <div className={headStyle.headParagraph}>
+          <p>
+            Help is more{" "}
+            <span className={headStyle.orangeSpan}>accessible </span> than you
+            think!
+          </p>
+          <p>
+            L’aide est plus{" "}
+            <span className={headStyle.orangeSpan}>accessible </span>
+            que vous le pensez!
+          </p>
+          <img
+            src={"/footer.png"}
+            alt="Youth Mental Health"
+            className={headStyle.logoPrism}
+          />
+        </div>
+      </div>
+    </Layout>
+  )
 }
 
 export default IndexPage
