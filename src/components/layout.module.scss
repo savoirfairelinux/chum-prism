@@ -3,6 +3,8 @@ $title-level2-color: #595959;
 $title-level3-color: #000000;
 $p-color: #000000;
 $p-sidebar-color: white;
+$url-color: #3c78d8;
+$title-color-red: #f3545a;
 
 $background-color: #f3f3f3;
 $button-background-color: #fcb215;
@@ -19,7 +21,6 @@ $p-font-size: 14px;
   margin: 0;
   padding: 0;
   font-family: $font-family;
-  background-color: $background-color;
 }
 
 h1 {
@@ -49,6 +50,7 @@ p {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: $background-color;
 }
 
 .resourcesContainer {
@@ -322,7 +324,7 @@ button {
 
 .forms button {
   background-color: $button-background-color;
-  width: 35%;
+  width: 30%;
   color: white;
   border: 0;
   margin: 2rem;
@@ -332,6 +334,17 @@ button {
   padding-bottom: 1rem;
   font-size: $p-font-size;
   font-weight: bold;
+}
+
+.forms h1 {
+  text-align: left;
+  font-size: 24px;
+}
+
+.forms h2 {
+  text-align: left;
+  color: $title-color;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -385,11 +398,471 @@ $imageArrowHeight: $imageArrowWidht * 3/4;
   text-align: left;
 }
 
+.termOfUse h1 {
+  font-size: 24px;
+}
+
+.termOfUse h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.termOfUse p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+.termOfUse ul > li {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+.privacyPolicy {
+  text-align: center;
+}
+
+.privacyPolicy h1 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin: 1rem;
+}
+
+.privacyPolicy h2 {
+  text-align: center;
+  font-size: 14px;
+  color: $title-color;
+}
+
+.privacyPolicy p {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
+.privacyPolicy ul > li {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
+.privacyPolicy a {
+  text-decoration: none;
+  color: $url-color;
+  font-weight: 700;
+}
+
+.blueStrong {
+  color: $title-color;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .termOfUseForm {
   display: flex;
+}
+
+.termOfUseForm p {
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
 
 .formIcon {
   height: 5rem;
   background-color: $button-background-color;
+}
+
+/*
+=====
+CORE STYLES
+=====
+*/
+
+.toggle {
+  --uiToggleSize: var(--toggleSize, 1.25rem);
+  --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
+  --uiToggleColor: var(--toggleColor, #222);
+
+  display: var(--toggleDisplay, inline-flex);
+  position: relative;
+}
+
+.toggle__input {
+  /*
+  The pattern by Sara Soueidan https://www.sarasoueidan.com/blog/inclusively-hiding-and-styling-checkboxes-and-radio-buttons/
+  */
+  width: var(--uiToggleSize);
+  height: var(--uiToggleSize);
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+/*
+1. Calculation of the gap for the custom checkbox
+*/
+
+.toggle__label {
+  display: inline-flex;
+  min-height: var(--uiToggleSize);
+  padding-left: calc(var(--uiToggleSize) + var(--toggleIndent, 0.4em));
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label {
+  cursor: pointer;
+}
+
+/*
+1. Ems helps to calculate size of the checkbox
+*/
+
+.toggle__label::after {
+  content: "";
+  box-sizing: border-box;
+  width: 1em;
+  height: 1em;
+  font-size: var(--uiToggleSize); /* 1 */
+
+  background-color: transparent;
+  border: var(--uiToggleBorderWidth) solid var(--uiToggleColor);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.toggle__input:checked ~ .toggle__label::after {
+  background-color: var(--uiToggleColor);
+}
+
+.toggle__text {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  font-weight: 700;
+  color: $title-color;
+}
+
+/*
+The arrow size and position depends from sizes of square because I needed an arrow correct positioning from the top left corner of the element toggle
+
+1. Ems helps to calculate size and position of the arrow
+*/
+
+.toggle__label::before {
+  content: "";
+  width: 0;
+  height: 0;
+  font-size: var(--uiToggleSize); /* 1 */
+
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--toggleArrowColor, #fff);
+
+  position: absolute;
+  top: 0.5428em;
+  left: 0.25em;
+  z-index: 3;
+
+  transform-origin: left top;
+  transform: rotate(-40deg) skew(10deg);
+}
+
+.toggle__input:checked ~ .toggle__label::before {
+  --uiToggleArrowWidth: var(--toggleArrowWidth, 2px);
+
+  width: 0.4em;
+  height: 0.2em;
+  border-left-width: var(--uiToggleArrowWidth);
+  border-bottom-width: var(--uiToggleArrowWidth);
+}
+
+/*
+States
+*/
+
+/* focus state */
+
+.toggle:focus-within {
+  outline: var(--toggleOutlineWidthFocus, 3px) solid
+    var(--toggleOutlineColorFocus, currentColor);
+  outline-offset: var(--toggleOutlineOffsetFocus, 5px);
+}
+
+/* disabled state */
+
+.toggle__input:disabled ~ .toggle__label {
+  opacity: var(--toggleOpacityDisabled, 0.24);
+  cursor: var(--toggleCursorDisabled, not-allowed);
+  user-select: none;
+}
+
+/*
+=====
+PRESENTATION STYLES
+=====
+*/
+
+/* 
+The demo skin
+*/
+
+.toggle__label::after {
+  border-radius: var(--toggleBorderRadius, 2px);
+}
+
+/* 
+The animation of switching states
+*/
+
+.toggle__input:not(:disabled) ~ .toggle__label::before {
+  will-change: width, height;
+  opacity: 0;
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label::before {
+  opacity: 1;
+  transition: opacity 0.1s ease-out 0.25s, width 0.1s ease-out 0.5s,
+    height 0.2s ease-out 0.3s;
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label::after {
+  will-change: background-color;
+  transition: background-color 0.2s ease-out;
+}
+
+/*
+=====
+SETTINGS
+=====
+*/
+
+.page__custom-settings {
+  --toggleColor: #690e90;
+  --toggleOutlineColorFocus: #690e90;
+  --toggleSize: 2rem;
+}
+
+/*
+=====
+DEMO
+=====
+*/
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans,
+    Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  box-sizing: border-box;
+  max-width: 45rem;
+  padding: 2.75rem 2rem 2.5rem;
+  margin: auto;
+
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.page__section {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 700;
+}
+
+.page__section:nth-child(n + 2) {
+  margin-top: 3rem;
+}
+
+.page__custom-settings {
+  --pageToggleTextFontSize: 1.25rem;
+}
+
+.page__name {
+  width: 100%;
+}
+
+.page__name::first-letter {
+  text-transform: uppercase;
+}
+
+.page__toggle {
+  margin-top: 1.25rem;
+  margin-right: 1.5rem;
+  font-size: var(--pageToggleTextFontSize);
+}
+
+/* Span red color*/
+
+.redColor {
+  color: $title-color-red;
+}
+
+/* resourcesLayoutStyle*/
+
+.mainResourceLayout {
+  padding: 2rem 12rem;
+  background-color: $title-color;
+}
+
+.resourcesLayoutStyle {
+  text-align: center;
+  background-color: $title-color;
+}
+
+.resourcesLayoutStyle p,
+.resourcesLayoutStyle a {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.resourcesLayoutStyle img {
+  margin: 0.5rem;
+  width: 2rem;
+}
+
+.resourcesLayoutStyle h1 {
+  color: $button-background-color;
+}
+
+.resourcesLayoutStyle h2 {
+  text-align: center;
+  margin: 1rem;
+  color: $button-background-color;
+}
+
+.resourcesLayoutStyle p {
+  text-align: left;
+  color: white;
+  font-weight: 700;
+}
+
+.resourcesLayoutStyleBlocks {
+  text-align: center;
+  display: flex;
+}
+
+.resourcesLayoutStyleBlocks > div {
+  padding: 2rem;
+}
+
+.resourcesLayoutStyleBlocks > div p {
+  text-align: left;
+  color: $button-background-color;
+  font-weight: 700;
+}
+
+.resourcesLayoutStyleBlocks > div > ul > li {
+  text-align: left;
+  color: white;
+}
+
+.resourcesLayoutStyleBlocks > div > h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.resourcesLayoutStyleBlocks > div > div {
+  display: flex;
+}
+
+.resourcesLayoutStyleBlocks > div > h1 {
+  margin-bottom: 2rem;
+}
+
+.resourcesLayoutStyleBlocks > div > div > div > ul {
+  margin: 1.5rem;
+}
+
+.resourcesLayoutStyleBlocks > div > div > div {
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.resourcesLayoutStyleBlocks > div > div > div > ul > li {
+  text-align: left;
+  color: white;
+}
+
+.resourcesLayoutStyleBlocks img {
+  height: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainResourceLayout {
+    padding: 0;
+  }
+
+  .resourcesLayoutStyleBlocks {
+    text-align: center;
+    display: block;
+    margin: 2rem;
+  }
+
+  .resourcesLayoutStyleBlocks > div {
+    padding: 2rem;
+  }
+
+  .resourcesLayoutStyleBlocks > div p {
+    text-align: left;
+    color: $button-background-color;
+    font-weight: 700;
+  }
+
+  .resourcesLayoutStyleBlocks > div > ul > li {
+    text-align: left;
+    color: white;
+  }
+
+  .resourcesLayoutStyleBlocks > div > h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .resourcesLayoutStyleBlocks > div > div {
+    display: block;
+  }
+
+  .resourcesLayoutStyleBlocks > div > div > div > ul {
+    margin: 1.5rem;
+  }
+
+  .resourcesLayoutStyleBlocks > div > div > div {
+    padding-right: 2rem;
+    text-align: center;
+  }
+
+  .resourcesLayoutStyleBlocks > div > div > div > ul > li {
+    text-align: left;
+    color: white;
+  }
+
+  .resourcesLayoutStyleBlocks img {
+    width: 7rem;
+  }
 }

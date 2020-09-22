@@ -6,12 +6,14 @@ import layoutStyles from "../components/layout.module.scss"
 const IndexPage = () => {
   return (
     <Layout index={false}>
-      <h1>
-        Please choose one of the buttons to enter the PRISM-AOM online referral
-        form!
-      </h1>
-      <h2>Click if you are filling out this form for….</h2>
       <div className={layoutStyles.forms}>
+        <h1>
+          Please choose one of the buttons to enter the{" "}
+          <span className={layoutStyles.redColor}>
+            PRISM-AOM online referral form!
+          </span>
+        </h1>
+        <h2>Click if you are filling out this form for….</h2>
         <a href="http://www.ymhtech.com/welcome">
           <button>
             YOURSELF

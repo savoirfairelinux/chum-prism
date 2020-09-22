@@ -31,7 +31,7 @@ class HeadeSidebarToggleButton extends Component {
   }
 }
 
-const Sidebar = () => {
+const Sidebar = props => {
   return (
     <div id="sidebar" className={layoutStyles.sidebar}>
       <MobileView>
@@ -79,7 +79,7 @@ const Sidebar = () => {
             alt="Prism symbol"
             className={layoutStyles.prismSymbol}
           />
-          <Link to="/resources">
+          <Link to="/resources" state={{ returnPath: props.url }}>
             <p>Click here for more information on these resources </p>
           </Link>
         </div>

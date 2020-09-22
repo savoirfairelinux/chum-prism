@@ -1,14 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import { withTranslation } from "react-i18next"
 import Layout from "../components/layout"
 import layoutStyles from "../components/layout.module.scss"
 
-const IndexPage = () => {
+const IndexPage = ({ t }) => {
   return (
     <Layout index={false}>
       <div className={layoutStyles.welcomeFirstBlock}>
-        <h1>Welcome to the PRISM-ACCESS Open Minds online referral service!</h1>
+        <h1>
+          {t("Welcome to the PRISM-ACCESS Open Minds online referral service!")}
+        </h1>
         <p>
           Through this website, you can access a referral form to get help
           directly from a youth mental health worker in your community, for
@@ -93,4 +95,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default withTranslation()(IndexPage)

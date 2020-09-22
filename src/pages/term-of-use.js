@@ -17,12 +17,14 @@ const IndexPage = () => {
       <div className={layoutStyles.termOfUse}>
         <h1>Terms of Use</h1>
         <h2>Before you use this referral form, please read the text below.</h2>
-        <h3>By using this form, you agree to these statements:</h3>
+        <p>By using this form, you agree to these statements:</p>
         <ul>
           <li>
-            <strong>PRISM-AOM is not an emergency service.</strong> If you are
-            in a crisis, please call 9-1-1 or contact one of the services listed
-            on the right side of this page.
+            <strong className={layoutStyles.blueStrong}>
+              PRISM-AOM is not an emergency service.
+            </strong>{" "}
+            If you are in a crisis, please call 9-1-1 or contact one of the
+            services listed on the right side of this page.
           </li>
           <li>
             You will not use the form wrongly (e.g., spamming or writing false
@@ -34,7 +36,10 @@ const IndexPage = () => {
           </li>
           <li>
             Information without your name will be used to evaluate and improve
-            this referral service. Click <Link to="/privacy-policy">HERE</Link>
+            this referral service. Click{" "}
+            <Link to="/privacy-policy" className={layoutStyles.blueStrong}>
+              HERE
+            </Link>{" "}
             if you would like to know more about the PRISM-AOM project and our
             Privacy Policy.
           </li>
@@ -44,13 +49,20 @@ const IndexPage = () => {
           </li>
         </ul>
         <div className={layoutStyles.termOfUseForm}>
-          <input
-            type="checkbox"
-            onClick={() => {
-              changeState()
-            }}
-          />
-          <p>I have read, understood, and agree to the Terms of Use.</p>
+          <label className={layoutStyles.toggle}>
+            <input
+              className={layoutStyles.toggle__input}
+              type="checkbox"
+              onClick={() => {
+                changeState()
+              }}
+            />
+            <span className={layoutStyles.toggle__label}>
+              <span className={layoutStyles.toggle__text}>
+                I have read, understood, and agree to the Terms of Use.
+              </span>
+            </span>
+          </label>
         </div>
       </div>
 

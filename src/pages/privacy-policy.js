@@ -7,20 +7,25 @@ import layoutStyles from "../components/layout.module.scss"
 const PrivacyPolicyPage = () => {
   return (
     <Layout index={false}>
-      <div className={layoutStyles.forms}>
+      <div className={layoutStyles.privacyPolicy}>
         <h1>PRISM AOM</h1>
         <p>
           This new referral service has been created with members of ACCESS Open
           Minds/Esprits Ouverts. ACCESS Open Minds/Esprits Ouverts is a project
           improving mental health services for youth across Canada. Youth and
           family partners, Canadian technology companies, mental health
-          researchers, and service providers have given input on this form. For
-          more information about ACCESS Open Minds, visit
-          https://accessopenminds.ca/ For more information about PRISM-ACCESS
-          Open Minds, visit https://www.ymhtech.com
+          researchers, and service providers have given input on this form.
+        </p>
+        <p>
+          For more information about ACCESS Open Minds, visit{" "}
+          <a href="https://accessopenminds.ca/">https://accessopenminds.ca/</a>
+        </p>
+        <p>
+          For more information about PRISM-ACCESS Open Minds, visit{" "}
+          <a href="https://www.ymhtech.com">https://www.ymhtech.com</a>
         </p>
 
-        <h3>PRIVACY POLICY</h3>
+        <h1>PRIVACY POLICY</h1>
         <p>
           Information without your name will be used to evaluate and improve
           this referral service. Examples of this information include: how many
