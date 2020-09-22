@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-09-22 17:52-0400\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/welcome.js:132
+msgid "msg.continue"
+msgstr "Continuer"
+
+#: src/pages/welcome.js:32
+msgid "msg.header"
+msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouverts!"
+
+#: src/pages/welcome.js:60
+msgid "msg.welcome_how"
+msgstr "Comment fonctionne-t-il?"
+
+#: src/pages/welcome.js:53
+msgid "msg.welcome_not_emergency"
+msgstr "Il ne s’agit pas d’un service d’urgence."
+
+#: src/pages/welcome.js:37
+msgid "msg.welcome_p1"
+msgstr "Par ce site, vous aurez accès à un formulaire de référence vous permettant de recevoir de l’aide directement de la part d’un-e intervenant-e en santé mentale jeunesse, pour vous-même ou pour un-e jeune qui vous est cher/chère."
+
+#: src/pages/welcome.js:44
+msgid "msg.welcome_p1_note"
+msgstr "*Veuillez prendre note que ceci est un nouveau service de référence seulement disponible pour les jeunes de 11 à 25 ans au Canada vivant au centre de ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario. "
+
+#: src/pages/welcome.js:71
+msgid "msg.welcome_step1"
+msgstr "Étape 1:"
+
+#: src/pages/welcome.js:73
+msgid "msg.welcome_step1_text"
+msgstr "On vous demandera quelques informations de base sur vous-même. Il n’y a pas de bonnes ou de mauvaises réponses. Vous pouvez sauter des questions en cliquant sur « suivant » ou changer vos informations en cliquant sur « précédent »."
+
+#: src/pages/welcome.js:88
+msgid "msg.welcome_step2"
+msgstr "Étape 2:"
+
+#: src/pages/welcome.js:90
+msgid "msg.welcome_step2_text"
+msgstr "Une fois le formulaire complété, votre référence sera envoyée à un-e intervenant-e en santé mentale jeunesse dans votre communauté. Il/elle vous contactera dans un délai de trois jours selon la méthode de votre choix (p. ex. message texte, appel téléphonique, courriel)."

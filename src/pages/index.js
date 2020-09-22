@@ -10,10 +10,12 @@ const IndexPage = () => {
     <Layout index={true}>
       <h1>WELCOME | BIENVENUE</h1>
       <div>
-        <Link to="/welcome">
+        <Link to="/welcome" state={{ language: "en" }}>
           <button>ENGLISH</button>
         </Link>
-        <button>FRANÇAIS</button>
+        <Link to="/welcome" state={{ language: "fr" }}>
+          <button>FRANÇAIS</button>
+        </Link>
       </div>
       <div className={headStyle.headContainer}>
         <div className={headStyle.headImage}>

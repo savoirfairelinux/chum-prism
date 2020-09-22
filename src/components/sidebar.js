@@ -6,16 +6,16 @@ import layoutStyles from "./layout.module.scss"
 import { MobileView } from "react-device-detect"
 
 class HeadeSidebarToggleButton extends Component {
-  toogleSideBar = () => {
-    console.log(document.getElementById("content"))
-    if (document.getElementById("content").className.includes("full")) {
-      document.getElementById("content").className = layoutStyles.content
-      document.getElementById("sidebar").className = layoutStyles.sidebar
-    } else {
-      document.getElementById("content").className = layoutStyles.fullContent
-      document.getElementById("sidebar").className = layoutStyles.fullSidebar
-    }
-  }
+  // toogleSideBar = () => {
+  //   console.log(document.getElementById("content"))
+  //   if (document.getElementById("content").className.includes("full")) {
+  //     document.getElementById("content").className = layoutStyles.content
+  //     document.getElementById("sidebar").className = layoutStyles.sidebar
+  //   } else {
+  //     document.getElementById("content").className = layoutStyles.fullContent
+  //     document.getElementById("sidebar").className = layoutStyles.fullSidebar
+  //   }
+  // }
 
   render() {
     return (
@@ -34,11 +34,11 @@ const Sidebar = () => {
   }, [])
   return (
     <div id="sidebar" className={layoutStyles.sidebar}>
-      <MobileView>
+      {/* <MobileView>
         <div className={layoutStyles.sidebarHeader}>
           <HeadeSidebarToggleButton />
         </div>
-      </MobileView>
+      </MobileView> */}
       <nav className={layoutStyles.sidebarMainWeb}>
         <h1>
           <i>PRISM-AOM IS NOT AN EMERGENCY SERVICE.</i>
