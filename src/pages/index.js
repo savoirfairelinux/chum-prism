@@ -7,7 +7,7 @@ import headStyle from "../components/head.module.scss"
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout index={true}>
       <h1>WELCOME | BIENVENUE</h1>
       <div>
         <Link to="/welcome">

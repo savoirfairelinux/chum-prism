@@ -6,8 +6,8 @@ $p-sidebar-color: white;
 
 $background-color: #f3f3f3;
 $button-background-color: #fcb215;
-$content-background-color: white;
-$sidebar-background-color: #ef6c00ff;
+$content-background-color: #f3f3f3;
+$sidebar-background-color: #175389;
 
 $font-family: "Montserrat", sans-serif;
 $title-font-size: 54px;
@@ -51,17 +51,27 @@ p {
   flex-direction: column;
 }
 
+.resourcesContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: $sidebar-background-color;
+}
+
 .content {
-  background-color: $content-background-color;
-  width: 100%;
   text-align: center;
   background-color: $background-color;
+}
+
+.resourcesContent {
+  background-color: $sidebar-background-color;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
   .content {
     background-color: $content-background-color;
-    width: 100%;
+    width: 100% !important;
     margin-left: 0;
     text-align: center;
   }
@@ -69,7 +79,7 @@ p {
 
 .main {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   min-height: 500px;
 }
 
@@ -103,6 +113,56 @@ p {
   overflow-x: hidden;
 }
 
+.sidebar-mainWeb {
+  margin-top: 5rem;
+  background-color: $sidebar-background-color;
+}
+
+.sidebar-mainWeb h1 {
+  color: $button-background-color;
+  background-color: $sidebar-background-color;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sidebar-mainWeb h2 {
+  color: $button-background-color;
+  background-color: $sidebar-background-color;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sidebar-mainWeb h3 {
+  color: $button-background-color;
+  background-color: $sidebar-background-color;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sidebar-mainWeb h2 {
+  color: white;
+}
+
+.sidebar-mainWeb i {
+  background-color: $sidebar-background-color;
+}
+.sidebar-mainWeb p {
+  font-weight: 700;
+  background-color: $sidebar-background-color;
+}
+
+.sidebar-mainWeb h3 {
+  color: $button-background-color;
+}
+
+.sidebar-mainWeb p {
+  color: white;
+  font-size: 14px;
+}
+
 .sidebar a {
   color: white;
 }
@@ -110,6 +170,26 @@ p {
 .sidebar-header {
   margin-top: 1rem;
   text-align: center;
+  background-color: $sidebar-background-color;
+}
+
+.sidebar-header i {
+  background-color: $sidebar-background-color;
+}
+
+.prismSymbolContainer {
+  margin-top: 5rem;
+  text-align: center;
+  background-color: $sidebar-background-color;
+}
+
+.prismSymbolContainer p {
+  font-weight: 700;
+}
+
+.prismSymbol {
+  background-color: $sidebar-background-color;
+  width: 5rem;
 }
 
 .full-content {
@@ -139,23 +219,88 @@ p {
   }
 }
 
+.main-navList {
+  margin-left: 2rem;
+}
+
 .nav-list {
-  list-style-type: none;
   margin-left: 0;
   padding: 0.5rem;
   font-weight: normal;
+  background-color: $sidebar-background-color;
 }
 
 .nav-item {
-  text-decoration: none;
   margin-left: 0;
   padding: 0;
+  color: $button-background-color;
+  font-weight: 700;
+  background-color: $sidebar-background-color;
 }
 
 .nav-item a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  background-color: $sidebar-background-color;
+}
+
+.welcomeFirstBlock h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.welcomeFirstBlock h2 {
+  text-align: left;
+  font-size: 16px;
+  color: $title-color;
+  font-weight: 700;
+}
+
+.welcomeSecondBlock h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.welcomeFirstBlock p {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+}
+
+.welcomeSecondBlock p {
+  color: black;
+  font-size: 16px;
+}
+
+.listArrow {
+  width: 1rem;
+  vertical-align: middle;
+}
+
+.step {
+  color: $title-color;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin: 1rem;
+}
+
+.column p {
+  text-align: justify;
 }
 
 button {
@@ -203,4 +348,48 @@ button {
     margin: 0rem;
     margin-bottom: 1rem;
   }
+}
+
+$imageWidht: 200rem;
+$imageHeight: $imageWidht * 3/4;
+$imageArrowWidht: 200rem;
+$imageArrowHeight: $imageArrowWidht * 3/4;
+
+.schemaImage {
+  display: flex;
+}
+
+.schemaImage1 {
+  width: $imageWidht;
+}
+.schemaImageArrow1 {
+  width: $imageArrowWidht;
+  position: relative;
+  bottom: 2rem;
+}
+.schemaImage2 {
+  width: $imageWidht;
+}
+.schemaImageArrow2 {
+  width: $imageArrowWidht;
+  position: relative;
+  top: 2rem;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+.schemaImage3 {
+  width: $imageWidht;
+}
+
+.termOfUse {
+  text-align: left;
+}
+
+.termOfUseForm {
+  display: flex;
+}
+
+.formIcon {
+  height: 5rem;
+  background-color: $button-background-color;
 }

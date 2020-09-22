@@ -6,21 +6,14 @@ import Sidebar from "./sidebar"
 import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
 
-const Layout = props => {
+const resourcesLayout = props => {
   return (
-    <div className={layoutStyles.container}>
-      <div
-        id="content"
-        className={layoutStyles.content}
-        style={props.index ? { width: "100%" } : { width: "85%" }}
-      >
-        <Header />
+    <div className={layoutStyles.resourcesContainer}>
+      <div id="content" className={layoutStyles.resourcesContent}>
         <div className={layoutStyles.main}>{props.children}</div>
-        <Footer />
       </div>
-      <Sidebar />
     </div>
   )
 }
 
-export default Layout
+export default resourcesLayout
