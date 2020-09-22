@@ -4,7 +4,12 @@ import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
 
 const Header = props => {
-  console.log(props.indexLogo)
+  const [url, setUrl] = React.useState("")
+
+  React.useEffect(() => {
+    setUrl(window.location.pathname)
+  }, [])
+
   return (
     <div className={headerStyles.header}>
       <Link to="/">
@@ -13,8 +18,7 @@ const Header = props => {
           alt="Prism"
           className={headerStyles.logo}
           style={
-            window.location.pathname == "/" ||
-            window.location.pathname == "/forms"
+            url === "/" || url === "/forms"
               ? { width: "25rem" }
               : { width: "15rem" }
           }

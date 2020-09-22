@@ -3,12 +3,7 @@ import { Link } from "gatsby"
 
 import layoutStyles from "./layout.module.scss"
 
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile,
-} from "react-device-detect"
+import { MobileView } from "react-device-detect"
 
 class HeadeSidebarToggleButton extends Component {
   toogleSideBar = () => {
@@ -31,7 +26,12 @@ class HeadeSidebarToggleButton extends Component {
   }
 }
 
-const Sidebar = props => {
+const Sidebar = () => {
+  const [url, setUrl] = React.useState("")
+
+  React.useEffect(() => {
+    setUrl(window.location.pathname)
+  }, [])
   return (
     <div id="sidebar" className={layoutStyles.sidebar}>
       <MobileView>
@@ -79,7 +79,7 @@ const Sidebar = props => {
             alt="Prism symbol"
             className={layoutStyles.prismSymbol}
           />
-          <Link to="/resources" state={{ returnPath: props.url }}>
+          <Link to="/resources" state={{ returnPath: url }}>
             <p>Click here for more information on these resources </p>
           </Link>
         </div>

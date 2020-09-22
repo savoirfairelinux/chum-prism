@@ -1,16 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import resourcesLayout from "../components/resourcesLayout"
-import headStyle from "../components/head.module.scss"
 import layoutStyles from "../components/layout.module.scss"
 
 const Resources = ({ location }) => {
+  const [url, setUrl] = React.useState("/")
+
+  React.useEffect(() => {
+    if (location.state) setUrl(location.state.returnPath)
+  })
+
   return (
     <resourcesLayout>
       <div className={layoutStyles.mainResourceLayout}>
         <div className={layoutStyles.resourcesLayoutStyle}>
-          <Link to={location.state.returnPath}>
+          <Link to={url}>
             <div>
               <span>QUICK EXIT</span>
             </div>

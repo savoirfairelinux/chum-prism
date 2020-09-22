@@ -7,8 +7,6 @@ import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
 
 const Layout = props => {
-  const url = window.location.pathname
-  console.log(props.indexLogo)
   return (
     <div className={layoutStyles.container}>
       <div
@@ -20,7 +18,7 @@ const Layout = props => {
         <div className={layoutStyles.main}>{props.children}</div>
         <Footer />
       </div>
-      <Sidebar url={url} />
+      <Sidebar />
     </div>
   )
 }
