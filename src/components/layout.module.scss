@@ -795,6 +795,16 @@ body {
   padding: 2rem;
 }
 
+.resourcesLayoutStyleBlockContainer {
+  width: 25%;
+  height: 15rem;
+}
+
+.resourcesLayoutStyleBlockContainer2 {
+  width: 50%;
+  height: 25rem;
+}
+
 .resourcesLayoutStyleBlocks > div p {
   text-align: left;
   color: $button-background-color;
@@ -847,17 +857,36 @@ body {
 
 .resourcesLayoutStyleBlocks img {
   height: 4rem;
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
+  .resourcesContainer {
+    width: 100%;
+  }
+
+  .resourcesContent {
+    width: 100%;
+  }
+
+  .mainResources {
+    width: 100%;
+  }
+
   .mainResourceLayout {
     padding: 0;
+    width: 100%;
+  }
+
+  .mainResourceLayoutStyle {
+    width: 100%;
   }
 
   .resourcesLayoutStyleBlocks {
     text-align: center;
     display: block;
     margin: 2rem;
+    width: auto;
   }
 
   .resourcesLayoutStyleBlocks > div {
@@ -902,5 +931,13 @@ body {
 
   .resourcesLayoutStyleBlocks img {
     width: 7rem;
+  }
+
+  .resourcesLayoutStyleBlockContainer {
+    width: auto;
+  }
+
+  .resourcesLayoutStyleBlockContainer2 {
+    width: auto;
   }
 }

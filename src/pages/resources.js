@@ -79,7 +79,7 @@ const Resources = ({ location }) => {
             </p>
           </div>
           <div className={layoutStyles.resourcesLayoutStyleBlocks}>
-            <div>
+            <div className={layoutStyles.resourcesLayoutStyleBlockContainer}>
               <p>
                 <Trans id="msg.resource_kid_help_phone">
                   Contact a counsellor at Kids Help Phone
@@ -106,7 +106,7 @@ const Resources = ({ location }) => {
               </ul>
               <img src="/kidshelphone.png" alt="Kids Help Phone" />
             </div>
-            <div>
+            <div className={layoutStyles.resourcesLayoutStyleBlockContainer}>
               <p>
                 <Trans id="msg.resource_first_nation">
                   First Nations and Inuit Hope for Wellness Help Line
@@ -127,7 +127,7 @@ const Resources = ({ location }) => {
               </ul>
               <img src="/firstnation.jpg" alt="Fist nation" />
             </div>
-            <div>
+            <div className={layoutStyles.resourcesLayoutStyleBlockContainer}>
               <p>
                 <Trans id="msg.resource_LGBTQIA2SP">
                   Interligne (for the LGBTQIA2SP+ community)
@@ -151,7 +151,7 @@ const Resources = ({ location }) => {
               </ul>
               <img src="/interligne.png" alt="Inter lign" />
             </div>
-            <div>
+            <div className={layoutStyles.resourcesLayoutStyleBlockContainer}>
               <p>
                 <Trans id="msg.resource_find_other">
                   Find another resource near you
@@ -179,7 +179,9 @@ const Resources = ({ location }) => {
                 </Trans>
               </h1>
               <div>
-                <div>
+                <div
+                  className={layoutStyles.resourcesLayoutStyleBlockContainer2}
+                >
                   <p>
                     <Trans id="msg.resource_canadian_mental_health">
                       The Canadian Mental Health Association’s 24-hour crisis
@@ -209,7 +211,9 @@ const Resources = ({ location }) => {
                   </ul>
                   <img src="/CMHA.png" alt="CMHA" />
                 </div>
-                <div>
+                <div
+                  className={layoutStyles.resourcesLayoutStyleBlockContainer2}
+                >
                   <p>
                     <Trans id="msg.resource_WAYS">
                       WAYS Mental Health Support Crisis and Community Support
@@ -235,7 +239,9 @@ const Resources = ({ location }) => {
                 </Trans>
               </h1>
               <div>
-                <div>
+                <div
+                  className={layoutStyles.resourcesLayoutStyleBlockContainer2}
+                >
                   <p>
                     <Trans id="msg.resource_quebec_tel_jeune">
                       Contact a counsellor at Tel-jeunes
@@ -261,7 +267,9 @@ const Resources = ({ location }) => {
                   </ul>
                   <img src="/teljeunes.png" alt="teljeunes" />
                 </div>
-                <div>
+                <div
+                  className={layoutStyles.resourcesLayoutStyleBlockContainer2}
+                >
                   <p>
                     <Trans id="msg.resource_quebec_nurse">
                       To speak to a nurse or a social worker about a health
