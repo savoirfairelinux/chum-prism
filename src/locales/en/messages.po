@@ -99,7 +99,7 @@ msgstr "Interligne (for the LGBTQIA2SP+ community)"
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co/en (live chat available)"
 
-#: src/pages/resources.js:214
+#: src/pages/resources.js:218
 msgid "msg.resource_WAYS"
 msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their"
 
@@ -107,15 +107,15 @@ msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 cri
 msgid "msg.resource_call_211"
 msgstr "Call or dial 2-1-1"
 
-#: src/pages/resources.js:184
+#: src/pages/resources.js:186
 msgid "msg.resource_canadian_mental_health"
 msgstr "The Canadian Mental Health Association’s 24-hour crisis line (for anyone 16+ in Lambton County and Kent County)"
 
-#: src/pages/resources.js:203
+#: src/pages/resources.js:205
 msgid "msg.resource_canadian_mental_health_lambton"
 msgstr "Lambton Mental Health Crisis Line: 519-336-3445 or 1-800-307-4319"
 
-#: src/pages/resources.js:193
+#: src/pages/resources.js:195
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Chatham Kent Mental Health Crisis Line: 519-436-6100 or 1-866-299-7447"
 
@@ -164,19 +164,19 @@ msgstr "Ontario-Specific Resources:"
 msgid "msg.resource_other_resources"
 msgstr "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French."
 
-#: src/pages/resources.js:233
+#: src/pages/resources.js:237
 msgid "msg.resource_quebec"
 msgstr "Quebec-Specific Resources:"
 
-#: src/pages/resources.js:266
+#: src/pages/resources.js:274
 msgid "msg.resource_quebec_nurse"
 msgstr "To speak to a nurse or a social worker about a health concern, call Info-Santé"
 
-#: src/pages/resources.js:240
+#: src/pages/resources.js:246
 msgid "msg.resource_quebec_tel_jeune"
 msgstr "Contact a counsellor at Tel-jeunes"
 
-#: src/pages/resources.js:257
+#: src/pages/resources.js:263
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
 

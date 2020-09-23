@@ -18,7 +18,7 @@
     ]
   },
   "msg.privacy_policy_link1": {
-    "defaults": "For more information about ACCESS Open Minds, visit",
+    "defaults": "For more information about ACCESS Open Minds, visit:",
     "origin": [
       [
         "src/pages/privacy-policy.js",
@@ -27,7 +27,7 @@
     ]
   },
   "msg.privacy_policy_link2": {
-    "defaults": "For more information about PRISM-ACCESS Open Minds, visit",
+    "defaults": "For more information about PRISM-ACCESS Open Minds, visit:",
     "origin": [
       [
         "src/pages/privacy-policy.js",

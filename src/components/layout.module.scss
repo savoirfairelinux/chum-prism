@@ -387,9 +387,7 @@ button {
 }
 
 $imageWidht: 200rem;
-$imageHeight: $imageWidht * 3/4;
-$imageArrowWidht: 200rem;
-$imageArrowHeight: $imageArrowWidht * 3/4;
+$imageArrowWidht: 150rem;
 
 .schemaImage {
   display: flex;
@@ -415,6 +413,41 @@ $imageArrowHeight: $imageArrowWidht * 3/4;
 }
 .schemaImage3 {
   width: $imageWidht;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .column {
+    flex: auto;
+    margin: 0;
+  }
+
+  .schemaImage {
+    display: inline;
+  }
+
+  .schemaImage1 {
+    width: 100%;
+  }
+
+  .schemaImage2 {
+    width: 100%;
+  }
+
+  .schemaImage3 {
+    width: 100%;
+  }
+
+  .schemaImageArrow1 {
+    display: none;
+  }
+
+  .schemaImageArrow2 {
+    display: none;
+  }
 }
 
 .termOfUse {
