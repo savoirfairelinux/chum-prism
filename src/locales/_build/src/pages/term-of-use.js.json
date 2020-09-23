@@ -1,0 +1,132 @@
+{
+  "msg.term_of_use": {
+    "defaults": "Terms of Use",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        40
+      ]
+    ]
+  },
+  "msg.term_of_use_before": {
+    "defaults": "Before you use this referral form, please read the text below.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        43
+      ]
+    ]
+  },
+  "msg.term_of_use_by_using": {
+    "defaults": "By using this form, you agree to these statements:",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        48
+      ]
+    ]
+  },
+  "msg.term_of_use_not_emergency": {
+    "defaults": "PRISM-AOM is not an emergency service.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        55
+      ]
+    ]
+  },
+  "msg.term_of_use_if_crisis": {
+    "defaults": "If you are in a crisis, please call 9-1-1 or contact one of the services listed on the right side of this page.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        59
+      ]
+    ]
+  },
+  "msg.term_of_use_wrongly": {
+    "defaults": "You will not use the form wrongly (e.g., spamming or writing false information).",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        65
+      ]
+    ]
+  },
+  "msg.term_of_use_hate": {
+    "defaults": "You will not use the form to spread any hate speech (i.e., speech that is intended to insult, offend, or bully a person).",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        71
+      ]
+    ]
+  },
+  "msg.term_of_use_information_name": {
+    "defaults": "Information without your name will be used to evaluate and improve this referral service.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        77
+      ]
+    ]
+  },
+  "msg.term_of_use_click": {
+    "defaults": "Click",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        81
+      ]
+    ]
+  },
+  "msg.term_of_use_here": {
+    "defaults": "HERE",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        83
+      ]
+    ]
+  },
+  "msg.term_of_use_know_more": {
+    "defaults": "if you would like to know more about the PRISM-AOM project and our Privacy Policy.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        85
+      ]
+    ]
+  },
+  "msg.term_of_use_under_14": {
+    "defaults": "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations).",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        91
+      ]
+    ]
+  },
+  "msg.term_of_use_agree_terms": {
+    "defaults": "I have read, understood, and agree to the Terms of Use.",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        108
+      ]
+    ]
+  },
+  "msg.continue": {
+    "defaults": "Continue",
+    "origin": [
+      [
+        "src/pages/term-of-use.js",
+        121
+      ],
+      [
+        "src/pages/term-of-use.js",
+        126
+      ]
+    ]
+  }
+}

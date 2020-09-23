@@ -1,0 +1,110 @@
+{
+  "msg.privacy_policy_aom": {
+    "defaults": "PRISM AOM",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        33
+      ]
+    ]
+  },
+  "msg.privacy_policy_p1": {
+    "defaults": "This new referral service has been created with members of ACCESS Open Minds/Esprits Ouverts. ACCESS Open Minds/Esprits Ouverts is a project improving mental health services for youth across Canada. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on this form.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        36
+      ]
+    ]
+  },
+  "msg.privacy_policy_link1": {
+    "defaults": "For more information about ACCESS Open Minds, visit",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        46
+      ]
+    ]
+  },
+  "msg.privacy_policy_link2": {
+    "defaults": "For more information about PRISM-ACCESS Open Minds, visit",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        54
+      ]
+    ]
+  },
+  "msg.privacy_policy": {
+    "defaults": "PRIVACY POLICY",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        61
+      ]
+    ]
+  },
+  "msg.privacy_policy_p2": {
+    "defaults": "Information without your name will be used to evaluate and improve this referral service. Examples of this information include: how many people used the form, their average age, the types of concerns they had, and how many people tried to complete the form before leaving.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        64
+      ]
+    ]
+  },
+  "msg.privacy_policy_p3": {
+    "defaults": "We care about your privacy. However, for your safety and for others, the youth mental health team may have to, by law, share some information with a person in authority (like Youth Protection, Emergency Services, or a parent/guardian). This may apply in the following situations:",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        73
+      ]
+    ]
+  },
+  "msg.privacy_policy_under_17": {
+    "defaults": "If you are under 17 and have reported physical or sexual abuse;",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        83
+      ]
+    ]
+  },
+  "msg.privacy_policy_harming_yourself": {
+    "defaults": "If you are seriously thinking about harming yourself or someone else.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        88
+      ]
+    ]
+  },
+  "msg.privacy_policy_under_14": {
+    "defaults": "Also, if you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations).",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        95
+      ]
+    ]
+  },
+  "msg.privacy_policy_return": {
+    "defaults": "Click the button below to return to the Terms of Use.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        101
+      ]
+    ]
+  },
+  "msg.back": {
+    "defaults": "BACK",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        107
+      ]
+    ]
+  }
+}

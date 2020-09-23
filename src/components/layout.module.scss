@@ -85,6 +85,10 @@ p {
   min-height: 500px;
 }
 
+.mainResources {
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .main {
     margin: 0 auto;
@@ -144,6 +148,11 @@ p {
   text-align: center;
 }
 
+.sidebar-mainWeb h3 > a {
+  color: $button-background-color;
+  text-decoration: none;
+}
+
 .sidebar-mainWeb h2 {
   color: white;
 }
@@ -187,6 +196,7 @@ p {
 }
 
 .prismSymbolContainer p {
+  margin: 1rem;
   font-weight: 700;
 }
 
@@ -756,12 +766,17 @@ body {
 }
 
 .resourcesLayoutStyle h1 {
+  font-size: 32px;
   color: $button-background-color;
 }
 
 .resourcesLayoutStyle h2 {
   text-align: center;
   margin: 1rem;
+  color: $button-background-color;
+}
+
+.resourcesLayoutStyle h2 > a {
   color: $button-background-color;
 }
 
@@ -791,6 +806,11 @@ body {
   color: white;
 }
 
+.resourcesLayoutStyleBlocks > div > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
 .resourcesLayoutStyleBlocks > div > h1 {
   text-align: center;
   font-size: 24px;
@@ -807,7 +827,12 @@ body {
 }
 
 .resourcesLayoutStyleBlocks > div > div > div > ul {
-  margin: 1.5rem;
+  margin: 1rem;
+}
+
+.resourcesLayoutStyleBlocks > div > div > div > ul > li > a {
+  text-decoration: none;
+  color: white;
 }
 
 .resourcesLayoutStyleBlocks > div > div > div {

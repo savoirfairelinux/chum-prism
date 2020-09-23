@@ -4,19 +4,18 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import layoutStyles from "../components/layout.module.scss"
 
+/* Translation using lingui */
 import { I18nProvider } from "@lingui/react"
 import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
-import { I18n } from "@lingui/react"
-
-import { t, Trans, Plural } from "@lingui/macro"
+import { Trans } from "@lingui/macro"
 
 const IndexPage = ({ location }) => {
   const [language, setLanguage] = React.useState("en")
 
   React.useEffect(() => {
-    if (location.state != null && location.state.language != "undefined") {
-      setLanguage(location.state.language)
+    if (localStorage.getItem("language") != "") {
+      setLanguage(localStorage.getItem("language"))
     }
   }, [])
 

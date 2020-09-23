@@ -1,0 +1,209 @@
+{
+  "msg.resource_exit": {
+    "defaults": "QUICK EXIT",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        41
+      ]
+    ]
+  },
+  "msg.resource_header": {
+    "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        53
+      ]
+    ]
+  },
+  "msg.resource_urgent_situation": {
+    "defaults": "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        59
+      ]
+    ]
+  },
+  "msg.resource_emergency_department": {
+    "defaults": "or go to the nearest Emergency Department.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        70
+      ]
+    ]
+  },
+  "msg.resource_other_resources": {
+    "defaults": "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        75
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone": {
+    "defaults": "Contact a counsellor at Kids Help Phone",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        84
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone_chat": {
+    "defaults": "Text CONNECT to 686868",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        96
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone_web": {
+    "defaults": "www.kidshelpphone.ca (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        102
+      ]
+    ]
+  },
+  "msg.resource_first_nation": {
+    "defaults": "First Nations and Inuit Hope for Wellness Help Line",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        111
+      ]
+    ]
+  },
+  "msg.resource_first_nation_web": {
+    "defaults": "www.hopeforwellness.ca (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        123
+      ]
+    ]
+  },
+  "msg.resource_LGBTQIA2SP": {
+    "defaults": "Interligne (for the LGBTQIA2SP+ community)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        132
+      ]
+    ]
+  },
+  "msg.resource_LGBTQIA2SP_web": {
+    "defaults": "www.interligne.co/en (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        147
+      ]
+    ]
+  },
+  "msg.resource_find_other": {
+    "defaults": "Find another resource near you",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        156
+      ]
+    ]
+  },
+  "msg.resource_call_211": {
+    "defaults": "Call or dial 2-1-1",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        164
+      ]
+    ]
+  },
+  "msg.resource_ontario": {
+    "defaults": "Ontario-Specific Resources:",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        177
+      ]
+    ]
+  },
+  "msg.resource_canadian_mental_health": {
+    "defaults": "The Canadian Mental Health Association’s 24-hour crisis line (for anyone 16+ in Lambton County and Kent County)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        184
+      ]
+    ]
+  },
+  "msg.resource_canadian_mental_health_phone_chatman": {
+    "defaults": "Chatham Kent Mental Health Crisis Line: 519-436-6100 or 1-866-299-7447",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        193
+      ]
+    ]
+  },
+  "msg.resource_canadian_mental_health_lambton": {
+    "defaults": "Lambton Mental Health Crisis Line: 519-336-3445 or 1-800-307-4319",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        203
+      ]
+    ]
+  },
+  "msg.resource_WAYS": {
+    "defaults": "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        214
+      ]
+    ]
+  },
+  "msg.resource_quebec": {
+    "defaults": "Quebec-Specific Resources:",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        233
+      ]
+    ]
+  },
+  "msg.resource_quebec_tel_jeune": {
+    "defaults": "Contact a counsellor at Tel-jeunes",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        240
+      ]
+    ]
+  },
+  "msg.resource_quebec_tel_jeune_chat": {
+    "defaults": "www.teljeunes.com/Tel-jeunes-en (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        257
+      ]
+    ]
+  },
+  "msg.resource_quebec_nurse": {
+    "defaults": "To speak to a nurse or a social worker about a health concern, call Info-Santé",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        266
+      ]
+    ]
+  }
+}

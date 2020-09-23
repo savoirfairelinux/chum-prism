@@ -13,42 +13,293 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/welcome.js:132
+#: src/pages/privacy-policy.js:107
+msgid "msg.back"
+msgstr "BACK"
+
+#: src/pages/term-of-use.js:121
+#: src/pages/term-of-use.js:126
+#: src/pages/welcome.js:133
 msgid "msg.continue"
 msgstr "Continue"
 
-#: src/pages/welcome.js:32
+#: src/pages/forms.js:31
+msgid "msg.forms_choose_button"
+msgstr "Please choose one of the buttons to enter the"
+
+#: src/pages/forms.js:41
+msgid "msg.forms_filling_for"
+msgstr "Click if you are filling out this form for…."
+
+#: src/pages/forms.js:35
+msgid "msg.forms_referral_form"
+msgstr "PRISM-AOM online referral form!"
+
+#: src/pages/forms.js:59
+msgid "msg.forms_seomeone_else"
+msgstr "SOMEONE ELSE"
+
+#: src/pages/forms.js:47
+msgid "msg.forms_yourself"
+msgstr "YOURSELF"
+
+#: src/pages/welcome.js:33
 msgid "msg.header"
 msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 
-#: src/pages/welcome.js:60
+#: src/pages/privacy-policy.js:61
+msgid "msg.privacy_policy"
+msgstr "PRIVACY POLICY"
+
+#: src/pages/privacy-policy.js:33
+msgid "msg.privacy_policy_aom"
+msgstr "PRISM AOM"
+
+#: src/pages/privacy-policy.js:88
+msgid "msg.privacy_policy_harming_yourself"
+msgstr "If you are seriously thinking about harming yourself or someone else."
+
+#: src/pages/privacy-policy.js:46
+msgid "msg.privacy_policy_link1"
+msgstr "For more information about ACCESS Open Minds, visit"
+
+#: src/pages/privacy-policy.js:54
+msgid "msg.privacy_policy_link2"
+msgstr "For more information about PRISM-ACCESS Open Minds, visit"
+
+#: src/pages/privacy-policy.js:36
+msgid "msg.privacy_policy_p1"
+msgstr "This new referral service has been created with members of ACCESS Open Minds/Esprits Ouverts. ACCESS Open Minds/Esprits Ouverts is a project improving mental health services for youth across Canada. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on this form."
+
+#: src/pages/privacy-policy.js:64
+msgid "msg.privacy_policy_p2"
+msgstr "Information without your name will be used to evaluate and improve this referral service. Examples of this information include: how many people used the form, their average age, the types of concerns they had, and how many people tried to complete the form before leaving."
+
+#: src/pages/privacy-policy.js:73
+msgid "msg.privacy_policy_p3"
+msgstr "We care about your privacy. However, for your safety and for others, the youth mental health team may have to, by law, share some information with a person in authority (like Youth Protection, Emergency Services, or a parent/guardian). This may apply in the following situations:"
+
+#: src/pages/privacy-policy.js:101
+msgid "msg.privacy_policy_return"
+msgstr "Click the button below to return to the Terms of Use."
+
+#: src/pages/privacy-policy.js:95
+msgid "msg.privacy_policy_under_14"
+msgstr "Also, if you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations)."
+
+#: src/pages/privacy-policy.js:83
+msgid "msg.privacy_policy_under_17"
+msgstr "If you are under 17 and have reported physical or sexual abuse;"
+
+#: src/pages/resources.js:132
+msgid "msg.resource_LGBTQIA2SP"
+msgstr "Interligne (for the LGBTQIA2SP+ community)"
+
+#: src/pages/resources.js:147
+msgid "msg.resource_LGBTQIA2SP_web"
+msgstr "www.interligne.co/en (live chat available)"
+
+#: src/pages/resources.js:214
+msgid "msg.resource_WAYS"
+msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their"
+
+#: src/pages/resources.js:164
+msgid "msg.resource_call_211"
+msgstr "Call or dial 2-1-1"
+
+#: src/pages/resources.js:184
+msgid "msg.resource_canadian_mental_health"
+msgstr "The Canadian Mental Health Association’s 24-hour crisis line (for anyone 16+ in Lambton County and Kent County)"
+
+#: src/pages/resources.js:203
+msgid "msg.resource_canadian_mental_health_lambton"
+msgstr "Lambton Mental Health Crisis Line: 519-336-3445 or 1-800-307-4319"
+
+#: src/pages/resources.js:193
+msgid "msg.resource_canadian_mental_health_phone_chatman"
+msgstr "Chatham Kent Mental Health Crisis Line: 519-436-6100 or 1-866-299-7447"
+
+#: src/pages/resources.js:70
+msgid "msg.resource_emergency_department"
+msgstr "or go to the nearest Emergency Department."
+
+#: src/pages/resources.js:41
+msgid "msg.resource_exit"
+msgstr "QUICK EXIT"
+
+#: src/pages/resources.js:156
+msgid "msg.resource_find_other"
+msgstr "Find another resource near you"
+
+#: src/pages/resources.js:111
+msgid "msg.resource_first_nation"
+msgstr "First Nations and Inuit Hope for Wellness Help Line"
+
+#: src/pages/resources.js:123
+msgid "msg.resource_first_nation_web"
+msgstr "www.hopeforwellness.ca (live chat available)"
+
+#: src/components/sidebar.js:40
+#: src/pages/resources.js:53
+msgid "msg.resource_header"
+msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
+
+#: src/pages/resources.js:84
+msgid "msg.resource_kid_help_phone"
+msgstr "Contact a counsellor at Kids Help Phone"
+
+#: src/pages/resources.js:96
+msgid "msg.resource_kid_help_phone_chat"
+msgstr "Text CONNECT to 686868"
+
+#: src/pages/resources.js:102
+msgid "msg.resource_kid_help_phone_web"
+msgstr "www.kidshelpphone.ca (live chat available)"
+
+#: src/pages/resources.js:177
+msgid "msg.resource_ontario"
+msgstr "Ontario-Specific Resources:"
+
+#: src/pages/resources.js:75
+msgid "msg.resource_other_resources"
+msgstr "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French."
+
+#: src/pages/resources.js:233
+msgid "msg.resource_quebec"
+msgstr "Quebec-Specific Resources:"
+
+#: src/pages/resources.js:266
+msgid "msg.resource_quebec_nurse"
+msgstr "To speak to a nurse or a social worker about a health concern, call Info-Santé"
+
+#: src/pages/resources.js:240
+msgid "msg.resource_quebec_tel_jeune"
+msgstr "Contact a counsellor at Tel-jeunes"
+
+#: src/pages/resources.js:257
+msgid "msg.resource_quebec_tel_jeune_chat"
+msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
+
+#: src/pages/resources.js:59
+msgid "msg.resource_urgent_situation"
+msgstr "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:"
+
+#: src/components/sidebar.js:72
+msgid "msg.sidebar_LGBTQIA2SP"
+msgstr "Interligne (for the LGBTQIA2SP+ community)"
+
+#: src/components/sidebar.js:87
+msgid "msg.sidebar_WAYS"
+msgstr "The WAYS’ Crisis Line (519-354-4095)"
+
+#: src/components/sidebar.js:77
+msgid "msg.sidebar_call"
+msgstr "Call"
+
+#: src/components/sidebar.js:81
+msgid "msg.sidebar_chatham"
+msgstr "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)"
+
+#: src/components/sidebar.js:67
+msgid "msg.sidebar_first_nation"
+msgstr "First Nations and Inuit Hope for Wellness Help Line"
+
+#: src/components/sidebar.js:63
+msgid "msg.sidebar_kids_help_phone"
+msgstr "Kids Help Phone"
+
+#: src/components/sidebar.js:106
+msgid "msg.sidebar_more_information"
+msgstr "Click here for more information on these resources"
+
+#: src/components/sidebar.js:56
+msgid "msg.sidebar_other_resources"
+msgstr "Here are other resources that could help:"
+
+#: src/components/sidebar.js:46
+msgid "msg.sidebar_urgent"
+msgstr "If there is an urgent situation, please call:"
+
+#: src/pages/term-of-use.js:40
+msgid "msg.term_of_use"
+msgstr "Terms of Use"
+
+#: src/pages/term-of-use.js:108
+msgid "msg.term_of_use_agree_terms"
+msgstr "I have read, understood, and agree to the Terms of Use."
+
+#: src/pages/term-of-use.js:43
+msgid "msg.term_of_use_before"
+msgstr "Before you use this referral form, please read the text below."
+
+#: src/pages/term-of-use.js:48
+msgid "msg.term_of_use_by_using"
+msgstr "By using this form, you agree to these statements:"
+
+#: src/pages/term-of-use.js:81
+msgid "msg.term_of_use_click"
+msgstr "Click"
+
+#: src/pages/term-of-use.js:71
+msgid "msg.term_of_use_hate"
+msgstr "You will not use the form to spread any hate speech (i.e., speech that is intended to insult, offend, or bully a person)."
+
+#: src/pages/term-of-use.js:83
+msgid "msg.term_of_use_here"
+msgstr "HERE"
+
+#: src/pages/term-of-use.js:59
+msgid "msg.term_of_use_if_crisis"
+msgstr "If you are in a crisis, please call 9-1-1 or contact one of the services listed on the right side of this page."
+
+#: src/pages/term-of-use.js:77
+msgid "msg.term_of_use_information_name"
+msgstr "Information without your name will be used to evaluate and improve this referral service."
+
+#: src/pages/term-of-use.js:85
+msgid "msg.term_of_use_know_more"
+msgstr "if you would like to know more about the PRISM-AOM project and our Privacy Policy."
+
+#: src/pages/term-of-use.js:55
+msgid "msg.term_of_use_not_emergency"
+msgstr "PRISM-AOM is not an emergency service."
+
+#: src/pages/term-of-use.js:91
+msgid "msg.term_of_use_under_14"
+msgstr "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations)."
+
+#: src/pages/term-of-use.js:65
+msgid "msg.term_of_use_wrongly"
+msgstr "You will not use the form wrongly (e.g., spamming or writing false information)."
+
+#: src/pages/welcome.js:61
 msgid "msg.welcome_how"
 msgstr "How does it work?"
 
-#: src/pages/welcome.js:53
+#: src/pages/welcome.js:54
 msgid "msg.welcome_not_emergency"
 msgstr "This is not an emergency service."
 
-#: src/pages/welcome.js:37
+#: src/pages/welcome.js:38
 msgid "msg.welcome_p1"
 msgstr "Through this website, you can access a referral form to get help directly from a youth mental health worker in your community, for yourself or a young person you care about."
 
-#: src/pages/welcome.js:44
+#: src/pages/welcome.js:45
 msgid "msg.welcome_p1_note"
 msgstr "*Please note that this is a new referral service that is only available to youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario."
 
-#: src/pages/welcome.js:71
+#: src/pages/welcome.js:72
 msgid "msg.welcome_step1"
 msgstr "Step 1:"
 
-#: src/pages/welcome.js:73
+#: src/pages/welcome.js:74
 msgid "msg.welcome_step1_text"
 msgstr "You’ll be asked for some basic information about yourself. There are no right or wrong answers. You can skip questions by clicking “next” or change your information by clicking “back.”"
 
-#: src/pages/welcome.js:88
+#: src/pages/welcome.js:89
 msgid "msg.welcome_step2"
 msgstr "Step 2:"
 
-#: src/pages/welcome.js:90
+#: src/pages/welcome.js:91
 msgid "msg.welcome_step2_text"
 msgstr "Once you have completed the form, your referral will be sent to a youth mental health worker in your community. They will contact you within three days, using the method of your choice (e.g., text, phone, email)."

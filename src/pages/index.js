@@ -6,14 +6,30 @@ import Layout from "../components/homeLayout"
 import headStyle from "../components/head.module.scss"
 
 const IndexPage = () => {
+  React.useEffect(() => {
+    localStorage.removeItem("language")
+  })
+
   return (
     <Layout index={true}>
       <h1>WELCOME | BIENVENUE</h1>
       <div>
-        <Link to="/welcome" state={{ language: "en" }}>
+        <Link
+          to="/welcome"
+          state={{ language: "en" }}
+          onClick={() => {
+            localStorage.setItem("language", "en")
+          }}
+        >
           <button>ENGLISH</button>
         </Link>
-        <Link to="/welcome" state={{ language: "fr" }}>
+        <Link
+          to="/welcome"
+          state={{ language: "fr" }}
+          onClick={() => {
+            localStorage.setItem("language", "fr")
+          }}
+        >
           <button>FRANÇAIS</button>
         </Link>
       </div>
