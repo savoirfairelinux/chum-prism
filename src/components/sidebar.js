@@ -3,20 +3,7 @@ import { Link } from "gatsby"
 
 import layoutStyles from "./layout.module.scss"
 
-import { MobileView } from "react-device-detect"
-
 class HeadeSidebarToggleButton extends Component {
-  // toogleSideBar = () => {
-  //   console.log(document.getElementById("content"))
-  //   if (document.getElementById("content").className.includes("full")) {
-  //     document.getElementById("content").className = layoutStyles.content
-  //     document.getElementById("sidebar").className = layoutStyles.sidebar
-  //   } else {
-  //     document.getElementById("content").className = layoutStyles.fullContent
-  //     document.getElementById("sidebar").className = layoutStyles.fullSidebar
-  //   }
-  // }
-
   render() {
     return (
       <i className="material-icons" onClick={this.toogleSideBar}>
@@ -34,11 +21,11 @@ const Sidebar = () => {
   }, [])
   return (
     <div id="sidebar" className={layoutStyles.sidebar}>
-      {/* <MobileView>
-        <div className={layoutStyles.sidebarHeader}>
-          <HeadeSidebarToggleButton />
-        </div>
-      </MobileView> */}
+      <div className={layoutStyles.sidebarHeader}>
+        <Link to="/resources" state={{ returnPath: url }}>
+          <img src={"/prism_symbol.png"} alt="Prism symbol" />
+        </Link>
+      </div>
       <nav className={layoutStyles.sidebarMainWeb}>
         <h1>
           <i>PRISM-AOM IS NOT AN EMERGENCY SERVICE.</i>
@@ -74,12 +61,12 @@ const Sidebar = () => {
           </ul>
         </div>
         <div className={layoutStyles.prismSymbolContainer}>
-          <img
-            src={"/prism_symbol.png"}
-            alt="Prism symbol"
-            className={layoutStyles.prismSymbol}
-          />
           <Link to="/resources" state={{ returnPath: url }}>
+            <img
+              src={"/prism_symbol.png"}
+              alt="Prism symbol"
+              className={layoutStyles.prismSymbol}
+            />
             <p>Click here for more information on these resources </p>
           </Link>
         </div>

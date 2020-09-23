@@ -170,6 +170,7 @@ p {
 }
 
 .sidebar-header {
+  display: none;
   margin-top: 1rem;
   text-align: center;
   background-color: $sidebar-background-color;
@@ -194,6 +195,10 @@ p {
   width: 5rem;
 }
 
+.prismSymbolContainer a {
+  text-decoration: none;
+}
+
 .full-content {
   display: none;
 }
@@ -210,6 +215,14 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  .sidebar-header {
+    display: block;
+  }
+
+  .sidebar-header img {
+    height: 2rem;
+  }
+
   .sidebar nav {
     display: none;
   }
