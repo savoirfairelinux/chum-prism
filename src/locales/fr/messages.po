@@ -17,9 +17,9 @@ msgstr ""
 msgid "msg.back"
 msgstr "Précedent"
 
-#: src/pages/term-of-use.js:121
-#: src/pages/term-of-use.js:126
-#: src/pages/welcome.js:133
+#: src/pages/term-of-use.js:122
+#: src/pages/term-of-use.js:127
+#: src/pages/welcome.js:118
 msgid "msg.continue"
 msgstr "Continuer"
 
@@ -46,6 +46,11 @@ msgstr "VOUS-MÊME"
 #: src/pages/welcome.js:33
 msgid "msg.header"
 msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouverts!"
+
+#: src/pages/term-of-use.js:134
+msgid "msg.popup_terms"
+msgstr "Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue.
+Veuillez cochez la case ci-dessous pour indiquer que tu as lu, compris et accepté les Conditions d'utilisation avant de continuer."
 
 #: src/pages/privacy-policy.js:61
 msgid "msg.privacy_policy"
@@ -91,31 +96,31 @@ msgstr "De plus, si vous avez moins de 14 ans, l’équipe de santé mentale jeu
 msgid "msg.privacy_policy_under_17"
 msgstr "Si vous avez moins de 17 ans et que vous avez signalé un abus physique ou sexuel ;"
 
-#: src/pages/resources.js:132
+#: src/pages/resources.js:159
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (pour la communauté LGBTQIA2SP+)"
 
-#: src/pages/resources.js:147
+#: src/pages/resources.js:178
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co (clavardage en ligne disponible)"
 
-#: src/pages/resources.js:218
+#: src/pages/resources.js:288
 msgid "msg.resource_WAYS"
 msgstr "WAYS Programme de soutien dans la communauté et en cas de crise (ligne de crise ouverte 24h/7 pour les jeunes de 6 à 18 ans et leurs familles)"
 
-#: src/pages/resources.js:164
+#: src/pages/resources.js:207
 msgid "msg.resource_call_211"
 msgstr "ou composez le 2-1-1"
 
-#: src/pages/resources.js:186
+#: src/pages/resources.js:245
 msgid "msg.resource_canadian_mental_health"
 msgstr "La ligne de crise de l’Association canadienne est ouverte 24h (pour toute personne de 16 ans et plus à Lambton County et Kent County)"
 
-#: src/pages/resources.js:205
+#: src/pages/resources.js:269
 msgid "msg.resource_canadian_mental_health_lambton"
 msgstr "Ligne de crise pour la santé mentale de Lambton:"
 
-#: src/pages/resources.js:195
+#: src/pages/resources.js:259
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Ligne de crise pour la santé mentale de Chatham Kent:"
 
@@ -127,15 +132,15 @@ msgstr "ou dirigez-vous aux urgences le plus proche."
 msgid "msg.resource_exit"
 msgstr "Cliquer sur le logo pour sortir de cette page"
 
-#: src/pages/resources.js:156
+#: src/pages/resources.js:195
 msgid "msg.resource_find_other"
 msgstr "Pour trouver une autre ressource près de vous"
 
-#: src/pages/resources.js:111
+#: src/pages/resources.js:126
 msgid "msg.resource_first_nation"
 msgstr "Ligne d'écoute d'espoir pour le mieux-être des Premières Nations et des Inuits"
 
-#: src/pages/resources.js:123
+#: src/pages/resources.js:142
 msgid "msg.resource_first_nation_web"
 msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 
@@ -144,19 +149,19 @@ msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 msgid "msg.resource_header"
 msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
 
-#: src/pages/resources.js:84
+#: src/pages/resources.js:87
 msgid "msg.resource_kid_help_phone"
 msgstr "Parlez à un-e intervenant-e de Jeunesse, J’écoute"
 
-#: src/pages/resources.js:96
+#: src/pages/resources.js:103
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Texter “PARLER” au 686868"
 
-#: src/pages/resources.js:102
+#: src/pages/resources.js:109
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.jeunessejecoute.ca   (clavardage en ligne disponible)"
 
-#: src/pages/resources.js:177
+#: src/pages/resources.js:233
 msgid "msg.resource_ontario"
 msgstr "Ressources spécifiques à l’Ontario:"
 
@@ -164,19 +169,19 @@ msgstr "Ressources spécifiques à l’Ontario:"
 msgid "msg.resource_other_resources"
 msgstr "Voici d'autres ressources qui pourraient aider (toutes gratuites, disponibles 24/7). Tous les services sont offerts en anglais et en français."
 
-#: src/pages/resources.js:237
+#: src/pages/resources.js:323
 msgid "msg.resource_quebec"
 msgstr "Ressources spécifiques au Québec:"
 
-#: src/pages/resources.js:274
+#: src/pages/resources.js:376
 msgid "msg.resource_quebec_nurse"
 msgstr "Pour communiquer avec une infirmièr-e ou un-e intervenant-e en travail social au sujet d’un problème de santé, appelez Info-Santé"
 
-#: src/pages/resources.js:246
+#: src/pages/resources.js:335
 msgid "msg.resource_quebec_tel_jeune"
 msgstr "Pour contacter un-e intervenant-e de Tel-jeunes"
 
-#: src/pages/resources.js:263
+#: src/pages/resources.js:358
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes (clavardage en ligne disponible)"
 
@@ -220,55 +225,55 @@ msgstr "Voici d'autres ressources qui pourraient vous aider:"
 msgid "msg.sidebar_urgent"
 msgstr "Si vous êtes en situation d’urgence, veuillez composer le:"
 
-#: src/pages/term-of-use.js:40
+#: src/pages/term-of-use.js:41
 msgid "msg.term_of_use"
 msgstr "Conditions d’utilisation"
 
-#: src/pages/term-of-use.js:108
+#: src/pages/term-of-use.js:109
 msgid "msg.term_of_use_agree_terms"
 msgstr "J’ai lu, compris, et j’accepte les conditions d’utilisation."
 
-#: src/pages/term-of-use.js:43
+#: src/pages/term-of-use.js:44
 msgid "msg.term_of_use_before"
 msgstr "Avant d’utiliser le formulaire de référence, veuillez lire ce qui suit."
 
-#: src/pages/term-of-use.js:48
+#: src/pages/term-of-use.js:49
 msgid "msg.term_of_use_by_using"
 msgstr "En utilisant ce formulaire, vous acceptez les déclarations suivantes :"
 
-#: src/pages/term-of-use.js:81
+#: src/pages/term-of-use.js:82
 msgid "msg.term_of_use_click"
 msgstr "Cliquez"
 
-#: src/pages/term-of-use.js:71
+#: src/pages/term-of-use.js:72
 msgid "msg.term_of_use_hate"
 msgstr "Vous n’utiliserez pas le formulaire pour diffuser toute forme de discours haineux (c'est-à-dire un discours destiné à insulter, offenser ou intimider une personne)."
 
-#: src/pages/term-of-use.js:83
+#: src/pages/term-of-use.js:84
 msgid "msg.term_of_use_here"
 msgstr "ICI"
 
-#: src/pages/term-of-use.js:59
+#: src/pages/term-of-use.js:60
 msgid "msg.term_of_use_if_crisis"
 msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou contacter un des services énumérés à droite de cette page."
 
-#: src/pages/term-of-use.js:77
+#: src/pages/term-of-use.js:78
 msgid "msg.term_of_use_information_name"
 msgstr "Les informations sans votre nom seront utilisées pour évaluer et pour améliorer ce service de référence."
 
-#: src/pages/term-of-use.js:85
+#: src/pages/term-of-use.js:86
 msgid "msg.term_of_use_know_more"
 msgstr "si vous souhaitez en savoir plus sur le projet PRISM-AEO et sur notre politique de confidentialité."
 
-#: src/pages/term-of-use.js:55
+#: src/pages/term-of-use.js:56
 msgid "msg.term_of_use_not_emergency"
 msgstr "PRISM-AEO n'est pas un service d'urgence."
 
-#: src/pages/term-of-use.js:91
+#: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_under_14"
 msgstr "Si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse pourrait avoir besoin de contacter vos parents/tuteurs (sauf dans de rares situations)."
 
-#: src/pages/term-of-use.js:65
+#: src/pages/term-of-use.js:66
 msgid "msg.term_of_use_wrongly"
 msgstr "Vous n'utiliserez pas le formulaire de manière malveillante (p. ex. en envoyant des spams ou en saisissant de fausses informations)."
 

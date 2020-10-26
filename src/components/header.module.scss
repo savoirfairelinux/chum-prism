@@ -23,8 +23,27 @@
   color: #333333;
 }
 
-@media only screen and (max-width: 600px) {
-  .logo {
-    width: 85%;
+.logo1 {
+  width: 20rem;
+}
+.logo2 {
+  width: 15rem;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .logo1 {
+    width: 25rem;
+  }
+  .logo2 {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .logo1 {
+    width: 15rem;
+  }
+  .logo2 {
+    width: 14rem;
   }
 }

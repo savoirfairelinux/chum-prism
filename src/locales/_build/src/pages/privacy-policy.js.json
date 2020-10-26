@@ -1,6 +1,6 @@
 {
   "msg.privacy_policy_aom": {
-    "defaults": "PRISM AOM",
+    "defaults": "PRISM-AOM",
     "origin": [
       [
         "src/pages/privacy-policy.js",

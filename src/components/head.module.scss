@@ -3,8 +3,7 @@ $paragraph-font-color: #175389;
 $span-font-color: #f3585a;
 
 .logohead {
-  width: 35rem;
-  opacity: 0.7;
+  width: 30rem;
 }
 
 .logoPrism {
@@ -36,7 +35,7 @@ p {
   background: rgba(255, 255, 255, 0);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 766px) {
   .headContainer img {
     width: 20rem;
   }

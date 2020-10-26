@@ -12,7 +12,6 @@ const Layout = props => {
       <div
         id="content"
         className={layoutStyles.content}
-        style={props.index ? { width: "100%" } : { width: "85%" }}
       >
         <Header />
         <div className={layoutStyles.main}>{props.children}</div>
