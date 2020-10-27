@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/homeLayout"
 
 import headStyle from "../components/head.module.scss"
+import layoutStyles from "../components/layout.module.scss"
+
 
 const IndexPage = () => {
   React.useEffect(() => {
@@ -11,9 +13,9 @@ const IndexPage = () => {
   })
 
   return (
-    <Layout index={true}>
+    <Layout>
       <h1>WELCOME | BIENVENUE</h1>
-      <div>
+      <div className={layoutStyles.homeButtons}>
         <Link
           to="/welcome"
           state={{ language: "en" }}
@@ -35,24 +37,7 @@ const IndexPage = () => {
       </div>
       <div className={headStyle.headContainer}>
         <div className={headStyle.headImage}>
-          <img src={"/head.png"} alt="Head" className={headStyle.logohead} />
-        </div>
-        <div className={headStyle.headParagraph}>
-          <p>
-            Help is more{" "}
-            <span className={headStyle.orangeSpan}>accessible </span> than you
-            think!
-          </p>
-          <p>
-            L’aide est plus{" "}
-            <span className={headStyle.orangeSpan}>accessible </span>
-            que vous le pensez!
-          </p>
-          <img
-            src={"/footer.png"}
-            alt="Youth Mental Health"
-            className={headStyle.logoPrism}
-          />
+          <img src={"/head_with_text.png"} alt="Head" className={headStyle.logohead} />
         </div>
       </div>
     </Layout>

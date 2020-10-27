@@ -13,16 +13,18 @@ const Header = props => {
   return (
     <div className={headerStyles.header}>
       <Link to="/">
+        {(url === "/" || url === "/forms") ?         
         <img
           src={"/prism.png"}
           alt="Prism"
-          className={headerStyles.logo}
-          style={
-            url === "/" || url === "/forms"
-              ? { width: "25rem" }
-              : { width: "15rem" }
-          }
-        />
+          className={headerStyles.logo1}
+        /> 
+        : 
+        <img
+        src={"/prism.png"}
+        alt="Prism"
+        className={headerStyles.logo2}
+      />}
       </Link>
     </div>
   )

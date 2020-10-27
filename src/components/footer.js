@@ -8,15 +8,46 @@ const Footer = () => {
   React.useEffect(() => {
     setUrl(window.location.pathname)
   }, [])
+
+  const getFooterText = () => {
+    if(window.location.pathname === "/")
+      return(          
+        <p>PRISM-ACCESS Open Minds is a health services innovation project to improve access to mental health care for youth. It is managed by the Youth Mental Health and Technology (YMHTech) Lab at the University of Montreal Hospital Centre, 
+        and led by the Canada Research Chair in Innovation and Technology for Youth Mental Health Services |
+        <br/>PRISM-ACCESS Esprits ouverts est un projet d’innovation dans les services de santé visant à améliorer l’accès des jeunes aux soins de santé mentale. Il est géré par le laboratoire Santé mentale des jeunes et technologies (SMJ-techno) 
+        du Centre hospitalier de l'Université de Montréal est dirigé par la Chaire de recherche du Canada sur l’innovation et les technologies pour les services de soins de santé mentale pour les jeunes 
+        <br/>
+        <a href="www.ymhtech.com">www.ymhtech.com</a> / <a href="www.smjtechno.com">www.smjtechno.com</a></p>
+      )
+    else if(window.location.pathname !== "/" && localStorage.getItem("language") === "fr"){
+      return(          
+        <p>PRISM-ACCESS Esprits ouverts est un projet d’innovation dans les services de santé visant à améliorer l’accès des jeunes aux soins de santé mentale. Il est géré par le laboratoire Santé mentale des jeunes et technologies (SMJ-techno) 
+        du Centre hospitalier de l'Université de Montréal est dirigé par la Chaire de recherche du Canada sur l’innovation et les technologies pour les services de soins de santé mentale pour les jeunes 
+        <br/>
+        <a href="www.ymhtech.com">www.ymhtech.com</a> / <a href="www.smjtechno.com">www.smjtechno.com</a></p>
+      )
+    }
+    else if(window.location.pathname !== "/" && localStorage.getItem("language") === "en" ) {
+      return(          
+        <p>PRISM-ACCESS Open Minds is a health services innovation project to improve access to mental health care for youth. It is managed by the Youth Mental Health and Technology (YMHTech) Lab at the University of Montreal Hospital Centre, 
+        and led by the Canada Research Chair in Innovation and Technology for Youth Mental Health Services
+        <br/>
+        <a href="www.ymhtech.com">www.ymhtech.com</a> / <a href="www.smjtechno.com">www.smjtechno.com</a></p>
+      )
+    }
+    
+  }
+
   return (
-    <div className={footerStyles.footer}>
-      <a href="http://www.ymhtech.com/welcome">
-        <img
-          src={"/footer.png"}
-          alt="Prism"
-          style={url === "/forms" ? { width: "25rem" } : { width: "200" }}
-        />
-      </a>
+    <div className={footerStyles.footerContainer}>
+        <div className={footerStyles.footer}>
+          <a href="https://www.chumontreal.qc.ca/crchum" target="_blank"><img src={"/crchum_logo.png"} alt="CR Chum" /></a>
+          <a href="www.ymhtech.com" target="_blank"><img src={"/youth_menthal_health_logo.png"} alt="Youth menthal health" /></a>
+          <a href="https://douglas.research.mcgill.ca/" target="_blank"><img src={"/logo_douglas.png"} alt="Douglas" /></a>
+        </div>
+        <div className={footerStyles.footerText}>
+          {getFooterText()}
+        </div>
     </div>
   )
 }

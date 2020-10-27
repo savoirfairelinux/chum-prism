@@ -32,6 +32,7 @@ const Sidebar = props => {
         <div className={layoutStyles.sidebarHeader}>
           <Link to="/resources" state={{ returnPath: url }}>
             <img src={"/prism_symbol.png"} alt="Prism symbol" />
+            <p>Here are other resources that could help</p>
           </Link>
         </div>
         <nav className={layoutStyles.sidebarMainWeb}>
@@ -52,13 +53,30 @@ const Sidebar = props => {
               <i className="material-icons">phone</i> 9-1-1
             </a>
           </h3>
-          <p>
+          <div className={layoutStyles.prismSymbolContainer}>
+            <Link
+              to="/resources"
+              state={{ returnPath: url, language: language }}
+            >
+              <p>
+                <Trans id="msg.sidebar_more_information">
+                  Click here for more information on these resources
+                </Trans>
+              </p>
+              <img
+                src={"/prism_symbol.png"}
+                alt="Prism symbol"
+                className={layoutStyles.prismSymbol}
+              />
+            </Link>
+          </div>
+          <p className={layoutStyles.mobileHeaderText}>
             <Trans id="msg.sidebar_other_resources">
               Here are other resources that could help:
             </Trans>
           </p>
           <div className={layoutStyles.mainNavList}>
-            <ul className={layoutStyles.navList}>
+            <ul className={layoutStyles.navListPrimary}>
               <li className={layoutStyles.navItem}>
                 <Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans>
               </li>
@@ -73,7 +91,7 @@ const Sidebar = props => {
                   Interligne (for the LGBTQIA2SP+ community)
                 </Trans>
               </li>
-              <li className={layoutStyles.navItem}>
+              <li className={layoutStyles.navItemLeft}>
                 <Trans id="msg.sidebar_call">Call</Trans>
                 <ul className={layoutStyles.navList}>
                   <li className={layoutStyles.navItem}>Info-Santé (8-1-1)</li>
@@ -91,23 +109,6 @@ const Sidebar = props => {
                 </ul>
               </li>
             </ul>
-          </div>
-          <div className={layoutStyles.prismSymbolContainer}>
-            <Link
-              to="/resources"
-              state={{ returnPath: url, language: language }}
-            >
-              <img
-                src={"/prism_symbol.png"}
-                alt="Prism symbol"
-                className={layoutStyles.prismSymbol}
-              />
-              <p>
-                <Trans id="msg.sidebar_more_information">
-                  Click here for more information on these resources
-                </Trans>
-              </p>
-            </Link>
           </div>
         </nav>
       </div>

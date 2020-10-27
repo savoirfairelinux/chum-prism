@@ -14,7 +14,7 @@ const IndexPage = ({ location }) => {
   const [language, setLanguage] = React.useState("en")
 
   React.useEffect(() => {
-    if (localStorage.getItem("language") != "") {
+    if (localStorage.getItem("language") !== "") {
       setLanguage(localStorage.getItem("language"))
     }
   }, [])
@@ -62,12 +62,12 @@ const IndexPage = ({ location }) => {
           </h1>
           <div className={layoutStyles.row}>
             <div className={layoutStyles.column}>
-              <p>
-                <img
+              <img
                   src={"/listarrow.png"}
                   alt="Yellow arrow"
                   className={layoutStyles.listArrow}
                 />
+              <p className={layoutStyles.right }>
                 <strong className={layoutStyles.step}>
                   <Trans id="msg.welcome_step1">Step 1:</Trans>{" "}
                 </strong>
@@ -79,12 +79,12 @@ const IndexPage = ({ location }) => {
               </p>
             </div>
             <div className={layoutStyles.column}>
-              <p>
-                <img
+              <img
                   src={"/listarrow.png"}
                   alt="Yellow arrow"
                   className={layoutStyles.listArrow}
                 />
+              <p>
                 <strong className={layoutStyles.step}>
                   <Trans id="msg.welcome_step2">Step 2:</Trans>{" "}
                 </strong>{" "}
@@ -99,31 +99,16 @@ const IndexPage = ({ location }) => {
           </div>
         </div>
 
-        <div className={layoutStyles.schemaImage}>
+        <div className={layoutStyles.schemaImages}>
           <img
-            src={"/anxious.png"}
-            alt="Prism symbol"
-            className={layoutStyles.schemaImage1}
+            src={"/welcome_illustration_web.png"}
+            alt="Weclome illustration web"
+            className={layoutStyles.schemaImageWeb}
           />
           <img
-            src={"/arrow1.png"}
-            alt="Prism symbol"
-            className={layoutStyles.schemaImageArrow1}
-          />
-          <img
-            src={"/referral.png"}
-            alt="Prism symbol"
-            className={layoutStyles.schemaImage2}
-          />
-          <img
-            src={"/arrow1.png"}
-            alt="Prism symbol"
-            className={layoutStyles.schemaImageArrow2}
-          />
-          <img
-            src={"/chat.png"}
-            alt="Prism symbol"
-            className={layoutStyles.schemaImage3}
+            src={"/welcome_illustration_mobile.png"}
+            alt="Welcome illustration mobile"
+            className={layoutStyles.schemaImageMobile}
           />
         </div>
 

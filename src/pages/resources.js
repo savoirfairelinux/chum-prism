@@ -105,7 +105,7 @@ const Resources = ({ location }) => {
                         </Trans>
                       </li>
                       <li>
-                        <i className="material-icons">alternate_email</i>{" "}
+                        <i className="material-icons">language</i>{" "}
                         <Trans id="msg.resource_kid_help_phone_web">
                           www.kidshelpphone.ca (live chat available)
                         </Trans>
@@ -138,7 +138,7 @@ const Resources = ({ location }) => {
                         </a>
                       </li>
                       <li>
-                        <i className="material-icons">alternate_email</i>{" "}
+                        <i className="material-icons">language</i>{" "}
                         <Trans id="msg.resource_first_nation_web">
                           www.hopeforwellness.ca (live chat available)
                         </Trans>
@@ -174,7 +174,7 @@ const Resources = ({ location }) => {
                         <i className="material-icons">chat</i> 1-888-505-1010
                       </li>
                       <li>
-                        <i className="material-icons">alternate_email</i>{" "}
+                        <i className="material-icons">language</i>{" "}
                         <Trans id="msg.resource_LGBTQIA2SP_web">
                           www.interligne.co/en (live chat available)
                         </Trans>
@@ -210,7 +210,7 @@ const Resources = ({ location }) => {
                         </a>
                       </li>
                       <li>
-                        <i className="material-icons">alternate_email</i>{" "}
+                        <i className="material-icons">language</i>{" "}
                         www.211.ca
                       </li>
                     </ul>
@@ -320,7 +320,7 @@ const Resources = ({ location }) => {
                 <div className={layoutStyles.cardHeader}>
                   <div className={layoutStyles.cardTitle}>
                     <h1>
-                      <Trans id="msg.resource_ontario">
+                      <Trans id="msg.resource_quebec">
                         Quebec-Specific Resources:
                       </Trans>
                     </h1>
@@ -354,7 +354,7 @@ const Resources = ({ location }) => {
                               </a>
                             </li>
                             <li>
-                              <i className="material-icons">alternate_email</i>{" "}
+                              <i className="material-icons">language</i>{" "}
                               <Trans id="msg.resource_quebec_tel_jeune_chat">
                                 www.teljeunes.com/Tel-jeunes-en (live chat
                                 available)

@@ -12,11 +12,12 @@ import { Trans } from "@lingui/macro"
 
 const IndexPage = ({ location }) => {
   const [valide, setValide] = React.useState(false)
+  const [clicked, setClicked] = React.useState(false)
 
   const [language, setLanguage] = React.useState("en")
 
   React.useEffect(() => {
-    if (localStorage.getItem("language") != "") {
+    if (localStorage.getItem("language") !== "") {
       setLanguage(localStorage.getItem("language"))
     }
   }, [])
@@ -106,7 +107,7 @@ const IndexPage = ({ location }) => {
               <span className={layoutStyles.toggle__label}>
                 <span className={layoutStyles.toggle__text}>
                   <Trans id="msg.term_of_use_agree_terms">
-                    I have read, understood, and agree to the Terms of Use.
+                      I have read, understood, and agree to these Terms of Use.
                   </Trans>
                 </span>
               </span>
@@ -122,11 +123,18 @@ const IndexPage = ({ location }) => {
               </button>
             </Link>
           ) : (
-            <button disabled>
+            <button onClick={()=>setClicked(true)}>
               <Trans id="msg.continue">Continue</Trans>
             </button>
           )}
         </div>
+
+        {!valide && clicked &&<div className={layoutStyles.modal}>
+          <div className={layoutStyles.modalContent}>
+            <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
+            <p><Trans id="msg.popup_terms">Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue.</Trans></p>
+          </div>
+        </div>}
       </Layout>
     </I18nProvider>
   )

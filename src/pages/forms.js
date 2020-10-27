@@ -42,30 +42,28 @@ const IndexPage = ({ location }) => {
               Click if you are filling out this form for….
             </Trans>
           </h2>
-          <a href="http://www.ymhtech.com/welcome">
-            <button>
-              <Trans id="msg.forms_yourself">YOURSELF</Trans>
-              <br />
-              <br />
-              <img
-                src="/oneperson.png"
-                alt="One person"
-                className={layoutStyles.formIcon}
-              />
-            </button>
-          </a>
-          <a href="http://www.ymhtech.com/welcome">
-            <button>
-              <Trans id="msg.forms_seomeone_else">SOMEONE ELSE</Trans>
-              <br />
-              <br />
-              <img
-                src="/twopersons.png"
-                alt="Two person"
-                className={layoutStyles.formIcon}
-              />
-            </button>
-          </a>
+          <div className={layoutStyles.formsButtonSection}>
+            <a href="http://www.ymhtech.com/welcome">
+              <button className={layoutStyles.formsButton}>
+                <Trans id="msg.forms_yourself">YOURSELF</Trans>
+                <img
+                  src="/oneperson.png"
+                  alt="One person"
+                  className={layoutStyles.image1}
+                />
+              </button>
+            </a>
+            <a href="http://www.ymhtech.com/welcome">
+              <button className={layoutStyles.formsButton}>
+                <Trans id="msg.forms_seomeone_else">SOMEONE ELSE</Trans>
+                <img
+                  src="/twopersons.png"
+                  alt="Two person"
+                  className={layoutStyles.image2}
+                />
+              </button>
+            </a>
+          </div>
         </div>
       </Layout>
     </I18nProvider>
