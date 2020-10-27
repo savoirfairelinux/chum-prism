@@ -35,11 +35,11 @@ msgstr "Click if you are filling out this form for…."
 msgid "msg.forms_referral_form"
 msgstr "PRISM-AOM online referral form!"
 
-#: src/pages/forms.js:59
+#: src/pages/forms.js:58
 msgid "msg.forms_seomeone_else"
 msgstr "SOMEONE ELSE"
 
-#: src/pages/forms.js:47
+#: src/pages/forms.js:48
 msgid "msg.forms_yourself"
 msgstr "YOURSELF"
 
@@ -47,7 +47,7 @@ msgstr "YOURSELF"
 msgid "msg.header"
 msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 
-#: src/pages/term-of-use.js:134
+#: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
 msgstr "Please click the box above to indicate that you have read, understand, and agree to these Terms of Use before you can continue."
 
@@ -143,7 +143,7 @@ msgstr "First Nations and Inuit Hope for Wellness Help Line"
 msgid "msg.resource_first_nation_web"
 msgstr "www.hopeforwellness.ca (live chat available)"
 
-#: src/components/sidebar.js:40
+#: src/components/sidebar.js:41
 #: src/pages/resources.js:53
 msgid "msg.resource_header"
 msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
@@ -188,39 +188,39 @@ msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
 msgid "msg.resource_urgent_situation"
 msgstr "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:"
 
-#: src/components/sidebar.js:72
+#: src/components/sidebar.js:90
 msgid "msg.sidebar_LGBTQIA2SP"
 msgstr "Interligne (for the LGBTQIA2SP+ community)"
 
-#: src/components/sidebar.js:87
+#: src/components/sidebar.js:105
 msgid "msg.sidebar_WAYS"
 msgstr "The WAYS’ Crisis Line (519-354-4095)"
 
-#: src/components/sidebar.js:77
+#: src/components/sidebar.js:95
 msgid "msg.sidebar_call"
 msgstr "Call"
 
-#: src/components/sidebar.js:81
+#: src/components/sidebar.js:99
 msgid "msg.sidebar_chatham"
 msgstr "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)"
 
-#: src/components/sidebar.js:67
+#: src/components/sidebar.js:85
 msgid "msg.sidebar_first_nation"
 msgstr "First Nations and Inuit Hope for Wellness Help Line"
 
-#: src/components/sidebar.js:63
+#: src/components/sidebar.js:81
 msgid "msg.sidebar_kids_help_phone"
 msgstr "Kids Help Phone"
 
-#: src/components/sidebar.js:106
+#: src/components/sidebar.js:62
 msgid "msg.sidebar_more_information"
-msgstr "Click here for more information on these resources"
+msgstr "Click the logo for more information on the resources listed below"
 
-#: src/components/sidebar.js:56
+#: src/components/sidebar.js:74
 msgid "msg.sidebar_other_resources"
 msgstr "Here are other resources that could help:"
 
-#: src/components/sidebar.js:46
+#: src/components/sidebar.js:47
 msgid "msg.sidebar_urgent"
 msgstr "If there is an urgent situation, please call:"
 

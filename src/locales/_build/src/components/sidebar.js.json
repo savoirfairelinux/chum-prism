@@ -4,7 +4,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        40
+        41
       ]
     ]
   },
@@ -13,7 +13,16 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        46
+        47
+      ]
+    ]
+  },
+  "msg.sidebar_more_information": {
+    "defaults": "Click the logo for more information on the resources listed below",
+    "origin": [
+      [
+        "src/components/sidebar.js",
+        62
       ]
     ]
   },
@@ -22,7 +31,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        56
+        74
       ]
     ]
   },
@@ -31,7 +40,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        63
+        81
       ]
     ]
   },
@@ -40,7 +49,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        67
+        85
       ]
     ]
   },
@@ -49,7 +58,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        72
+        90
       ]
     ]
   },
@@ -58,7 +67,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        77
+        95
       ]
     ]
   },
@@ -67,7 +76,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        81
+        99
       ]
     ]
   },
@@ -76,16 +85,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        87
-      ]
-    ]
-  },
-  "msg.sidebar_more_information": {
-    "defaults": "Click here for more information on these resources",
-    "origin": [
-      [
-        "src/components/sidebar.js",
-        106
+        105
       ]
     ]
   }
