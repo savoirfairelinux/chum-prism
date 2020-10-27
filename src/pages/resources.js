@@ -106,9 +106,11 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
+                        <a href="http://www.kidshelpphone.ca" target="_blank">
                         <Trans id="msg.resource_kid_help_phone_web">
                           www.kidshelpphone.ca (live chat available)
                         </Trans>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -139,9 +141,11 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
+                        <a href="https://www.hopeforwellness.ca" target="_blank">
                         <Trans id="msg.resource_first_nation_web">
                           www.hopeforwellness.ca (live chat available)
                         </Trans>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -175,9 +179,11 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
+                        <a href="https://www.interligne.co/en" target="_blank">
                         <Trans id="msg.resource_LGBTQIA2SP_web">
                           www.interligne.co/en (live chat available)
                         </Trans>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -211,7 +217,9 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
+                        <a href="https://www.211.ca" target="_blank">
                         www.211.ca
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -355,10 +363,12 @@ const Resources = ({ location }) => {
                             </li>
                             <li>
                               <i className="material-icons">language</i>{" "}
+                              <a href="https://www.teljeunes.com/Tel-jeunes-en" target="_blank">
                               <Trans id="msg.resource_quebec_tel_jeune_chat">
                                 www.teljeunes.com/Tel-jeunes-en (live chat
                                 available)
                               </Trans>
+                              </a>
                             </li>
                           </ul>
                         </div>

@@ -419,17 +419,27 @@ p {
 }
 
 .listArrow {
-  width: 4rem;
+  width: 50px;
+  margin-top: 18px;
   margin-right: 5px;
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
   .listArrow {
-    width: 6rem;
-    margin-top: 4px;
+    width: 60px;
+    margin-top: 22px;
     margin-right: 5px;
   }
 }
+
+@media only screen and (max-width: 766px) {
+  .listArrow {
+    width: 60px;
+    margin-top: 22px;
+    margin-right: 5px;
+  }
+}
+
 .step {
   color: $title-color;
 }
