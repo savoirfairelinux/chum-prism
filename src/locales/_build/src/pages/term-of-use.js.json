@@ -130,11 +130,11 @@
     ]
   },
   "msg.popup_terms": {
-    "defaults": "Please click the box above to indicate that you have read, understand, and agree to these Terms of Use before you can continue.",
+    "defaults": "Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue.",
     "origin": [
       [
         "src/pages/term-of-use.js",
-        134
+        135
       ]
     ]
   }

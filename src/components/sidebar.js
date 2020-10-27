@@ -32,7 +32,7 @@ const Sidebar = props => {
         <div className={layoutStyles.sidebarHeader}>
           <Link to="/resources" state={{ returnPath: url }}>
             <img src={"/prism_symbol.png"} alt="Prism symbol" />
-            <p>Here are other resources that could help</p>
+            <p className={layoutStyles.mobileHeaderText}>Here are other resources that could help</p>
           </Link>
         </div>
         <nav className={layoutStyles.sidebarMainWeb}>
@@ -60,7 +60,7 @@ const Sidebar = props => {
             >
               <p>
                 <Trans id="msg.sidebar_more_information">
-                  Click here for more information on these resources
+                  Click the logo for more information on the resources listed below
                 </Trans>
               </p>
               <img
@@ -70,7 +70,7 @@ const Sidebar = props => {
               />
             </Link>
           </div>
-          <p className={layoutStyles.mobileHeaderText}>
+          <p>
             <Trans id="msg.sidebar_other_resources">
               Here are other resources that could help:
             </Trans>
@@ -78,18 +78,22 @@ const Sidebar = props => {
           <div className={layoutStyles.mainNavList}>
             <ul className={layoutStyles.navListPrimary}>
               <li className={layoutStyles.navItem}>
-                <Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans>
+                <a href="https://www.kidshelpphone.ca" target="_blank"><Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans></a>
               </li>
-              <li className={layoutStyles.navItem}>Tel-jeunes</li>
+              <li className={layoutStyles.navItem}><a href="https://www.teljeunes.com" target="_blank">Tel-jeunes</a></li>
               <li className={layoutStyles.navItem}>
-                <Trans id="msg.sidebar_first_nation">
-                  First Nations and Inuit Hope for Wellness Help Line
-                </Trans>
+                <a href="https://www.hopeforwellness.ca" target="_blank">
+                  <Trans id="msg.sidebar_first_nation">
+                    First Nations and Inuit Hope for Wellness Help Line
+                  </Trans>
+                </a>
               </li>
               <li className={layoutStyles.navItem}>
-                <Trans id="msg.sidebar_LGBTQIA2SP">
-                  Interligne (for the LGBTQIA2SP+ community)
-                </Trans>
+                <a href="https://www.interligne.co/" target="_blank">
+                  <Trans id="msg.sidebar_LGBTQIA2SP">
+                    Interligne (for the LGBTQIA2SP+ community)
+                  </Trans>
+                </a>
               </li>
               <li className={layoutStyles.navItemLeft}>
                 <Trans id="msg.sidebar_call">Call</Trans>

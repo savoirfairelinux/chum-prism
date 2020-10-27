@@ -225,7 +225,7 @@ const Resources = ({ location }) => {
             </div>
           </div>
           <div className={layoutStyles.wrapper}>
-            <div className={layoutStyles.resourceContainer}>
+            <div className={layoutStyles.secondeResourceContainer}>
               <div className={layoutStyles.card}>
                 <div className={layoutStyles.cardHeader}>
                   <div className={layoutStyles.cardTitle}>

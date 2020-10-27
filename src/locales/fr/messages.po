@@ -35,11 +35,11 @@ msgstr "Vous remplissez le formulaire pour..."
 msgid "msg.forms_referral_form"
 msgstr "formulaire de référence en ligne PRISM-AEO !"
 
-#: src/pages/forms.js:59
+#: src/pages/forms.js:58
 msgid "msg.forms_seomeone_else"
 msgstr "QUELQU’UN D’AUTRE"
 
-#: src/pages/forms.js:47
+#: src/pages/forms.js:48
 msgid "msg.forms_yourself"
 msgstr "VOUS-MÊME"
 
@@ -47,10 +47,9 @@ msgstr "VOUS-MÊME"
 msgid "msg.header"
 msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouverts!"
 
-#: src/pages/term-of-use.js:134
+#: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
-msgstr "Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue.
-Veuillez cochez la case ci-dessous pour indiquer que tu as lu, compris et accepté les Conditions d'utilisation avant de continuer."
+msgstr "Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue."
 
 #: src/pages/privacy-policy.js:61
 msgid "msg.privacy_policy"
@@ -144,7 +143,7 @@ msgstr "Ligne d'écoute d'espoir pour le mieux-être des Premières Nations et d
 msgid "msg.resource_first_nation_web"
 msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 
-#: src/components/sidebar.js:40
+#: src/components/sidebar.js:41
 #: src/pages/resources.js:53
 msgid "msg.resource_header"
 msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
@@ -189,39 +188,39 @@ msgstr "www.teljeunes.com/Tel-jeunes (clavardage en ligne disponible)"
 msgid "msg.resource_urgent_situation"
 msgstr "S’il y a une situation d’urgence (ex. pertes de contrôle, idées agressives ou idées suicidaires), veuillez composer le:"
 
-#: src/components/sidebar.js:72
+#: src/components/sidebar.js:90
 msgid "msg.sidebar_LGBTQIA2SP"
 msgstr "Interligne (pour la communauté LGBTQIA2SP+)"
 
-#: src/components/sidebar.js:87
+#: src/components/sidebar.js:105
 msgid "msg.sidebar_WAYS"
 msgstr "La ligne de crise WAYS"
 
-#: src/components/sidebar.js:77
+#: src/components/sidebar.js:95
 msgid "msg.sidebar_call"
 msgstr "Appeler"
 
-#: src/components/sidebar.js:81
+#: src/components/sidebar.js:99
 msgid "msg.sidebar_chatham"
 msgstr "La ligne de crise pour la santé mentale de Chatham Kent (519-436-6100 or 1-866-299-7447)"
 
-#: src/components/sidebar.js:67
+#: src/components/sidebar.js:85
 msgid "msg.sidebar_first_nation"
 msgstr "Ligne d'écoute d'espoir pour le mieux-être des Premières Nations et des Inuits"
 
-#: src/components/sidebar.js:63
+#: src/components/sidebar.js:81
 msgid "msg.sidebar_kids_help_phone"
 msgstr "Jeunesse, J’écoute"
 
-#: src/components/sidebar.js:106
+#: src/components/sidebar.js:62
 msgid "msg.sidebar_more_information"
 msgstr "Cliquez ici pour plus d’informations sur ces ressources"
 
-#: src/components/sidebar.js:56
+#: src/components/sidebar.js:74
 msgid "msg.sidebar_other_resources"
 msgstr "Voici d'autres ressources qui pourraient vous aider:"
 
-#: src/components/sidebar.js:46
+#: src/components/sidebar.js:47
 msgid "msg.sidebar_urgent"
 msgstr "Si vous êtes en situation d’urgence, veuillez composer le:"
 
