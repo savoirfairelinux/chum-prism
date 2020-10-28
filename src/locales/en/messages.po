@@ -49,7 +49,7 @@ msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 
 #: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
-msgstr "Please click the box above to indicate that you have read, understand, and agree to these Terms of Use before you can continue."
+msgstr "Please click the box below to indicate that you have read, understand, and agree to these Terms of Use before you can continue."
 
 #: src/pages/privacy-policy.js:61
 msgid "msg.privacy_policy"
@@ -95,116 +95,116 @@ msgstr "Also, if you are under 14, the youth mental health team will need to con
 msgid "msg.privacy_policy_under_17"
 msgstr "If you are under 17 and have reported physical or sexual abuse;"
 
-#: src/pages/resources.js:159
+#: src/pages/resources.js:174
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (for the LGBTQIA2SP+ community)"
 
-#: src/pages/resources.js:178
+#: src/pages/resources.js:194
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co/en (live chat available)"
 
-#: src/pages/resources.js:288
+#: src/pages/resources.js:307
 msgid "msg.resource_WAYS"
 msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their"
 
-#: src/pages/resources.js:207
+#: src/pages/resources.js:224
 msgid "msg.resource_call_211"
 msgstr "Call or dial 2-1-1"
 
-#: src/pages/resources.js:245
+#: src/pages/resources.js:264
 msgid "msg.resource_canadian_mental_health"
 msgstr "The Canadian Mental Health Association’s 24-hour crisis line (for anyone 16+ in Lambton County and Kent County)"
 
-#: src/pages/resources.js:269
+#: src/pages/resources.js:288
 msgid "msg.resource_canadian_mental_health_lambton"
 msgstr "Lambton Mental Health Crisis Line: 519-336-3445 or 1-800-307-4319"
 
-#: src/pages/resources.js:259
+#: src/pages/resources.js:278
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Chatham Kent Mental Health Crisis Line: 519-436-6100 or 1-866-299-7447"
 
-#: src/pages/resources.js:70
+#: src/pages/resources.js:81
 msgid "msg.resource_emergency_department"
 msgstr "or go to the nearest Emergency Department."
 
-#: src/pages/resources.js:41
+#: src/pages/resources.js:52
 msgid "msg.resource_exit"
 msgstr "QUICK EXIT"
 
-#: src/pages/resources.js:195
+#: src/pages/resources.js:212
 msgid "msg.resource_find_other"
 msgstr "Find another resource near you"
 
-#: src/pages/resources.js:126
+#: src/pages/resources.js:139
 msgid "msg.resource_first_nation"
 msgstr "First Nations and Inuit Hope for Wellness Help Line"
 
-#: src/pages/resources.js:142
+#: src/pages/resources.js:156
 msgid "msg.resource_first_nation_web"
 msgstr "www.hopeforwellness.ca (live chat available)"
 
 #: src/components/sidebar.js:41
-#: src/pages/resources.js:53
+#: src/pages/resources.js:64
 msgid "msg.resource_header"
 msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
 
-#: src/pages/resources.js:87
+#: src/pages/resources.js:98
 msgid "msg.resource_kid_help_phone"
 msgstr "Contact a counsellor at Kids Help Phone"
 
-#: src/pages/resources.js:103
+#: src/pages/resources.js:114
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Text CONNECT to 686868"
 
-#: src/pages/resources.js:109
+#: src/pages/resources.js:121
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.kidshelpphone.ca (live chat available)"
 
-#: src/pages/resources.js:233
+#: src/pages/resources.js:252
 msgid "msg.resource_ontario"
 msgstr "Ontario-Specific Resources:"
 
-#: src/pages/resources.js:75
+#: src/pages/resources.js:86
 msgid "msg.resource_other_resources"
 msgstr "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French."
 
-#: src/pages/resources.js:323
+#: src/pages/resources.js:342
 msgid "msg.resource_quebec"
 msgstr "Quebec-Specific Resources:"
 
-#: src/pages/resources.js:376
+#: src/pages/resources.js:397
 msgid "msg.resource_quebec_nurse"
 msgstr "To speak to a nurse or a social worker about a health concern, call Info-Santé"
 
-#: src/pages/resources.js:335
+#: src/pages/resources.js:354
 msgid "msg.resource_quebec_tel_jeune"
 msgstr "Contact a counsellor at Tel-jeunes"
 
-#: src/pages/resources.js:358
+#: src/pages/resources.js:378
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
 
-#: src/pages/resources.js:59
+#: src/pages/resources.js:70
 msgid "msg.resource_urgent_situation"
 msgstr "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:"
 
-#: src/components/sidebar.js:90
+#: src/components/sidebar.js:93
 msgid "msg.sidebar_LGBTQIA2SP"
 msgstr "Interligne (for the LGBTQIA2SP+ community)"
 
-#: src/components/sidebar.js:105
+#: src/components/sidebar.js:109
 msgid "msg.sidebar_WAYS"
 msgstr "The WAYS’ Crisis Line (519-354-4095)"
 
-#: src/components/sidebar.js:95
+#: src/components/sidebar.js:99
 msgid "msg.sidebar_call"
 msgstr "Call"
 
-#: src/components/sidebar.js:99
+#: src/components/sidebar.js:103
 msgid "msg.sidebar_chatham"
 msgstr "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)"
 
-#: src/components/sidebar.js:85
+#: src/components/sidebar.js:86
 msgid "msg.sidebar_first_nation"
 msgstr "First Nations and Inuit Hope for Wellness Help Line"
 
