@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby"
 
 import layoutStyles from "../components/layout.module.scss"
@@ -33,6 +34,16 @@ const Resources = ({ location }) => {
       }}
     >
       <ResourcesLayout>
+      <Helmet>
+          <style type="text/css">
+            
+            {`
+            body {
+              background-color: #175389;
+            }
+          `}
+          </style>
+        </Helmet>
         <div className={layoutStyles.mainWrapper}>
           <div className={layoutStyles.mainResourceContainer}>
             <Link to={url}>
