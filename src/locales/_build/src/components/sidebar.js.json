@@ -1,4 +1,13 @@
 {
+  "msg.here_are_other_ressources": {
+    "defaults": "Here are other resources that could help",
+    "origin": [
+      [
+        "src/components/sidebar.js",
+        35
+      ]
+    ]
+  },
   "msg.resource_header": {
     "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
     "origin": [

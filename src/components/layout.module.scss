@@ -18,6 +18,8 @@ $title-level2-font-size: 36px;
 $title-level3-font-size: 16px;
 $p-font-size: 14px;
 
+$higher-interval: 1450px;
+
 * {
   font-family: $font-family;
 }
@@ -74,7 +76,7 @@ p {
   background-color: $sidebar-background-color;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .content {
     text-align: center;
     background-color: $background-color;
@@ -116,7 +118,7 @@ p {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .main {
     margin: 0 auto;
     width: 90%;
@@ -148,7 +150,7 @@ p {
   margin-right: 0.5rem;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .sidebar {
     width: 25%;
   }
@@ -282,7 +284,7 @@ p {
   .sidebar {
     position: fixed;
     margin-top: 1rem;
-    height: 7rem;
+    height: 8.5rem;
     width: 25%;
   }
 
@@ -351,7 +353,7 @@ p {
   align-items: center;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .homeButtons {
     display: flex;
     flex-direction: row;
@@ -425,7 +427,7 @@ p {
   margin-right: 5px;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .listArrow {
     width: 60px;
     margin-top: 22px;
@@ -529,7 +531,7 @@ button {
   font-weight: bold;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   button {
     margin: 0;
     margin-bottom: 1rem;
@@ -610,7 +612,7 @@ button {
   display: none;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .schemaImageWeb {
     display: block;
   }
@@ -692,7 +694,7 @@ button {
 .privacyPolicy p {
   text-align: left;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.9em;
   color: black;
 }
@@ -762,7 +764,7 @@ button {
   cursor: pointer;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .modal {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -1052,6 +1054,7 @@ body {
 
 .mainResourceContainer h1 {
   font-size: 32px;
+  margin: 0.5rem;
   color: $button-background-color;
 }
 
@@ -1218,7 +1221,7 @@ body {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .main-wrapper {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -1254,7 +1257,7 @@ body {
 }
 
 .resource-container > .card {
-  min-height: 380px;
+  min-height: 350px;
   height: 100%;
 }
 
@@ -1288,7 +1291,7 @@ body {
     bottom: 0;
     margin: 2rem;
     img {
-      height: 70px;
+      height: 150px;
     }
   }
   &-title {
@@ -1301,9 +1304,9 @@ body {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .resource-container > .card {
-    min-height: 390px;
+    min-height: 400px;
     height: 100%;
   }
 
@@ -1355,7 +1358,7 @@ body {
       bottom: 0;
       margin: 2rem;
       img {
-        height: 70px;
+        height: 150px;
       }
     }
     &-title {
@@ -1381,7 +1384,7 @@ body {
       color: $button-background-color;
     }
     &-text {
-      margin: 2rem;
+      margin: 1rem;
       color: orange;
       a {
         color: white;
@@ -1401,7 +1404,7 @@ body {
       text-align: center;
       position: relative;
       img {
-        height: 70px;
+        height: 100px;
       }
     }
     &-title {

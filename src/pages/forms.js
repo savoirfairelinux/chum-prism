@@ -43,7 +43,7 @@ const IndexPage = ({ location }) => {
             </Trans>
           </h2>
           <div className={layoutStyles.formsButtonSection}>
-            <a href="http://www.ymhtech.com/welcome">
+            <a href="https://staging.tickitforhealth.com/app/rbe?identifier=" target="_blank">
               <button className={layoutStyles.formsButton}>
                 <Trans id="msg.forms_yourself">YOURSELF</Trans>
                 <img
@@ -53,7 +53,7 @@ const IndexPage = ({ location }) => {
                 />
               </button>
             </a>
-            <a href="http://www.ymhtech.com/welcome">
+            <a href="https://staging.tickitforhealth.com/app/dji?identifier=" target="_blank">
               <button className={layoutStyles.formsButton}>
                 <Trans id="msg.forms_seomeone_else">SOMEONE ELSE</Trans>
                 <img

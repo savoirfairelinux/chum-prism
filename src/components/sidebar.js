@@ -32,7 +32,7 @@ const Sidebar = props => {
         <div className={layoutStyles.sidebarHeader}>
           <Link to="/resources" state={{ returnPath: url }}>
             <img src={"/prism_symbol.png"} alt="Prism symbol" />
-            <p className={layoutStyles.mobileHeaderText}>Here are other resources that could help</p>
+            <p className={layoutStyles.mobileHeaderText}><Trans id="msg.here_are_other_ressources">Here are other resources that could help</Trans></p>
           </Link>
         </div>
         <nav className={layoutStyles.sidebarMainWeb}>

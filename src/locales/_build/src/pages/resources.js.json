@@ -1,136 +1,10 @@
 {
-  "msg.resource_exit": {
-    "defaults": "QUICK EXIT",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        52
-      ]
-    ]
-  },
-  "msg.resource_header": {
-    "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        64
-      ]
-    ]
-  },
-  "msg.resource_urgent_situation": {
-    "defaults": "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        70
-      ]
-    ]
-  },
-  "msg.resource_emergency_department": {
-    "defaults": "or go to the nearest Emergency Department.",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        81
-      ]
-    ]
-  },
-  "msg.resource_other_resources": {
-    "defaults": "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French.",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        86
-      ]
-    ]
-  },
-  "msg.resource_kid_help_phone": {
-    "defaults": "Contact a counsellor at Kids Help Phone",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        98
-      ]
-    ]
-  },
-  "msg.resource_kid_help_phone_chat": {
-    "defaults": "Text CONNECT to 686868",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        114
-      ]
-    ]
-  },
-  "msg.resource_kid_help_phone_web": {
-    "defaults": "www.kidshelpphone.ca (live chat available)",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        121
-      ]
-    ]
-  },
-  "msg.resource_first_nation": {
-    "defaults": "First Nations and Inuit Hope for Wellness Help Line",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        139
-      ]
-    ]
-  },
-  "msg.resource_first_nation_web": {
-    "defaults": "www.hopeforwellness.ca (live chat available)",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        156
-      ]
-    ]
-  },
-  "msg.resource_LGBTQIA2SP": {
-    "defaults": "Interligne (for the LGBTQIA2SP+ community)",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        174
-      ]
-    ]
-  },
-  "msg.resource_LGBTQIA2SP_web": {
-    "defaults": "www.interligne.co/en (live chat available)",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        194
-      ]
-    ]
-  },
-  "msg.resource_find_other": {
-    "defaults": "Find another resource near you",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        212
-      ]
-    ]
-  },
-  "msg.resource_call_211": {
-    "defaults": "Call or dial 2-1-1",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        224
-      ]
-    ]
-  },
   "msg.resource_ontario": {
     "defaults": "Ontario-Specific Resources:",
     "origin": [
       [
         "src/pages/resources.js",
-        252
+        33
       ]
     ]
   },
@@ -139,7 +13,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        264
+        45
       ]
     ]
   },
@@ -148,7 +22,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        278
+        59
       ]
     ]
   },
@@ -157,16 +31,16 @@
     "origin": [
       [
         "src/pages/resources.js",
-        288
+        69
       ]
     ]
   },
   "msg.resource_WAYS": {
-    "defaults": "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their",
+    "defaults": "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their parents)",
     "origin": [
       [
         "src/pages/resources.js",
-        307
+        88
       ]
     ]
   },
@@ -175,7 +49,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        342
+        124
       ]
     ]
   },
@@ -184,7 +58,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        354
+        136
       ]
     ]
   },
@@ -193,7 +67,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        378
+        160
       ]
     ]
   },
@@ -202,7 +76,133 @@
     "origin": [
       [
         "src/pages/resources.js",
-        397
+        179
+      ]
+    ]
+  },
+  "msg.resource_exit": {
+    "defaults": "QUICK EXIT",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        232
+      ]
+    ]
+  },
+  "msg.resource_header": {
+    "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        244
+      ]
+    ]
+  },
+  "msg.resource_urgent_situation": {
+    "defaults": "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        250
+      ]
+    ]
+  },
+  "msg.resource_emergency_department": {
+    "defaults": "or go to the nearest Emergency Department.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        261
+      ]
+    ]
+  },
+  "msg.resource_other_resources": {
+    "defaults": "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French.",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        266
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone": {
+    "defaults": "Contact a counsellor at Kids Help Phone",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        278
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone_chat": {
+    "defaults": "Text CONNECT to 686868",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        294
+      ]
+    ]
+  },
+  "msg.resource_kid_help_phone_web": {
+    "defaults": "www.kidshelpphone.ca (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        301
+      ]
+    ]
+  },
+  "msg.resource_first_nation": {
+    "defaults": "First Nations and Inuit Hope for Wellness Help Line",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        319
+      ]
+    ]
+  },
+  "msg.resource_first_nation_web": {
+    "defaults": "www.hopeforwellness.ca (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        336
+      ]
+    ]
+  },
+  "msg.resource_LGBTQIA2SP": {
+    "defaults": "Interligne (for the LGBTQIA2SP+ community)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        354
+      ]
+    ]
+  },
+  "msg.resource_LGBTQIA2SP_web": {
+    "defaults": "www.interligne.co/en (live chat available)",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        371
+      ]
+    ]
+  },
+  "msg.resource_find_other": {
+    "defaults": "Find another resource near you",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        389
+      ]
+    ]
+  },
+  "msg.resource_call_211": {
+    "defaults": "Call or dial 2-1-1",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        401
       ]
     ]
   }
