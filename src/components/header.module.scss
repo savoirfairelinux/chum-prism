@@ -1,3 +1,5 @@
+$higher-interval: 1450px;
+
 .header {
   margin: 2rem;
 }
@@ -30,7 +32,7 @@
   width: 15rem;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: $higher-interval) {
   .logo1 {
     width: 25rem;
   }

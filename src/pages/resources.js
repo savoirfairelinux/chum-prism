@@ -25,6 +25,186 @@ const Resources = ({ location }) => {
     }
   })
 
+  const ontarioContent = () => {
+    return(              <div className={layoutStyles.card}>
+      <div className={layoutStyles.cardHeader}>
+        <div className={layoutStyles.cardTitle}>
+          <h1>
+            <Trans id="msg.resource_ontario">
+              Ontario-Specific Resources:
+            </Trans>
+          </h1>
+        </div>
+      </div>
+      <div className={layoutStyles.cardBody}>
+        <div className={layoutStyles.resourceContainer}>
+          <div className={layoutStyles.card}>
+            <div className={layoutStyles.cardHeader}>
+              <div className={layoutStyles.cardTitle}>
+                <h3>
+                  <Trans id="msg.resource_canadian_mental_health">
+                    The Canadian Mental Health Association’s 24-hour
+                    crisis line (for anyone 16+ in Lambton County and
+                    Kent County)
+                  </Trans>
+                </h3>
+              </div>
+            </div>
+            <div className={layoutStyles.cardBody}>
+              <div className={layoutStyles.cardText}>
+                <ul>
+                  <li>
+                    <a href="tel:+15194366100">
+                      <i className="material-icons">phone</i>{" "}
+                      <Trans id="msg.resource_canadian_mental_health_phone_chatman">
+                        Chatham Kent Mental Health Crisis Line:
+                        519-436-6100 or 1-866-299-7447
+                      </Trans>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="tel:+15193363445">
+                      <i className="material-icons">phone</i>{" "}
+                      <Trans id="msg.resource_canadian_mental_health_lambton">
+                        Lambton Mental Health Crisis Line:
+                        519-336-3445 or 1-800-307-4319
+                      </Trans>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={layoutStyles.cardFooter}>
+              <div className={layoutStyles.cardImage}>
+                <img src="/CMHA.png" alt="CMHA" />
+              </div>
+            </div>
+          </div>
+          <div className={layoutStyles.card}>
+            <div className={layoutStyles.cardHeader}>
+              <div className={layoutStyles.cardTitle}>
+                <h3>
+                  <Trans id="msg.resource_WAYS">
+                    WAYS Mental Health Support Crisis and Community
+                    Support Program 24/7 crisis line (for youth 6-18
+                    y/o and their parents)
+                  </Trans>
+                </h3>
+              </div>
+            </div>
+            <div className={layoutStyles.cardBody}>
+              <div className={layoutStyles.cardText}>
+                <ul>
+                  <li>
+                    <a href="tel:+15193544095">
+                      <i className="material-icons">phone</i>{" "}
+                      519-354-4095
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={layoutStyles.cardFooter}>
+              <div className={layoutStyles.cardImage}>
+                <img src="/WAYS.png" alt="WAYS" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>);
+  }
+
+  const quebecContent = () => {
+    return(<div className={layoutStyles.card}>
+      <div className={layoutStyles.cardHeader}>
+        <div className={layoutStyles.cardTitle}>
+          <h1>
+            <Trans id="msg.resource_quebec">
+              Quebec-Specific Resources:
+            </Trans>
+          </h1>
+        </div>
+      </div>
+      <div className={layoutStyles.cardBody}>
+        <div className={layoutStyles.resourceContainer}>
+          <div className={layoutStyles.card}>
+            <div className={layoutStyles.cardHeader}>
+              <div className={layoutStyles.cardTitle}>
+                <h3>
+                  <Trans id="msg.resource_quebec_tel_jeune">
+                    Contact a counsellor at Tel-jeunes
+                  </Trans>
+                </h3>
+              </div>
+            </div>
+            <div className={layoutStyles.cardBody}>
+              <div className={layoutStyles.cardText}>
+                <ul>
+                  <li>
+                    <a href="tel:+18002632266">
+                      <i className="material-icons">phone</i>{" "}
+                      1-800-263-2266
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+15146001002">
+                      <i className="material-icons">chat</i>{" "}
+                      514-600-1002
+                    </a>
+                  </li>
+                  <li>
+                    <i className="material-icons">language</i>{" "}
+                    <a href="https://www.teljeunes.com/Tel-jeunes-en" target="_blank">
+                    <Trans id="msg.resource_quebec_tel_jeune_chat">
+                      www.teljeunes.com/Tel-jeunes-en (live chat
+                      available)
+                    </Trans>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={layoutStyles.cardFooter}>
+              <div className={layoutStyles.cardImage}>
+                <img src="/teljeunes.png" alt="teljeunes" />
+              </div>
+            </div>
+          </div>
+          <div className={layoutStyles.card}>
+            <div className={layoutStyles.cardHeader}>
+              <div className={layoutStyles.cardTitle}>
+                <h3>
+                  <Trans id="msg.resource_quebec_nurse">
+                    To speak to a nurse or a social worker about a
+                    health concern, call Info-Santé
+                  </Trans>
+                </h3>
+              </div>
+            </div>
+            <div className={layoutStyles.cardBody}>
+              <div className={layoutStyles.cardText}>
+                <ul>
+                  <li>
+                    <a href="tel:811">
+                      <i className="material-icons">phone</i> 8-1-1
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={layoutStyles.cardFooter}>
+              <div className={layoutStyles.cardImage}>
+                <img src="/811.png" alt="811" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>);
+  }
+
   return (
     <I18nProvider
       language={language}
@@ -186,9 +366,6 @@ const Resources = ({ location }) => {
                         </a>
                       </li>
                       <li>
-                        <i className="material-icons">chat</i> 1-888-505-1010
-                      </li>
-                      <li>
                         <i className="material-icons">language</i>{" "}
                         <a href="https://www.interligne.co/en" target="_blank">
                         <Trans id="msg.resource_LGBTQIA2SP_web">
@@ -204,7 +381,7 @@ const Resources = ({ location }) => {
                     <img src="/interligne.png" alt="Inter lign" />
                   </div>
                 </div>
-              </div>
+              </div>          
               <div className={layoutStyles.card}>
                 <div className={layoutStyles.cardHeader}>
                   <div className={layoutStyles.cardTitle}>
@@ -245,182 +422,8 @@ const Resources = ({ location }) => {
           </div>
           <div className={layoutStyles.wrapper}>
             <div className={layoutStyles.secondeResourceContainer}>
-              <div className={layoutStyles.card}>
-                <div className={layoutStyles.cardHeader}>
-                  <div className={layoutStyles.cardTitle}>
-                    <h1>
-                      <Trans id="msg.resource_ontario">
-                        Ontario-Specific Resources:
-                      </Trans>
-                    </h1>
-                  </div>
-                </div>
-                <div className={layoutStyles.cardBody}>
-                  <div className={layoutStyles.resourceContainer}>
-                    <div className={layoutStyles.card}>
-                      <div className={layoutStyles.cardHeader}>
-                        <div className={layoutStyles.cardTitle}>
-                          <h3>
-                            <Trans id="msg.resource_canadian_mental_health">
-                              The Canadian Mental Health Association’s 24-hour
-                              crisis line (for anyone 16+ in Lambton County and
-                              Kent County)
-                            </Trans>
-                          </h3>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardBody}>
-                        <div className={layoutStyles.cardText}>
-                          <ul>
-                            <li>
-                              <a href="tel:+15194366100">
-                                <i className="material-icons">phone</i>{" "}
-                                <Trans id="msg.resource_canadian_mental_health_phone_chatman">
-                                  Chatham Kent Mental Health Crisis Line:
-                                  519-436-6100 or 1-866-299-7447
-                                </Trans>
-                              </a>
-                            </li>
-
-                            <li>
-                              <a href="tel:+15193363445">
-                                <i className="material-icons">phone</i>{" "}
-                                <Trans id="msg.resource_canadian_mental_health_lambton">
-                                  Lambton Mental Health Crisis Line:
-                                  519-336-3445 or 1-800-307-4319
-                                </Trans>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardFooter}>
-                        <div className={layoutStyles.cardImage}>
-                          <img src="/CMHA.png" alt="CMHA" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className={layoutStyles.card}>
-                      <div className={layoutStyles.cardHeader}>
-                        <div className={layoutStyles.cardTitle}>
-                          <h3>
-                            <Trans id="msg.resource_WAYS">
-                              WAYS Mental Health Support Crisis and Community
-                              Support Program 24/7 crisis line (for youth 6-18
-                              y/o and their
-                            </Trans>
-                            parents)
-                          </h3>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardBody}>
-                        <div className={layoutStyles.cardText}>
-                          <ul>
-                            <li>
-                              <a href="tel:+15193544095">
-                                <i className="material-icons">phone</i>{" "}
-                                519-354-4095
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardFooter}>
-                        <div className={layoutStyles.cardImage}>
-                          <img src="/WAYS.png" alt="WAYS" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={layoutStyles.card}>
-                <div className={layoutStyles.cardHeader}>
-                  <div className={layoutStyles.cardTitle}>
-                    <h1>
-                      <Trans id="msg.resource_quebec">
-                        Quebec-Specific Resources:
-                      </Trans>
-                    </h1>
-                  </div>
-                </div>
-                <div className={layoutStyles.cardBody}>
-                  <div className={layoutStyles.resourceContainer}>
-                    <div className={layoutStyles.card}>
-                      <div className={layoutStyles.cardHeader}>
-                        <div className={layoutStyles.cardTitle}>
-                          <h3>
-                            <Trans id="msg.resource_quebec_tel_jeune">
-                              Contact a counsellor at Tel-jeunes
-                            </Trans>
-                          </h3>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardBody}>
-                        <div className={layoutStyles.cardText}>
-                          <ul>
-                            <li>
-                              <a href="tel:+18002632266">
-                                <i className="material-icons">phone</i>{" "}
-                                1-800-263-2266
-                              </a>
-                            </li>
-                            <li>
-                              <a href="tel:+15146001002">
-                                <i className="material-icons">chat</i>{" "}
-                                514-600-1002
-                              </a>
-                            </li>
-                            <li>
-                              <i className="material-icons">language</i>{" "}
-                              <a href="https://www.teljeunes.com/Tel-jeunes-en" target="_blank">
-                              <Trans id="msg.resource_quebec_tel_jeune_chat">
-                                www.teljeunes.com/Tel-jeunes-en (live chat
-                                available)
-                              </Trans>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardFooter}>
-                        <div className={layoutStyles.cardImage}>
-                          <img src="/teljeunes.png" alt="teljeunes" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className={layoutStyles.card}>
-                      <div className={layoutStyles.cardHeader}>
-                        <div className={layoutStyles.cardTitle}>
-                          <h3>
-                            <Trans id="msg.resource_quebec_nurse">
-                              To speak to a nurse or a social worker about a
-                              health concern, call Info-Santé
-                            </Trans>
-                          </h3>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardBody}>
-                        <div className={layoutStyles.cardText}>
-                          <ul>
-                            <li>
-                              <a href="tel:811">
-                                <i className="material-icons">phone</i> 8-1-1
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className={layoutStyles.cardFooter}>
-                        <div className={layoutStyles.cardImage}>
-                          <img src="/811.png" alt="811" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {language === "fr" ? quebecContent() : ontarioContent()}
+              {language === "en" ? quebecContent() : ontarioContent()}
             </div>
           </div>
         </div>
