@@ -11,7 +11,7 @@ import { Trans } from "@lingui/macro"
 
 const Sidebar = props => {
   const [url, setUrl] = React.useState("")
-  const [language, setLanguage] = React.useState(props.language)
+  const [language, setLanguage] = React.useState("en")
 
   React.useEffect(() => {
     setUrl(window.location.pathname)
