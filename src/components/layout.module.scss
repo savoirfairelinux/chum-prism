@@ -139,7 +139,7 @@ p {
 @media (min-width: $sm) and (max-width: $lg) {
   .main {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -171,7 +171,7 @@ p {
 @media (min-width: $lg) {
   .sidebar {
     width: 20%;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .sidebar-mainWeb h1 {
@@ -185,7 +185,7 @@ p {
 
 @media (min-width: $sm) and (max-width: $lg) {
   .sidebar {
-    width: 25%;
+    width: 20%;
     padding: 1rem;
   }
 
@@ -522,7 +522,6 @@ button {
   border-radius: 15px;
   box-shadow: 3px 3px #c5c5c5;
   font-weight: bold;
-  width: 18rem;
   cursor: pointer;
 }
 
@@ -564,35 +563,70 @@ button {
   }
 }
 
-.formsButton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 @media (min-width: $lg) {
+  .formsButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
   .formsButtonSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .formsButtonSection {
+    & button {
+      width: 30rem;
+    }
   }
 }
 
 @media (min-width: $sm) and (max-width: $lg) {
+  .formsButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
   .formsButtonSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+  }
+
+  .formsButtonSection {
+    & a {
+      width: 20rem;
+      margin: 1rem;
+    }
+
+    & button {
+      width: 20rem;
+      margin: 1rem;
+    }
   }
 }
 
 @media only screen and (max-width: $sm) {
+  .formsButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
   button {
     margin: 0;
     margin-bottom: 1rem;
