@@ -1,6 +1,9 @@
 $background-color: #f3f3f3;
 
-$higher-interval: 1450px;
+$sm: 720px;
+$md: 920px;
+$lg: 1440px;
+$xl: 1920px;
 
 .footerContainer {
   width: 100%;
@@ -30,7 +33,7 @@ $higher-interval: 1450px;
   font-size: 10px;
 }
 
-@media (min-width: 767px) and (max-width: $higher-interval) {
+@media (min-width: $sm) and (max-width: $lg) {
   .footer {
     display: flex;
     flex-direction: row;
@@ -54,7 +57,7 @@ $higher-interval: 1450px;
   }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: $sm) {
   .footer {
     display: block;
   }

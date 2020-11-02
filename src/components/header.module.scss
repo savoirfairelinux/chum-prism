@@ -1,4 +1,7 @@
-$higher-interval: 1450px;
+$sm: 720px;
+$md: 920px;
+$lg: 1440px;
+$xl: 1920px;
 
 .header {
   margin: 2rem;
@@ -32,7 +35,7 @@ $higher-interval: 1450px;
   width: 15rem;
 }
 
-@media (min-width: 767px) and (max-width: $higher-interval) {
+@media (min-width: $sm) and (max-width: $lg) {
   .logo1 {
     width: 25rem;
   }
@@ -41,7 +44,7 @@ $higher-interval: 1450px;
   }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: $sm) {
   .logo1 {
     width: 13rem;
   }
