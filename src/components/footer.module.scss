@@ -21,16 +21,27 @@ $xl: 1920px;
   margin-right: 1.5rem;
 }
 
-.footerText {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 23rem;
-  margin-right: 23rem;
-}
-
 .footerText p {
   color: black;
   font-size: 10px;
+}
+
+@media (min-width: $xl) {
+  .footerText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+}
+
+@media (min-width: $lg) and (max-width: $xl) {
+  .footerText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 @media (min-width: $sm) and (max-width: $lg) {
@@ -47,7 +58,10 @@ $xl: 1920px;
   }
 
   .footerText {
-    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .footerText p {
