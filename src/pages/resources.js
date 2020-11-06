@@ -156,7 +156,7 @@ const Resources = ({ location }) => {
                   </li>
                   <li>
                     <i className="material-icons">language</i>{" "}
-                    <a href="https://www.teljeunes.com/Tel-jeunes-en" target="_blank">
+                    <a href={language === "fr" ? "https://www.teljeunes.com/" : "https://www.teljeunes.com/Tel-jeunes-en"} target="_blank">
                     <Trans id="msg.resource_quebec_tel_jeune_chat">
                       www.teljeunes.com/Tel-jeunes-en (live chat
                       available)
@@ -297,7 +297,7 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
-                        <a href="http://www.kidshelpphone.ca" target="_blank">
+                        <a href={language === "fr" ? "http://www.jeunessejecoute.ca/" : "http://www.kidshelpphone.ca"} target="_blank">
                         <Trans id="msg.resource_kid_help_phone_web">
                           www.kidshelpphone.ca (live chat available)
                         </Trans>
@@ -332,7 +332,7 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
-                        <a href="https://www.hopeforwellness.ca" target="_blank">
+                        <a href={language === "fr" ? "https://www.espoirpourlemieuxetre.ca/" : "https://www.hopeforwellness.ca"} target="_blank">
                         <Trans id="msg.resource_first_nation_web">
                           www.hopeforwellness.ca (live chat available)
                         </Trans>
@@ -367,7 +367,7 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
-                        <a href="https://www.interligne.co/en" target="_blank">
+                        <a href={language === "fr" ? "https://www.interligne.co" : "https://www.interligne.co/en"} target="_blank">
                         <Trans id="msg.resource_LGBTQIA2SP_web">
                           www.interligne.co/en (live chat available)
                         </Trans>
