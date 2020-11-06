@@ -72,17 +72,17 @@ const Sidebar = props => {
           </div>
           <div className={layoutStyles.mainNavList}>
             
-              <p><a href={language === "fr" ? "http://www.jeunessejecoute.ca/" : "https://www.kidshelpphone.ca"} target="_blank"><Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans></a></p>
+              <p><a href={language === "fr" ? "http://www.jeunessejecoute.ca/" : "http://www.kidshelpphone.ca"} target="_blank"><Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans></a></p>
               <p><a href={language === "fr" ? "https://www.teljeunes.com" : "https://www.teljeunes.com/Tel-jeunes-en"} target="_blank">Tel-jeunes</a></p>
               <p>
-                <a href={language === "fr" ? "https://www.hopeforwellness.ca" : "https://www.espoirpourlemieuxetre.ca/"} target="_blank">
+                <a href={language === "fr" ? "https://www.espoirpourlemieuxetre.ca/" : "https://www.hopeforwellness.ca"} target="_blank">
                   <Trans id="msg.sidebar_first_nation">
                     First Nations and Inuit Hope for Wellness Help Line
                   </Trans>
                 </a>
               </p>
               <p>
-                <a href="https://www.interligne.co/" target="_blank">
+                <a href={language === "fr" ? "https://www.interligne.co/" : "https://www.interligne.co/en"} target="_blank">
                   <Trans id="msg.sidebar_LGBTQIA2SP">
                     Interligne (for the LGBTQIA2SP+ community)
                   </Trans>
