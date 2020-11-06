@@ -46,15 +46,15 @@ const PrivacyPolicyPage = ({ location }) => {
             <Trans id="msg.privacy_policy_link1">
               For more information about ACCESS Open Minds, visit:
             </Trans>{" "}
-            <a href={language === "fr" ? "https://accessopenminds.ca/fr" : "https://accessopenminds.ca/"} >
-              https://accessopenminds.ca/
+            <a href={language === "fr" ? "https://accessopenminds.ca/fr" : "https://accessopenminds.ca/"} target="_blank">
+            {language === "fr" ? "https://accessopenminds.ca/fr" : "https://accessopenminds.ca/"}
             </a>
           </p>
           <p>
             <Trans id="msg.privacy_policy_link2">
               For more information about PRISM-ACCESS Open Minds, visit:
             </Trans>{" "}
-            <a href={language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"}>https://www.ymhtech.com</a>
+            <a href={language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"} target="_blank">{language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"}</a>
           </p>
 
           <h1>
