@@ -343,7 +343,7 @@ const Resources = ({ location }) => {
                 </div>
                 <div className={layoutStyles.cardFooter}>
                   <div className={layoutStyles.cardImage}>
-                    <img src="/firstnation.jpg" alt="Fist nation" />
+                    <img src="/firstnation.png" alt="First nation" />
                   </div>
                 </div>
               </div>
@@ -405,7 +405,7 @@ const Resources = ({ location }) => {
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
-                        <a href="https://www.211.ca" target="_blank">
+                        <a href={language === "fr" ? "https://211.ca/fr" : "https://www.211.ca"} target="_blank">
                         www.211.ca
                         </a>
                       </li>

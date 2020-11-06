@@ -45,7 +45,7 @@ const IndexPage = ({ location }) => {
           <div className={layoutStyles.formsButtonSection}>
             <a href="https://staging.tickitforhealth.com/app/rbe?identifier=" target="_blank">
               <button className={layoutStyles.formsButton}>
-                <Trans id="msg.forms_yourself">YOURSELF</Trans>
+                <p><Trans id="msg.forms_yourself">YOURSELF</Trans></p>
                 <img
                   src="/oneperson.png"
                   alt="One person"
@@ -55,7 +55,7 @@ const IndexPage = ({ location }) => {
             </a>
             <a href="https://staging.tickitforhealth.com/app/dji?identifier=" target="_blank">
               <button className={layoutStyles.formsButton}>
-                <Trans id="msg.forms_seomeone_else">SOMEONE ELSE</Trans>
+                <p><Trans id="msg.forms_seomeone_else">SOMEONE ELSE</Trans></p>
                 <img
                   src="/twopersons.png"
                   alt="Two person"
