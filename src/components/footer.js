@@ -44,12 +44,11 @@ const Footer = () => {
 
   return (
     <div className={footerStyles.footerContainer}>
-        {/* <div className={footerStyles.footer}>
+        <div className={footerStyles.footer}>
           <a href="https://www.chumontreal.qc.ca/crchum" target="_blank"><img src={"/crchum_logo.png"} alt="CR Chum" /></a>
           <a href="https://www.ymhtech.com" target="_blank"><img src={"/youth_menthal_health_logo.png"} alt="Youth menthal health" /></a>
           <a href="https://douglas.research.mcgill.ca/" target="_blank"><img src={"/logo_douglas.png"} alt="Douglas" /></a>
-        </div> */}
-        <img src={"/main_footer.png"} alt="Main footer"/>
+        </div>
         <div className={footerStyles.footerText}>
           {getFooterText()}
         </div>
