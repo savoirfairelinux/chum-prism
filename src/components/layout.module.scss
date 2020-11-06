@@ -336,6 +336,12 @@ p {
     text-decoration: none;
     color: $button-background-color;
   }
+
+  ul > li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
 }
 
 .left {
@@ -537,29 +543,13 @@ button {
   color: $title-color;
   font-size: 24px;
 }
-
 .formsButtonSection {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  p {
+    color: white;
+  }
 
   & a {
     text-decoration: none;
-  }
-
-  & .image1 {
-    height: 5rem;
-    width: 10rem;
-  }
-
-  & .image2 {
-    height: 5rem;
-    width: 6rem;
-  }
-
-  & button {
-    width: 30rem;
   }
 }
 
@@ -569,7 +559,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     font-weight: bold;
   }
 
@@ -585,15 +574,28 @@ button {
       width: 30rem;
     }
   }
+
+  & .image1 {
+    height: 5rem;
+    width: 6rem;
+  }
+
+  & .image2 {
+    height: 5rem;
+    width: 6rem;
+  }
+
+  & button {
+    width: 30rem;
+    p {
+      font-size: 1.8rem;
+    }
+  }
 }
 
 @media (min-width: $sm) and (max-width: $lg) {
   .formsButton {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
   }
 
@@ -606,14 +608,31 @@ button {
 
   .formsButtonSection {
     & a {
-      width: 20rem;
+      height: 13rem;
+      width: 100%;
       margin: 1rem;
+      padding-bottom: 1rem;
     }
 
     & button {
-      width: 20rem;
+      height: 13rem;
+      width: 100%;
       margin: 1rem;
+
+      p {
+        font-size: 1.5rem;
+      }
     }
+  }
+
+  & .image1 {
+    height: 5rem;
+    width: 6rem;
+  }
+
+  & .image2 {
+    height: 5rem;
+    width: 6rem;
   }
 }
 
@@ -631,6 +650,10 @@ button {
     margin: 0;
     margin-bottom: 1rem;
     width: 100%;
+
+    p {
+      font-size: 1.5rem;
+    }
   }
 
   .right {
@@ -650,6 +673,16 @@ button {
     & button {
       width: 100%;
     }
+  }
+
+  & .image1 {
+    height: 5rem;
+    width: 6rem;
+  }
+
+  & .image2 {
+    height: 5rem;
+    width: 6rem;
   }
 }
 

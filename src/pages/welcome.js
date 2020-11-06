@@ -100,16 +100,26 @@ const IndexPage = ({ location }) => {
         </div>
 
         <div className={layoutStyles.schemaImages}>
-          <img
-            src={"/welcome_illustration_web.png"}
+          {language === "fr" ? <img
+            src={"/welcome_illustration_web_fr.png"}
             alt="Weclome illustration web"
             className={layoutStyles.schemaImageWeb}
-          />
-          <img
-            src={"/welcome_illustration_mobile.png"}
+          /> :           <img
+          src={"/welcome_illustration_web.png"}
+          alt="Weclome illustration web"
+          className={layoutStyles.schemaImageWeb}
+        />}
+          {language === "fr" ? <img
+            src={"/welcome_illustration_mobile_fr.png"}
             alt="Welcome illustration mobile"
             className={layoutStyles.schemaImageMobile}
           />
+          : <img
+              src={"/welcome_illustration_mobile.png"}
+              alt="Welcome illustration mobile"
+              className={layoutStyles.schemaImageMobile}
+            />
+          }
         </div>
 
         <div className={layoutStyles.welcome}>

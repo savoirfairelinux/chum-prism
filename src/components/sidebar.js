@@ -70,17 +70,12 @@ const Sidebar = props => {
               />
             </Link>
           </div>
-          <p>
-            <Trans id="msg.sidebar_other_resources">
-              Here are other resources that could help:
-            </Trans>
-          </p>
           <div className={layoutStyles.mainNavList}>
             
-              <p><a href="https://www.kidshelpphone.ca" target="_blank"><Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans></a></p>
-              <p><a href="https://www.teljeunes.com" target="_blank">Tel-jeunes</a></p>
+              <p><a href={language === "fr" ? "http://www.jeunessejecoute.ca/" : "https://www.kidshelpphone.ca"} target="_blank"><Trans id="msg.sidebar_kids_help_phone">Kids Help Phone</Trans></a></p>
+              <p><a href={language === "fr" ? "https://www.teljeunes.com" : "https://www.teljeunes.com/Tel-jeunes-en"} target="_blank">Tel-jeunes</a></p>
               <p>
-                <a href="https://www.hopeforwellness.ca" target="_blank">
+                <a href={language === "fr" ? "https://www.hopeforwellness.ca" : "https://www.espoirpourlemieuxetre.ca/"} target="_blank">
                   <Trans id="msg.sidebar_first_nation">
                     First Nations and Inuit Hope for Wellness Help Line
                   </Trans>

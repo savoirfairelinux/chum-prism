@@ -53,7 +53,7 @@ msgstr "Voici d'autres ressources qui pourraient vous aider"
 
 #: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
-msgstr "Veuillez cocher la case ci-dessous pour indiquer que vous avez lu, compris et accepté les conditions d'utilisation avant de continuer."
+msgstr "Avant de continuer, veuillez cocher la case ci-dessous pour indiquer que vous avez lu, compris et accepté les conditions d'utilisation."
 
 #: src/pages/privacy-policy.js:61
 msgid "msg.privacy_policy"
