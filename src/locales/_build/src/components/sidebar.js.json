@@ -35,21 +35,12 @@
       ]
     ]
   },
-  "msg.sidebar_other_resources": {
-    "defaults": "Here are other resources that could help:",
-    "origin": [
-      [
-        "src/components/sidebar.js",
-        74
-      ]
-    ]
-  },
   "msg.sidebar_kids_help_phone": {
     "defaults": "Kids Help Phone",
     "origin": [
       [
         "src/components/sidebar.js",
-        81
+        75
       ]
     ]
   },
@@ -58,7 +49,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        86
+        79
       ]
     ]
   },
@@ -67,7 +58,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        93
+        86
       ]
     ]
   },
@@ -76,7 +67,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        99
+        92
       ]
     ]
   },
@@ -85,7 +76,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        103
+        96
       ]
     ]
   },
@@ -94,7 +85,7 @@
     "origin": [
       [
         "src/components/sidebar.js",
-        109
+        102
       ]
     ]
   }
