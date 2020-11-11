@@ -149,7 +149,7 @@ const Resources = ({ location }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+15146001002">
+                    <a href="sms:+15146001002">
                       <i className="material-icons">chat</i>{" "}
                       514-600-1002
                     </a>
@@ -290,10 +290,12 @@ const Resources = ({ location }) => {
                         </a>
                       </li>
                       <li>
-                        <i className="material-icons">chat</i>{" "}
-                        <Trans id="msg.resource_kid_help_phone_chat">
-                          Text CONNECT to 686868
-                        </Trans>
+                        <a href="sms:686868">
+                          <i className="material-icons">chat</i>{" "}
+                          <Trans id="msg.resource_kid_help_phone_chat">
+                            Text CONNECT to 686868
+                          </Trans>
+                        </a>
                       </li>
                       <li>
                         <i className="material-icons">language</i>{" "}
