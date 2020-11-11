@@ -53,14 +53,12 @@ const Resources = ({ location }) => {
             <div className={layoutStyles.cardBody}>
               <div className={layoutStyles.cardText}>
                 <ul>
-                  <li>
-                    <a href="tel:+15194366100">
+                  <li>                  
                       <i className="material-icons">phone</i>{" "}
                       <Trans id="msg.resource_canadian_mental_health_phone_chatman">
                         Chatham Kent Mental Health Crisis Line:
-                        519-436-6100 or 1-866-299-7447
                       </Trans>
-                    </a>
+                      {" "}<a href="tel:+15194366100">519-436-6100</a> <Trans id="msg.or">or</Trans> <a href="tel:+18662997447">1-866-299-7447</a>
                   </li>
 
                   <li>
@@ -68,8 +66,8 @@ const Resources = ({ location }) => {
                       <i className="material-icons">phone</i>{" "}
                       <Trans id="msg.resource_canadian_mental_health_lambton">
                         Lambton Mental Health Crisis Line:
-                        519-336-3445 or 1-800-307-4319
                       </Trans>
+                      {" "}<a href="tel:+15193363445">519-336-3445</a> <Trans id="msg.or">or</Trans> <a href="tel:+18003074319">1-800-307-4319</a>
                     </a>
                   </li>
                 </ul>

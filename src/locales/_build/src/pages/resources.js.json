@@ -18,20 +18,33 @@
     ]
   },
   "msg.resource_canadian_mental_health_phone_chatman": {
-    "defaults": "Chatham Kent Mental Health Crisis Line: 519-436-6100 or 1-866-299-7447",
+    "defaults": "Chatham Kent Mental Health Crisis Line:",
     "origin": [
       [
         "src/pages/resources.js",
-        59
+        58
+      ]
+    ]
+  },
+  "msg.or": {
+    "defaults": "or",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        61
+      ],
+      [
+        "src/pages/resources.js",
+        70
       ]
     ]
   },
   "msg.resource_canadian_mental_health_lambton": {
-    "defaults": "Lambton Mental Health Crisis Line: 519-336-3445 or 1-800-307-4319",
+    "defaults": "Lambton Mental Health Crisis Line:",
     "origin": [
       [
         "src/pages/resources.js",
-        69
+        67
       ]
     ]
   },
@@ -40,7 +53,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        88
+        86
       ]
     ]
   },
@@ -49,7 +62,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        124
+        122
       ]
     ]
   },
@@ -58,7 +71,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        136
+        134
       ]
     ]
   },
@@ -67,7 +80,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        160
+        158
       ]
     ]
   },
@@ -76,7 +89,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        179
+        177
       ]
     ]
   },
@@ -85,7 +98,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        232
+        230
       ]
     ]
   },
@@ -94,7 +107,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        244
+        242
       ]
     ]
   },
@@ -103,7 +116,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        250
+        248
       ]
     ]
   },
@@ -112,7 +125,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        261
+        259
       ]
     ]
   },
@@ -121,7 +134,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        266
+        264
       ]
     ]
   },
@@ -130,7 +143,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        278
+        276
       ]
     ]
   },
@@ -139,7 +152,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        294
+        293
       ]
     ]
   },
