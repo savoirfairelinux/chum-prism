@@ -13,9 +13,17 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/main.js:47
+msgid "msg.about_the_prism_access_open_minds_project"
+msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
+
 #: src/pages/privacy-policy.js:107
 msgid "msg.back"
 msgstr "Précédent"
+
+#: src/pages/main.js:97
+msgid "msg.click_here_for_the_form"
+msgstr "CLIQUEZ ICI POUR LE FORMULAIRE"
 
 #: src/pages/term-of-use.js:122
 #: src/pages/term-of-use.js:127
@@ -51,10 +59,46 @@ msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouve
 msgid "msg.here_are_other_ressources"
 msgstr "Voici d'autres ressources qui pourraient vous aider"
 
+#: src/pages/main.js:53
+msgid "msg.main_page_p1"
+msgstr "PRISM-ACCESS Esprits Ouverts est un projet de recherche mené en collaboration avec le réseau pancanadien ACCESS Esprits Ouverts pour la transformation des services de santé mentale destinés aux jeunes, des organismes communautaires (p. ex. Jeunesse J'écoute, mindyourmind) ainsi que les entreprises canadiennes de technologies de la santé."
+
+#: src/pages/main.js:58
+msgid "msg.main_page_p2"
+msgstr "PRISM-AEO vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
+
+#: src/pages/main.js:63
+msgid "msg.main_page_p3"
+msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM-AEO. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
+
+#: src/pages/main.js:70
+msgid "msg.main_page_p4"
+msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou contacter un des services énumérés à droite de cette page."
+
+#: src/pages/main.js:68
+msgid "msg.main_page_p4_intro"
+msgstr "PRISM-AEO n'est pas un service d'urgence."
+
+#: src/pages/main.js:75
+msgid "msg.main_page_p5"
+msgstr "Parmi les partenaires clé figurent : ACCESS Esprits ouverts, Strata Santé, des jeunes, des familles et des aidants, Tickit Health, Savoir-faire Linux, Jeunesse j’écoute, La jeunesse au coeur de l'action (W2A) et mindyourmind."
+
+#: src/pages/main.js:83
+msgid "msg.main_page_p6"
+msgstr "Le projet a été mis en ligne ! Cliquez sur le lien ci-dessous si vous souhaitez accéder au formulaire de référence."
+
+#: src/pages/main.js:88
+msgid "msg.main_page_p7"
+msgstr "*Veuillez prendre note que ceci est un nouveau service de référence actuellement à l'essai pour les jeunes de 11 à 25 ans au Canada vivant au centre- ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario."
+
 #: src/pages/resources.js:61
 #: src/pages/resources.js:70
 msgid "msg.or"
 msgstr "ou"
+
+#: src/pages/main.js:41
+msgid "msg.pathway_for_rapid"
+msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse"
 
 #: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
@@ -103,6 +147,14 @@ msgstr "De plus, si vous avez moins de 14 ans, l’équipe de santé mentale jeu
 #: src/pages/privacy-policy.js:83
 msgid "msg.privacy_policy_under_17"
 msgstr "Si vous avez moins de 17 ans et que vous avez signalé un abus physique ou sexuel ;"
+
+#: src/pages/main.js:50
+msgid "msg.project_summary"
+msgstr "Résumé du projet"
+
+#: src/pages/main.js:80
+msgid "msg.project_updates"
+msgstr "Mises à jour"
 
 #: src/pages/resources.js:354
 msgid "msg.resource_LGBTQIA2SP"

@@ -33,6 +33,12 @@ $xl: 1920px;
     margin-left: 25rem;
     margin-right: 25rem;
   }
+
+  .mainFooter img {
+    height: 10rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 @media (min-width: $lg) and (max-width: $xl) {
@@ -41,6 +47,12 @@ $xl: 1920px;
     margin-bottom: 1rem;
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  .mainFooter img {
+    width: 30rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
 
@@ -69,6 +81,12 @@ $xl: 1920px;
     font-size: 10px;
     margin: 1rem;
   }
+
+  .mainFooter img {
+    width: 30rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: $sm) {
@@ -89,5 +107,11 @@ $xl: 1920px;
     color: black;
     font-size: 10px;
     margin: 1rem;
+  }
+
+  .mainFooter img {
+    width: 20rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }

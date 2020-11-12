@@ -13,9 +13,17 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/main.js:47
+msgid "msg.about_the_prism_access_open_minds_project"
+msgstr "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT"
+
 #: src/pages/privacy-policy.js:107
 msgid "msg.back"
 msgstr "BACK"
+
+#: src/pages/main.js:97
+msgid "msg.click_here_for_the_form"
+msgstr "Click here for the form"
 
 #: src/pages/term-of-use.js:122
 #: src/pages/term-of-use.js:127
@@ -51,10 +59,46 @@ msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 msgid "msg.here_are_other_ressources"
 msgstr "Here are other resources that could help"
 
+#: src/pages/main.js:53
+msgid "msg.main_page_p1"
+msgstr "PRISM-ACCESS Open Minds is a services research project conducted in collaboration with the ACCESS Open Minds pan-Canadian network for youth mental health service transformation, community organizations (e.g., Kids Help Phone, mindyourmind), and Canadian-based health technology companies."
+
+#: src/pages/main.js:58
+msgid "msg.main_page_p2"
+msgstr "PRISM-AOM aims to develop, implement, and evaluate the use of an online self-referral pathway to facilitate rapid and direct access to mental health services for youth."
+
+#: src/pages/main.js:63
+msgid "msg.main_page_p3"
+msgstr "Through this pathway, youth with mental health concerns will be able to connect with, and refer themselves directly to a local team specializing in youth mental health care using their phone, computer, or tablet. Parents and service providers will also be able to refer a young person to mental health services via PRISM-AOM. Clinicians will be able to triage, track, and manage referrals through a secured platform."
+
+#: src/pages/main.js:70
+msgid "msg.main_page_p4"
+msgstr "If you are in a crisis, please call 9-1-1 or contact one of the services listed on the right side of this page."
+
+#: src/pages/main.js:68
+msgid "msg.main_page_p4_intro"
+msgstr "PRISM-AOM is not an emergency service."
+
+#: src/pages/main.js:75
+msgid "msg.main_page_p5"
+msgstr "Key partners include: ACCESS Open Minds, Strata Health Solutions, Youth and Family representatives, Tickit Health, Savoir-faire Linux, Kids Help Phone, Wisdom2Action, and mindyourmind."
+
+#: src/pages/main.js:83
+msgid "msg.main_page_p6"
+msgstr "The project has gone live! Click the link below if you would like to access the referral form."
+
+#: src/pages/main.js:88
+msgid "msg.main_page_p7"
+msgstr "*Please note that this is a new referral service that is being piloted for youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario."
+
 #: src/pages/resources.js:61
 #: src/pages/resources.js:70
 msgid "msg.or"
 msgstr "or"
+
+#: src/pages/main.js:41
+msgid "msg.pathway_for_rapid"
+msgstr "Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth"
 
 #: src/pages/term-of-use.js:135
 msgid "msg.popup_terms"
@@ -103,6 +147,14 @@ msgstr "Also, if you are under 14, the youth mental health team will need to con
 #: src/pages/privacy-policy.js:83
 msgid "msg.privacy_policy_under_17"
 msgstr "If you are under 17 and have reported physical or sexual abuse;"
+
+#: src/pages/main.js:50
+msgid "msg.project_summary"
+msgstr "Project Summary"
+
+#: src/pages/main.js:80
+msgid "msg.project_updates"
+msgstr "Project Updates"
 
 #: src/pages/resources.js:354
 msgid "msg.resource_LGBTQIA2SP"
