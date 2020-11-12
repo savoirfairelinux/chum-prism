@@ -112,7 +112,7 @@ const Resources = ({ location }) => {
                     <a href="tel:+15193544095" className={layoutStyles.mobile}>
                       <button>
                       <i className="material-icons">phone</i>{" "}
-                      <p>519-354-4095</p>
+                      <p><Trans id="msg.call">CALL</Trans></p>
                       </button>
                     </a>
                   </li>
@@ -228,7 +228,7 @@ const Resources = ({ location }) => {
                     </a>
                     <a href="tel:811" className={layoutStyles.mobile}>
                       <button>
-                        <i className="material-icons">phone</i> <p>8-1-1</p>
+                        <i className="material-icons">phone</i> <p><Trans id="msg.call_811">CALL 811</Trans></p>
                       </button>
                     </a>
                   </li>
