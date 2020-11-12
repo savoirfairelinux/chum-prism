@@ -1326,6 +1326,29 @@ body {
     width: 100%;
   }
 
+  .mainResourceContainer {
+    .web {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 3rem;
+      text-align: center;
+      p {
+        margin-left: 5px;
+        color: white;
+      }
+    }
+  }
+
   .mainResources {
     width: 100%;
   }
@@ -1421,9 +1444,29 @@ body {
   justify-content: space-between;
 }
 
+.card {
+  h3 {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: orange;
+  }
+}
+
 @media (min-width: $xl) {
+  .mobile {
+    display: none;
+  }
+  .web {
+    display: block;
+  }
+
   .resource-container > .card {
-    min-height: 410px;
+    min-height: 450px;
     height: 100%;
   }
 
@@ -1487,8 +1530,15 @@ body {
 }
 
 @media (min-width: $lg) and (max-width: $xl) {
+  .mobile {
+    display: none;
+  }
+  .web {
+    display: block;
+  }
+
   .resource-container > .card {
-    min-height: 450px;
+    min-height: 550px;
     height: 100%;
   }
 
@@ -1512,16 +1562,6 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    h3 {
-      display: block;
-      font-size: 1.17em;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-weight: bold;
-      color: orange;
-    }
     &-title {
       color: $button-background-color;
     }
@@ -1562,8 +1602,15 @@ body {
 }
 
 @media (min-width: $md) and (max-width: $lg) {
+  .mobile {
+    display: none;
+  }
+  .web {
+    display: block;
+  }
+
   .resource-container > .card {
-    min-height: 400px;
+    min-height: 430px;
     height: 100%;
   }
 
@@ -1590,6 +1637,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    color: orange;
     &-title {
       color: $button-background-color;
     }
@@ -1631,8 +1679,15 @@ body {
 }
 
 @media (min-width: $sm) and (max-width: $md) {
+  .mobile {
+    display: none;
+  }
+  .web {
+    display: block;
+  }
+
   .resource-container > .card {
-    min-height: 440px;
+    min-height: 520px;
     height: 100%;
   }
 
@@ -1700,24 +1755,57 @@ body {
 }
 
 @media only screen and (max-width: $sm) {
+  .mobile {
+    display: block;
+  }
+  .web {
+    display: none;
+  }
+
   .seconde-resource-container {
     flex-direction: column;
   }
 
   .card {
     &-title {
-      margin: 1rem;
       color: $button-background-color;
     }
     &-text {
-      margin: 1rem;
       color: orange;
       a {
         color: white;
         text-decoration: none;
+        :hover {
+          color: orange;
+          background-color: white;
+
+          p {
+            color: orange;
+          }
+        }
       }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
       li {
         color: white;
+      }
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        text-align: center;
+        p {
+          margin-left: 5px;
+          color: white;
+        }
       }
     }
     &-footer {
@@ -1730,6 +1818,7 @@ body {
       text-align: center;
       position: relative;
       img {
+        margin: 1rem;
         height: 100px;
       }
     }
