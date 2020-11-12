@@ -35,12 +35,86 @@ $xl: 1920px;
   width: 15rem;
 }
 
-@media (min-width: $sm) and (max-width: $lg) {
+@media (min-width: $lg) {
+  /* Main page header Layout*/
+
+  .headerMain {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    div {
+      width: 33%;
+    }
+  }
+
+  .homeButtonsHeader {
+    & button {
+      font-size: 1rem;
+      padding: 0;
+      margin: 1rem;
+      width: 6rem;
+      height: 2.5rem;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (min-width: $md) and (max-width: $lg) {
+  /* Main page header Layout*/
+
+  .headerMain {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    div {
+      width: 33%;
+    }
+  }
+
+  .homeButtonsHeader {
+    & button {
+      font-size: 1rem;
+      padding: 0;
+      margin: 1rem;
+      width: 6rem;
+      height: 2.5rem;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (min-width: $sm) and (max-width: $md) {
   .logo1 {
     width: 25rem;
   }
   .logo2 {
     width: 15rem;
+  }
+
+  /* Main page header Layout*/
+
+  .headerMain {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeButtonsHeader {
+    & button {
+      font-size: 1rem;
+      padding: 0;
+      margin: 1rem;
+      width: 6rem;
+      height: 2.5rem;
+      border-radius: 10px;
+    }
   }
 }
 
@@ -50,5 +124,25 @@ $xl: 1920px;
   }
   .logo2 {
     width: 12rem;
+  }
+
+  .headerMain {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .homeButtonsHeader {
+    & button {
+      font-size: 1rem;
+      padding: 0;
+      margin: 1rem;
+      width: 6rem;
+      height: 2.5rem;
+      border-radius: 10px;
+    }
   }
 }
