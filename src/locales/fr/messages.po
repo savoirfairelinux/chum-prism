@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/main.js:47
+#: src/pages/main.js:39
 msgid "msg.about_the_prism_access_open_minds_project"
 msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
 
@@ -21,7 +21,30 @@ msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
 msgid "msg.back"
 msgstr "Précédent"
 
-#: src/pages/main.js:97
+#: src/pages/resources.js:167
+#: src/pages/resources.js:336
+#: src/pages/resources.js:400
+#: src/pages/resources.js:450
+msgid "msg.call"
+msgstr "APPELER"
+
+#: src/pages/resources.js:505
+msgid "msg.call_211"
+msgstr "APPELER 211"
+
+#: src/pages/resources.js:231
+msgid "msg.call_811"
+msgstr "APPELER 811"
+
+#: src/pages/resources.js:195
+#: src/pages/resources.js:367
+#: src/pages/resources.js:415
+#: src/pages/resources.js:465
+#: src/pages/resources.js:521
+msgid "msg.chat"
+msgstr "CLAVARDER"
+
+#: src/pages/main.js:89
 msgid "msg.click_here_for_the_form"
 msgstr "CLIQUEZ ICI POUR LE FORMULAIRE"
 
@@ -59,44 +82,44 @@ msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouve
 msgid "msg.here_are_other_ressources"
 msgstr "Voici d'autres ressources qui pourraient vous aider"
 
-#: src/pages/main.js:53
+#: src/pages/main.js:45
 msgid "msg.main_page_p1"
 msgstr "PRISM-ACCESS Esprits Ouverts est un projet de recherche mené en collaboration avec le réseau pancanadien ACCESS Esprits Ouverts pour la transformation des services de santé mentale destinés aux jeunes, des organismes communautaires (p. ex. Jeunesse J'écoute, mindyourmind) ainsi que les entreprises canadiennes de technologies de la santé."
 
-#: src/pages/main.js:58
+#: src/pages/main.js:50
 msgid "msg.main_page_p2"
 msgstr "PRISM-AEO vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
 
-#: src/pages/main.js:63
+#: src/pages/main.js:55
 msgid "msg.main_page_p3"
 msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM-AEO. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
 
-#: src/pages/main.js:70
+#: src/pages/main.js:62
 msgid "msg.main_page_p4"
 msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou contacter un des services énumérés à droite de cette page."
 
-#: src/pages/main.js:68
+#: src/pages/main.js:60
 msgid "msg.main_page_p4_intro"
 msgstr "PRISM-AEO n'est pas un service d'urgence."
 
-#: src/pages/main.js:75
+#: src/pages/main.js:67
 msgid "msg.main_page_p5"
 msgstr "Parmi les partenaires clé figurent : ACCESS Esprits ouverts, Strata Santé, des jeunes, des familles et des aidants, Tickit Health, Savoir-faire Linux, Jeunesse j’écoute, La jeunesse au coeur de l'action (W2A) et mindyourmind."
 
-#: src/pages/main.js:83
+#: src/pages/main.js:75
 msgid "msg.main_page_p6"
 msgstr "Le projet a été mis en ligne ! Cliquez sur le lien ci-dessous si vous souhaitez accéder au formulaire de référence."
 
-#: src/pages/main.js:88
+#: src/pages/main.js:80
 msgid "msg.main_page_p7"
 msgstr "*Veuillez prendre note que ceci est un nouveau service de référence actuellement à l'essai pour les jeunes de 11 à 25 ans au Canada vivant au centre- ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario."
 
-#: src/pages/resources.js:61
-#: src/pages/resources.js:70
+#: src/pages/resources.js:63
+#: src/pages/resources.js:77
 msgid "msg.or"
 msgstr "ou"
 
-#: src/pages/main.js:41
+#: src/pages/main.js:33
 msgid "msg.pathway_for_rapid"
 msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse"
 
@@ -148,27 +171,27 @@ msgstr "De plus, si vous avez moins de 14 ans, l’équipe de santé mentale jeu
 msgid "msg.privacy_policy_under_17"
 msgstr "Si vous avez moins de 17 ans et que vous avez signalé un abus physique ou sexuel ;"
 
-#: src/pages/main.js:50
+#: src/pages/main.js:42
 msgid "msg.project_summary"
 msgstr "Résumé du projet"
 
-#: src/pages/main.js:80
+#: src/pages/main.js:72
 msgid "msg.project_updates"
 msgstr "Mises à jour"
 
-#: src/pages/resources.js:354
+#: src/pages/resources.js:435
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (pour la communauté LGBTQIA2SP+)"
 
-#: src/pages/resources.js:371
+#: src/pages/resources.js:457
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co (clavardage en ligne disponible)"
 
-#: src/pages/resources.js:86
+#: src/pages/resources.js:96
 msgid "msg.resource_WAYS"
 msgstr "WAYS Programme de soutien dans la communauté et en cas de crise (ligne de crise ouverte 24h/7 pour les jeunes de 6 à 18 ans et leurs familles)"
 
-#: src/pages/resources.js:401
+#: src/pages/resources.js:497
 msgid "msg.resource_call_211"
 msgstr "Composez le 2-1-1"
 
@@ -176,7 +199,7 @@ msgstr "Composez le 2-1-1"
 msgid "msg.resource_canadian_mental_health"
 msgstr "La ligne de crise de l’Association canadienne est ouverte 24h (pour toute personne de 16 ans et plus à Lambton County et Kent County)"
 
-#: src/pages/resources.js:67
+#: src/pages/resources.js:72
 msgid "msg.resource_canadian_mental_health_lambton"
 msgstr "Ligne de crise pour la santé mentale de Lambton: "
 
@@ -184,40 +207,40 @@ msgstr "Ligne de crise pour la santé mentale de Lambton: "
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Ligne de crise pour la santé mentale de Chatham Kent:"
 
-#: src/pages/resources.js:259
+#: src/pages/resources.js:307
 msgid "msg.resource_emergency_department"
 msgstr "ou dirigez-vous aux urgences le plus proche."
 
-#: src/pages/resources.js:230
+#: src/pages/resources.js:273
 msgid "msg.resource_exit"
 msgstr "Cliquer sur le logo pour sortir de cette page"
 
-#: src/pages/resources.js:389
+#: src/pages/resources.js:485
 msgid "msg.resource_find_other"
 msgstr "Pour trouver une autre ressource près de vous"
 
-#: src/pages/resources.js:319
+#: src/pages/resources.js:385
 msgid "msg.resource_first_nation"
 msgstr "Ligne d'écoute d'espoir pour le mieux-être des Premières Nations et des Inuits"
 
-#: src/pages/resources.js:336
+#: src/pages/resources.js:407
 msgid "msg.resource_first_nation_web"
 msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 
 #: src/components/sidebar.js:41
-#: src/pages/resources.js:242
+#: src/pages/resources.js:285
 msgid "msg.resource_header"
 msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
 
-#: src/pages/resources.js:276
+#: src/pages/resources.js:324
 msgid "msg.resource_kid_help_phone"
 msgstr "Parlez à un-e intervenant-e de Jeunesse, J’écoute"
 
-#: src/pages/resources.js:293
+#: src/pages/resources.js:351
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Texter “PARLER” au 686868"
 
-#: src/pages/resources.js:301
+#: src/pages/resources.js:359
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.jeunessejecoute.ca   (clavardage en ligne disponible)"
 
@@ -225,27 +248,27 @@ msgstr "www.jeunessejecoute.ca   (clavardage en ligne disponible)"
 msgid "msg.resource_ontario"
 msgstr "Ressources spécifiques à l’Ontario:"
 
-#: src/pages/resources.js:264
+#: src/pages/resources.js:312
 msgid "msg.resource_other_resources"
 msgstr "Voici d'autres ressources qui pourraient aider (toutes gratuites, disponibles 24/7). Tous les services sont offerts en anglais et en français."
 
-#: src/pages/resources.js:122
+#: src/pages/resources.js:138
 msgid "msg.resource_quebec"
 msgstr "Ressources spécifiques au Québec:"
 
-#: src/pages/resources.js:177
+#: src/pages/resources.js:215
 msgid "msg.resource_quebec_nurse"
 msgstr "Pour communiquer avec une infirmièr-e ou un-e intervenant-e en travail social au sujet d’un problème de santé, appelez Info-Santé"
 
-#: src/pages/resources.js:134
+#: src/pages/resources.js:150
 msgid "msg.resource_quebec_tel_jeune"
 msgstr "Pour contacter un-e intervenant-e de Tel-jeunes"
 
-#: src/pages/resources.js:158
+#: src/pages/resources.js:186
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes (clavardage en ligne disponible)"
 
-#: src/pages/resources.js:248
+#: src/pages/resources.js:291
 msgid "msg.resource_urgent_situation"
 msgstr "S’il y a une situation d’urgence (ex. pertes de contrôle, idées agressives ou idées suicidaires), veuillez composer le:"
 
@@ -336,6 +359,14 @@ msgstr "Si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse pou
 #: src/pages/term-of-use.js:66
 msgid "msg.term_of_use_wrongly"
 msgstr "Vous n'utiliserez pas le formulaire de manière malveillante (p. ex. en envoyant des spams ou en saisissant de fausses informations)."
+
+#: src/pages/resources.js:179
+msgid "msg.text"
+msgstr "TEXTER"
+
+#: src/pages/resources.js:346
+msgid "msg.text_connect"
+msgstr "TEXTER \"PARLER\" "
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"

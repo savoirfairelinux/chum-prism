@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/main.js:47
+#: src/pages/main.js:39
 msgid "msg.about_the_prism_access_open_minds_project"
 msgstr "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT"
 
@@ -21,7 +21,30 @@ msgstr "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT"
 msgid "msg.back"
 msgstr "BACK"
 
-#: src/pages/main.js:97
+#: src/pages/resources.js:167
+#: src/pages/resources.js:336
+#: src/pages/resources.js:400
+#: src/pages/resources.js:450
+msgid "msg.call"
+msgstr "CALL"
+
+#: src/pages/resources.js:505
+msgid "msg.call_211"
+msgstr "CALL 211"
+
+#: src/pages/resources.js:231
+msgid "msg.call_811"
+msgstr "CALL 811"
+
+#: src/pages/resources.js:195
+#: src/pages/resources.js:367
+#: src/pages/resources.js:415
+#: src/pages/resources.js:465
+#: src/pages/resources.js:521
+msgid "msg.chat"
+msgstr "CHAT"
+
+#: src/pages/main.js:89
 msgid "msg.click_here_for_the_form"
 msgstr "Click here for the form"
 
@@ -59,44 +82,44 @@ msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 msgid "msg.here_are_other_ressources"
 msgstr "Here are other resources that could help"
 
-#: src/pages/main.js:53
+#: src/pages/main.js:45
 msgid "msg.main_page_p1"
 msgstr "PRISM-ACCESS Open Minds is a services research project conducted in collaboration with the ACCESS Open Minds pan-Canadian network for youth mental health service transformation, community organizations (e.g., Kids Help Phone, mindyourmind), and Canadian-based health technology companies."
 
-#: src/pages/main.js:58
+#: src/pages/main.js:50
 msgid "msg.main_page_p2"
 msgstr "PRISM-AOM aims to develop, implement, and evaluate the use of an online self-referral pathway to facilitate rapid and direct access to mental health services for youth."
 
-#: src/pages/main.js:63
+#: src/pages/main.js:55
 msgid "msg.main_page_p3"
 msgstr "Through this pathway, youth with mental health concerns will be able to connect with, and refer themselves directly to a local team specializing in youth mental health care using their phone, computer, or tablet. Parents and service providers will also be able to refer a young person to mental health services via PRISM-AOM. Clinicians will be able to triage, track, and manage referrals through a secured platform."
 
-#: src/pages/main.js:70
+#: src/pages/main.js:62
 msgid "msg.main_page_p4"
 msgstr "If you are in a crisis, please call 9-1-1 or contact one of the services listed on the right side of this page."
 
-#: src/pages/main.js:68
+#: src/pages/main.js:60
 msgid "msg.main_page_p4_intro"
 msgstr "PRISM-AOM is not an emergency service."
 
-#: src/pages/main.js:75
+#: src/pages/main.js:67
 msgid "msg.main_page_p5"
 msgstr "Key partners include: ACCESS Open Minds, Strata Health Solutions, Youth and Family representatives, Tickit Health, Savoir-faire Linux, Kids Help Phone, Wisdom2Action, and mindyourmind."
 
-#: src/pages/main.js:83
+#: src/pages/main.js:75
 msgid "msg.main_page_p6"
 msgstr "The project has gone live! Click the link below if you would like to access the referral form."
 
-#: src/pages/main.js:88
+#: src/pages/main.js:80
 msgid "msg.main_page_p7"
 msgstr "*Please note that this is a new referral service that is being piloted for youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario."
 
-#: src/pages/resources.js:61
-#: src/pages/resources.js:70
+#: src/pages/resources.js:63
+#: src/pages/resources.js:77
 msgid "msg.or"
 msgstr "or"
 
-#: src/pages/main.js:41
+#: src/pages/main.js:33
 msgid "msg.pathway_for_rapid"
 msgstr "Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth"
 
@@ -148,27 +171,27 @@ msgstr "Also, if you are under 14, the youth mental health team will need to con
 msgid "msg.privacy_policy_under_17"
 msgstr "If you are under 17 and have reported physical or sexual abuse;"
 
-#: src/pages/main.js:50
+#: src/pages/main.js:42
 msgid "msg.project_summary"
 msgstr "Project Summary"
 
-#: src/pages/main.js:80
+#: src/pages/main.js:72
 msgid "msg.project_updates"
 msgstr "Project Updates"
 
-#: src/pages/resources.js:354
+#: src/pages/resources.js:435
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (for the LGBTQIA2SP+ community)"
 
-#: src/pages/resources.js:371
+#: src/pages/resources.js:457
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co/en (live chat available)"
 
-#: src/pages/resources.js:86
+#: src/pages/resources.js:96
 msgid "msg.resource_WAYS"
 msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their parents)"
 
-#: src/pages/resources.js:401
+#: src/pages/resources.js:497
 msgid "msg.resource_call_211"
 msgstr "Call or dial 2-1-1"
 
@@ -176,7 +199,7 @@ msgstr "Call or dial 2-1-1"
 msgid "msg.resource_canadian_mental_health"
 msgstr "The Canadian Mental Health Association’s 24-hour crisis line (for anyone 16+ in Lambton County and Kent County)"
 
-#: src/pages/resources.js:67
+#: src/pages/resources.js:72
 msgid "msg.resource_canadian_mental_health_lambton"
 msgstr "Lambton Mental Health Crisis Line: "
 
@@ -184,40 +207,40 @@ msgstr "Lambton Mental Health Crisis Line: "
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Chatham Kent Mental Health Crisis Line:"
 
-#: src/pages/resources.js:259
+#: src/pages/resources.js:307
 msgid "msg.resource_emergency_department"
 msgstr "or go to the nearest Emergency Department."
 
-#: src/pages/resources.js:230
+#: src/pages/resources.js:273
 msgid "msg.resource_exit"
 msgstr "QUICK EXIT"
 
-#: src/pages/resources.js:389
+#: src/pages/resources.js:485
 msgid "msg.resource_find_other"
 msgstr "Find another resource near you"
 
-#: src/pages/resources.js:319
+#: src/pages/resources.js:385
 msgid "msg.resource_first_nation"
 msgstr "First Nations and Inuit Hope for Wellness Help Line"
 
-#: src/pages/resources.js:336
+#: src/pages/resources.js:407
 msgid "msg.resource_first_nation_web"
 msgstr "www.hopeforwellness.ca (live chat available)"
 
 #: src/components/sidebar.js:41
-#: src/pages/resources.js:242
+#: src/pages/resources.js:285
 msgid "msg.resource_header"
 msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
 
-#: src/pages/resources.js:276
+#: src/pages/resources.js:324
 msgid "msg.resource_kid_help_phone"
 msgstr "Contact a counsellor at Kids Help Phone"
 
-#: src/pages/resources.js:293
+#: src/pages/resources.js:351
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Text CONNECT to 686868"
 
-#: src/pages/resources.js:301
+#: src/pages/resources.js:359
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.kidshelpphone.ca (live chat available)"
 
@@ -225,27 +248,27 @@ msgstr "www.kidshelpphone.ca (live chat available)"
 msgid "msg.resource_ontario"
 msgstr "Ontario-Specific Resources:"
 
-#: src/pages/resources.js:264
+#: src/pages/resources.js:312
 msgid "msg.resource_other_resources"
 msgstr "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French."
 
-#: src/pages/resources.js:122
+#: src/pages/resources.js:138
 msgid "msg.resource_quebec"
 msgstr "Quebec-Specific Resources:"
 
-#: src/pages/resources.js:177
+#: src/pages/resources.js:215
 msgid "msg.resource_quebec_nurse"
 msgstr "To speak to a nurse or a social worker about a health concern, call Info-Santé"
 
-#: src/pages/resources.js:134
+#: src/pages/resources.js:150
 msgid "msg.resource_quebec_tel_jeune"
 msgstr "Contact a counsellor at Tel-jeunes"
 
-#: src/pages/resources.js:158
+#: src/pages/resources.js:186
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
 
-#: src/pages/resources.js:248
+#: src/pages/resources.js:291
 msgid "msg.resource_urgent_situation"
 msgstr "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:"
 
@@ -336,6 +359,14 @@ msgstr "If you are under 14, the youth mental health team will need to contact y
 #: src/pages/term-of-use.js:66
 msgid "msg.term_of_use_wrongly"
 msgstr "You will not use the form wrongly (e.g., spamming or writing false information)."
+
+#: src/pages/resources.js:179
+msgid "msg.text"
+msgstr "TEXT"
+
+#: src/pages/resources.js:346
+msgid "msg.text_connect"
+msgstr "TEXT \"CONNECT\""
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"

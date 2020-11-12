@@ -31,11 +31,11 @@
     "origin": [
       [
         "src/pages/resources.js",
-        61
+        63
       ],
       [
         "src/pages/resources.js",
-        70
+        77
       ]
     ]
   },
@@ -44,7 +44,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        67
+        72
       ]
     ]
   },
@@ -53,7 +53,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        86
+        96
       ]
     ]
   },
@@ -62,7 +62,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        122
+        138
       ]
     ]
   },
@@ -71,7 +71,37 @@
     "origin": [
       [
         "src/pages/resources.js",
-        134
+        150
+      ]
+    ]
+  },
+  "msg.call": {
+    "defaults": "CALL",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        167
+      ],
+      [
+        "src/pages/resources.js",
+        336
+      ],
+      [
+        "src/pages/resources.js",
+        400
+      ],
+      [
+        "src/pages/resources.js",
+        450
+      ]
+    ]
+  },
+  "msg.text": {
+    "defaults": "TEXT",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        179
       ]
     ]
   },
@@ -80,7 +110,32 @@
     "origin": [
       [
         "src/pages/resources.js",
-        158
+        186
+      ]
+    ]
+  },
+  "msg.chat": {
+    "defaults": "CHAT",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        195
+      ],
+      [
+        "src/pages/resources.js",
+        367
+      ],
+      [
+        "src/pages/resources.js",
+        415
+      ],
+      [
+        "src/pages/resources.js",
+        465
+      ],
+      [
+        "src/pages/resources.js",
+        521
       ]
     ]
   },
@@ -89,7 +144,16 @@
     "origin": [
       [
         "src/pages/resources.js",
-        177
+        215
+      ]
+    ]
+  },
+  "msg.call_811": {
+    "defaults": "CALL 811",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        231
       ]
     ]
   },
@@ -98,7 +162,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        230
+        273
       ]
     ]
   },
@@ -107,7 +171,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        242
+        285
       ]
     ]
   },
@@ -116,7 +180,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        248
+        291
       ]
     ]
   },
@@ -125,7 +189,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        259
+        307
       ]
     ]
   },
@@ -134,7 +198,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        264
+        312
       ]
     ]
   },
@@ -143,7 +207,16 @@
     "origin": [
       [
         "src/pages/resources.js",
-        276
+        324
+      ]
+    ]
+  },
+  "msg.text_connect": {
+    "defaults": "TEXT \"CONNECT\"",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        346
       ]
     ]
   },
@@ -152,7 +225,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        293
+        351
       ]
     ]
   },
@@ -161,7 +234,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        301
+        359
       ]
     ]
   },
@@ -170,7 +243,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        319
+        385
       ]
     ]
   },
@@ -179,7 +252,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        336
+        407
       ]
     ]
   },
@@ -188,7 +261,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        354
+        435
       ]
     ]
   },
@@ -197,7 +270,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        371
+        457
       ]
     ]
   },
@@ -206,7 +279,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        389
+        485
       ]
     ]
   },
@@ -215,7 +288,16 @@
     "origin": [
       [
         "src/pages/resources.js",
-        401
+        497
+      ]
+    ]
+  },
+  "msg.call_211": {
+    "defaults": "CALL 211",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        505
       ]
     ]
   }
