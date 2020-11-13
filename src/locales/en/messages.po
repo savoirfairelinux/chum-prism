@@ -46,7 +46,7 @@ msgstr "CHAT"
 
 #: src/pages/main.js:89
 msgid "msg.click_here_for_the_form"
-msgstr "Click here for the form"
+msgstr "CLICK HERE FOR THE FORM"
 
 #: src/pages/term-of-use.js:122
 #: src/pages/term-of-use.js:127

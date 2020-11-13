@@ -246,6 +246,19 @@ const Resources = ({ location }) => {
     </div>);
   }
 
+  const getContent = () => {
+
+    if(language === "fr"){
+      return <>{quebecContent()}  {ontarioContent()}</>
+    }
+    else if(language === "en"){
+      return <>{ontarioContent()} {quebecContent()}</>
+    }
+    else{
+      return <>{ontarioContent()} {quebecContent()}</>
+    }
+  }
+
   return (
     <I18nProvider
       language={language}
@@ -538,8 +551,7 @@ const Resources = ({ location }) => {
           </div>
           <div className={layoutStyles.wrapper}>
             <div className={layoutStyles.secondeResourceContainer}>
-              {language === "fr" ? quebecContent() : ontarioContent()}
-              {language === "en" ? quebecContent() : ontarioContent()}
+              {getContent()}
             </div>
           </div>
         </div>

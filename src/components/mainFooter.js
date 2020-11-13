@@ -16,7 +16,7 @@ const MainFooter = () => {
   return (
     <div className={footerStyles.footerContainer}>
         <div className={footerStyles.mainFooter}>
-          <a href="https://www.chumontreal.qc.ca/crchum" target="_blank"><img src={"/main_footer.png"} alt="Main Footer" /></a>
+          <img src={"/main_footer.png"} alt="Main Footer" />
         </div>
         <div className={footerStyles.footerText}>
         <p>PRISM-ACCESS Open Minds is a health services innovation project to improve access to mental health care for youth. It is managed by the Youth Mental Health and Technology (YMHTech) Lab at the University of Montreal Hospital Centre, 

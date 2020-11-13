@@ -286,7 +286,7 @@ msgstr "Appeler"
 
 #: src/components/sidebar.js:96
 msgid "msg.sidebar_chatham"
-msgstr "La ligne de crise pour la santé mentale de Chatham Kent (519-436-6100 or 1-866-299-7447)"
+msgstr "La ligne de crise pour la santé mentale de Chatham Kent (519-436-6100 ou 1-866-299-7447)"
 
 #: src/components/sidebar.js:79
 msgid "msg.sidebar_first_nation"
