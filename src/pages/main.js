@@ -86,7 +86,7 @@ const IndexPage = ({ location }) => {
         <div className={layoutStyles.welcome}>
             <Link to="/">
               <button className={layoutStyles.mainButton}>
-                <Trans id="msg.click_here_for_the_form">Click here for the form</Trans>
+                <Trans id="msg.click_here_for_the_form">CLICK HERE FOR THE FORM</Trans>
               </button>
             </Link>
         </div>
