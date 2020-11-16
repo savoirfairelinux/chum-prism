@@ -15,5 +15,13 @@ module.exports = {
       },
     },
     "semantic-ui-react",
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '2',
+        matomoUrl: 'https://matomo.prismref.ca/',
+        siteUrl: 'https://prismref.ca'
+      }
+    }
   ],
 }
