@@ -84,11 +84,11 @@ const IndexPage = ({ location }) => {
         </div>
 
         <div className={layoutStyles.welcome}>
-            <Link to="/">
+            <a href="https://aom.prismref.ca" target="_blank">
               <button className={layoutStyles.mainButton}>
                 <Trans id="msg.click_here_for_the_form">CLICK HERE FOR THE FORM</Trans>
               </button>
-            </Link>
+            </a>
         </div>
       </MainLayout>
     </I18nProvider>

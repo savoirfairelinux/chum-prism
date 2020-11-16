@@ -21,14 +21,15 @@ msgstr "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT"
 msgid "msg.back"
 msgstr "BACK"
 
+#: src/pages/resources.js:115
 #: src/pages/resources.js:167
-#: src/pages/resources.js:336
-#: src/pages/resources.js:400
-#: src/pages/resources.js:450
+#: src/pages/resources.js:349
+#: src/pages/resources.js:413
+#: src/pages/resources.js:463
 msgid "msg.call"
 msgstr "CALL"
 
-#: src/pages/resources.js:505
+#: src/pages/resources.js:518
 msgid "msg.call_211"
 msgstr "CALL 211"
 
@@ -37,10 +38,9 @@ msgid "msg.call_811"
 msgstr "CALL 811"
 
 #: src/pages/resources.js:195
-#: src/pages/resources.js:367
-#: src/pages/resources.js:415
-#: src/pages/resources.js:465
-#: src/pages/resources.js:521
+#: src/pages/resources.js:380
+#: src/pages/resources.js:428
+#: src/pages/resources.js:478
 msgid "msg.chat"
 msgstr "CHAT"
 
@@ -179,11 +179,11 @@ msgstr "Project Summary"
 msgid "msg.project_updates"
 msgstr "Project Updates"
 
-#: src/pages/resources.js:435
+#: src/pages/resources.js:448
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (for the LGBTQIA2SP+ community)"
 
-#: src/pages/resources.js:457
+#: src/pages/resources.js:470
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co/en (live chat available)"
 
@@ -191,7 +191,7 @@ msgstr "www.interligne.co/en (live chat available)"
 msgid "msg.resource_WAYS"
 msgstr "WAYS Mental Health Support Crisis and Community Support Program 24/7 crisis line (for youth 6-18 y/o and their parents)"
 
-#: src/pages/resources.js:497
+#: src/pages/resources.js:510
 msgid "msg.resource_call_211"
 msgstr "Call or dial 2-1-1"
 
@@ -207,40 +207,40 @@ msgstr "Lambton Mental Health Crisis Line: "
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Chatham Kent Mental Health Crisis Line:"
 
-#: src/pages/resources.js:307
+#: src/pages/resources.js:320
 msgid "msg.resource_emergency_department"
 msgstr "or go to the nearest Emergency Department."
 
-#: src/pages/resources.js:273
+#: src/pages/resources.js:286
 msgid "msg.resource_exit"
 msgstr "QUICK EXIT"
 
-#: src/pages/resources.js:485
+#: src/pages/resources.js:498
 msgid "msg.resource_find_other"
 msgstr "Find another resource near you"
 
-#: src/pages/resources.js:385
+#: src/pages/resources.js:398
 msgid "msg.resource_first_nation"
 msgstr "First Nations and Inuit Hope for Wellness Help Line"
 
-#: src/pages/resources.js:407
+#: src/pages/resources.js:420
 msgid "msg.resource_first_nation_web"
 msgstr "www.hopeforwellness.ca (live chat available)"
 
 #: src/components/sidebar.js:41
-#: src/pages/resources.js:285
+#: src/pages/resources.js:298
 msgid "msg.resource_header"
 msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
 
-#: src/pages/resources.js:324
+#: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
 msgstr "Contact a counsellor at Kids Help Phone"
 
-#: src/pages/resources.js:351
+#: src/pages/resources.js:364
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Text CONNECT to 686868"
 
-#: src/pages/resources.js:359
+#: src/pages/resources.js:372
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.kidshelpphone.ca (live chat available)"
 
@@ -248,7 +248,7 @@ msgstr "www.kidshelpphone.ca (live chat available)"
 msgid "msg.resource_ontario"
 msgstr "Ontario-Specific Resources:"
 
-#: src/pages/resources.js:312
+#: src/pages/resources.js:325
 msgid "msg.resource_other_resources"
 msgstr "Here are other resources that could help (all toll-free, open 24/7). All of these services are offered in English and French."
 
@@ -268,7 +268,7 @@ msgstr "Contact a counsellor at Tel-jeunes"
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes-en (live chat available)"
 
-#: src/pages/resources.js:291
+#: src/pages/resources.js:304
 msgid "msg.resource_urgent_situation"
 msgstr "If there is an urgent situation (for example, losing control of aggressive or suicidal thoughts), please call:"
 
@@ -364,9 +364,13 @@ msgstr "You will not use the form wrongly (e.g., spamming or writing false infor
 msgid "msg.text"
 msgstr "TEXT"
 
-#: src/pages/resources.js:346
+#: src/pages/resources.js:359
 msgid "msg.text_connect"
 msgstr "TEXT \"CONNECT\""
+
+#: src/pages/resources.js:534
+msgid "msg.website"
+msgstr "WEBSITE"
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"

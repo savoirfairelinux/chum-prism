@@ -21,14 +21,15 @@ msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
 msgid "msg.back"
 msgstr "Précédent"
 
+#: src/pages/resources.js:115
 #: src/pages/resources.js:167
-#: src/pages/resources.js:336
-#: src/pages/resources.js:400
-#: src/pages/resources.js:450
+#: src/pages/resources.js:349
+#: src/pages/resources.js:413
+#: src/pages/resources.js:463
 msgid "msg.call"
 msgstr "APPELER"
 
-#: src/pages/resources.js:505
+#: src/pages/resources.js:518
 msgid "msg.call_211"
 msgstr "APPELER 211"
 
@@ -37,10 +38,9 @@ msgid "msg.call_811"
 msgstr "APPELER 811"
 
 #: src/pages/resources.js:195
-#: src/pages/resources.js:367
-#: src/pages/resources.js:415
-#: src/pages/resources.js:465
-#: src/pages/resources.js:521
+#: src/pages/resources.js:380
+#: src/pages/resources.js:428
+#: src/pages/resources.js:478
 msgid "msg.chat"
 msgstr "CLAVARDER"
 
@@ -179,11 +179,11 @@ msgstr "Résumé du projet"
 msgid "msg.project_updates"
 msgstr "Mises à jour"
 
-#: src/pages/resources.js:435
+#: src/pages/resources.js:448
 msgid "msg.resource_LGBTQIA2SP"
 msgstr "Interligne (pour la communauté LGBTQIA2SP+)"
 
-#: src/pages/resources.js:457
+#: src/pages/resources.js:470
 msgid "msg.resource_LGBTQIA2SP_web"
 msgstr "www.interligne.co (clavardage en ligne disponible)"
 
@@ -191,7 +191,7 @@ msgstr "www.interligne.co (clavardage en ligne disponible)"
 msgid "msg.resource_WAYS"
 msgstr "WAYS Programme de soutien dans la communauté et en cas de crise (ligne de crise ouverte 24h/7 pour les jeunes de 6 à 18 ans et leurs familles)"
 
-#: src/pages/resources.js:497
+#: src/pages/resources.js:510
 msgid "msg.resource_call_211"
 msgstr "Composez le 2-1-1"
 
@@ -207,40 +207,40 @@ msgstr "Ligne de crise pour la santé mentale de Lambton: "
 msgid "msg.resource_canadian_mental_health_phone_chatman"
 msgstr "Ligne de crise pour la santé mentale de Chatham Kent:"
 
-#: src/pages/resources.js:307
+#: src/pages/resources.js:320
 msgid "msg.resource_emergency_department"
 msgstr "ou dirigez-vous aux urgences le plus proche."
 
-#: src/pages/resources.js:273
+#: src/pages/resources.js:286
 msgid "msg.resource_exit"
 msgstr "Cliquer sur le logo pour sortir de cette page"
 
-#: src/pages/resources.js:485
+#: src/pages/resources.js:498
 msgid "msg.resource_find_other"
 msgstr "Pour trouver une autre ressource près de vous"
 
-#: src/pages/resources.js:385
+#: src/pages/resources.js:398
 msgid "msg.resource_first_nation"
 msgstr "Ligne d'écoute d'espoir pour le mieux-être des Premières Nations et des Inuits"
 
-#: src/pages/resources.js:407
+#: src/pages/resources.js:420
 msgid "msg.resource_first_nation_web"
 msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 
 #: src/components/sidebar.js:41
-#: src/pages/resources.js:285
+#: src/pages/resources.js:298
 msgid "msg.resource_header"
 msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
 
-#: src/pages/resources.js:324
+#: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
 msgstr "Parlez à un-e intervenant-e de Jeunesse, J’écoute"
 
-#: src/pages/resources.js:351
+#: src/pages/resources.js:364
 msgid "msg.resource_kid_help_phone_chat"
 msgstr "Texter “PARLER” au 686868"
 
-#: src/pages/resources.js:359
+#: src/pages/resources.js:372
 msgid "msg.resource_kid_help_phone_web"
 msgstr "www.jeunessejecoute.ca   (clavardage en ligne disponible)"
 
@@ -248,7 +248,7 @@ msgstr "www.jeunessejecoute.ca   (clavardage en ligne disponible)"
 msgid "msg.resource_ontario"
 msgstr "Ressources spécifiques à l’Ontario:"
 
-#: src/pages/resources.js:312
+#: src/pages/resources.js:325
 msgid "msg.resource_other_resources"
 msgstr "Voici d'autres ressources qui pourraient aider (toutes gratuites, disponibles 24/7). Tous les services sont offerts en anglais et en français."
 
@@ -268,7 +268,7 @@ msgstr "Pour contacter un-e intervenant-e de Tel-jeunes"
 msgid "msg.resource_quebec_tel_jeune_chat"
 msgstr "www.teljeunes.com/Tel-jeunes (clavardage en ligne disponible)"
 
-#: src/pages/resources.js:291
+#: src/pages/resources.js:304
 msgid "msg.resource_urgent_situation"
 msgstr "S’il y a une situation d’urgence (ex. pertes de contrôle, idées agressives ou idées suicidaires), veuillez composer le:"
 
@@ -364,9 +364,13 @@ msgstr "Vous n'utiliserez pas le formulaire de manière malveillante (p. ex. en 
 msgid "msg.text"
 msgstr "TEXTER"
 
-#: src/pages/resources.js:346
+#: src/pages/resources.js:359
 msgid "msg.text_connect"
 msgstr "TEXTER \"PARLER\" "
+
+#: src/pages/resources.js:534
+msgid "msg.website"
+msgstr "SITE WEB"
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"
