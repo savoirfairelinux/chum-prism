@@ -57,6 +57,31 @@
       ]
     ]
   },
+  "msg.call": {
+    "defaults": "CALL",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        115
+      ],
+      [
+        "src/pages/resources.js",
+        167
+      ],
+      [
+        "src/pages/resources.js",
+        349
+      ],
+      [
+        "src/pages/resources.js",
+        413
+      ],
+      [
+        "src/pages/resources.js",
+        463
+      ]
+    ]
+  },
   "msg.resource_quebec": {
     "defaults": "Quebec-Specific Resources:",
     "origin": [
@@ -72,27 +97,6 @@
       [
         "src/pages/resources.js",
         150
-      ]
-    ]
-  },
-  "msg.call": {
-    "defaults": "CALL",
-    "origin": [
-      [
-        "src/pages/resources.js",
-        167
-      ],
-      [
-        "src/pages/resources.js",
-        336
-      ],
-      [
-        "src/pages/resources.js",
-        400
-      ],
-      [
-        "src/pages/resources.js",
-        450
       ]
     ]
   },
@@ -123,19 +127,15 @@
       ],
       [
         "src/pages/resources.js",
-        367
+        380
       ],
       [
         "src/pages/resources.js",
-        415
+        428
       ],
       [
         "src/pages/resources.js",
-        465
-      ],
-      [
-        "src/pages/resources.js",
-        521
+        478
       ]
     ]
   },
@@ -162,7 +162,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        273
+        286
       ]
     ]
   },
@@ -171,7 +171,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        285
+        298
       ]
     ]
   },
@@ -180,7 +180,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        291
+        304
       ]
     ]
   },
@@ -189,7 +189,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        307
+        320
       ]
     ]
   },
@@ -198,7 +198,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        312
+        325
       ]
     ]
   },
@@ -207,7 +207,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        324
+        337
       ]
     ]
   },
@@ -216,7 +216,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        346
+        359
       ]
     ]
   },
@@ -225,7 +225,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        351
+        364
       ]
     ]
   },
@@ -234,7 +234,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        359
+        372
       ]
     ]
   },
@@ -243,7 +243,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        385
+        398
       ]
     ]
   },
@@ -252,7 +252,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        407
+        420
       ]
     ]
   },
@@ -261,7 +261,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        435
+        448
       ]
     ]
   },
@@ -270,7 +270,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        457
+        470
       ]
     ]
   },
@@ -279,7 +279,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        485
+        498
       ]
     ]
   },
@@ -288,7 +288,7 @@
     "origin": [
       [
         "src/pages/resources.js",
-        497
+        510
       ]
     ]
   },
@@ -297,7 +297,16 @@
     "origin": [
       [
         "src/pages/resources.js",
-        505
+        518
+      ]
+    ]
+  },
+  "msg.website": {
+    "defaults": "WEBSITE",
+    "origin": [
+      [
+        "src/pages/resources.js",
+        534
       ]
     ]
   }

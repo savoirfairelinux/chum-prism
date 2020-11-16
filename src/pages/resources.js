@@ -531,8 +531,8 @@ const Resources = ({ location }) => {
                           <button>
                             <i className="material-icons">language</i>{" "}
                             <p>
-                              <Trans id="msg.chat">
-                                CHAT
+                              <Trans id="msg.website">
+                                WEBSITE
                               </Trans>
                             </p>
                           </button>

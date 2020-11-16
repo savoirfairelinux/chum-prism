@@ -108,7 +108,7 @@
     ]
   },
   "msg.click_here_for_the_form": {
-    "defaults": "Click here for the form",
+    "defaults": "CLICK HERE FOR THE FORM",
     "origin": [
       [
         "src/pages/main.js",
