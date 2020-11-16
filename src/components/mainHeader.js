@@ -15,7 +15,7 @@ const MainHeader = props => {
       <div>
       </div>
       <div>
-        <Link to="/main">      
+        <Link to="/">      
           <img
             src={"/prism.png"}
             alt="Prism"
@@ -25,7 +25,7 @@ const MainHeader = props => {
       </div>
       <div className={headerStyles.homeButtonsHeader}>
         <a
-          href="/main"
+          href="/"
           onClick={() => {
             localStorage.setItem("language", "en")
           }}
@@ -33,7 +33,7 @@ const MainHeader = props => {
           <button>EN</button>
         </a>
         <a
-          href="/main"
+          href="/"
           onClick={() => {
             localStorage.setItem("language", "fr")
             console.log("test")
