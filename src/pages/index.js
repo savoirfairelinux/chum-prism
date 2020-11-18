@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import MainLayout from "../components/mainLayout"
+import headStyle from "../components/head.module.scss"
 import layoutStyles from "../components/layout.module.scss"
 
 /* Translation using lingui */
