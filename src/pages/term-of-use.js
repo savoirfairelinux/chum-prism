@@ -80,7 +80,13 @@ const IndexPage = ({ location }) => {
                 improve this referral service.
               </Trans>{" "}
               <Trans id="msg.term_of_use_click">Click</Trans>{" "}
-              <Link to="/privacy-policy" className={layoutStyles.blueStrong}>
+              <Link to="/privacy-policy"
+                    state={{
+                        paramLanguage: language,
+                    }} 
+                    
+                    className={layoutStyles.blueStrong}
+              >
                 <Trans id="msg.term_of_use_here">HERE</Trans>
               </Link>{" "}
               <Trans id="msg.term_of_use_know_more">

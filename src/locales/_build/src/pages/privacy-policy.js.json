@@ -1,19 +1,46 @@
 {
   "msg.privacy_policy_aom": {
-    "defaults": "PRISM-AOM",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        33
-      ]
-    ]
-  },
-  "msg.privacy_policy_p1": {
-    "defaults": "This new referral service has been created with members of ACCESS Open Minds/Esprits Ouverts. ACCESS Open Minds/Esprits Ouverts is a project improving mental health services for youth across Canada. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on this form.",
+    "defaults": "PRISM-AOM Privacy Policy",
     "origin": [
       [
         "src/pages/privacy-policy.js",
         36
+      ]
+    ]
+  },
+  "msg.privacy_policy_aom_update_date": {
+    "defaults": "Last updated: January 4, 2021",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        39
+      ]
+    ]
+  },
+  "msg.who_are_we": {
+    "defaults": "Who are we?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        42
+      ]
+    ]
+  },
+  "msg.privacy_policy_p1": {
+    "defaults": "This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        45
+      ]
+    ]
+  },
+  "msg.privacy_policy_link2": {
+    "defaults": "For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project, visit",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        50
       ]
     ]
   },
@@ -22,30 +49,12 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        46
+        56
       ]
     ]
   },
-  "msg.privacy_policy_link2": {
-    "defaults": "For more information about PRISM-ACCESS Open Minds, visit:",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        54
-      ]
-    ]
-  },
-  "msg.privacy_policy": {
-    "defaults": "PRIVACY POLICY",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        61
-      ]
-    ]
-  },
-  "msg.privacy_policy_p2": {
-    "defaults": "Information without your name will be used to evaluate and improve this referral service. Examples of this information include: how many people used the form, their average age, the types of concerns they had, and how many people tried to complete the form before leaving.",
+  "msg.privacy_policy_p1_1": {
+    "defaults": "We are committed to protecting your privacy. This page describes our Privacy Policy, including the information we collect from users of this Website and Referral Service, why we collect this information, and how we use that information. By using this Website and the Referral Service, you signify your acceptance of the collection and use of information in accordance with this Privacy Policy.",
     "origin": [
       [
         "src/pages/privacy-policy.js",
@@ -53,12 +62,165 @@
       ]
     ]
   },
-  "msg.privacy_policy_p3": {
-    "defaults": "We care about your privacy. However, for your safety and for others, the youth mental health team may have to, by law, share some information with a person in authority (like Youth Protection, Emergency Services, or a parent/guardian). This may apply in the following situations:",
+  "msg.why_do_we_collect_information": {
+    "defaults": "Why do we collect information?",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        73
+        69
+      ]
+    ]
+  },
+  "msg.privacy_policy_p2": {
+    "defaults": "We collect information for the sole purpose of providing and improving this Website and Referral Service, and to evaluate it as part of a research project to improve access to mental health services for youth. The evaluation of this online Referral Service project has received central ethics approval from the University of Montreal Hospital Research Centre’s Ethics Review Board.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        72
+      ]
+    ]
+  },
+  "msg.privacy_policy_p3": {
+    "defaults": "We do not disclose, sell, trade, or otherwise transfer your personal information to third-party organizations that are not directly involved in this project.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        77
+      ]
+    ]
+  },
+  "msg.when_do_we_collect_information": {
+    "defaults": "When do we collect information?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        82
+      ]
+    ]
+  },
+  "msg.privacy_policy_p4": {
+    "defaults": "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        85
+      ]
+    ]
+  },
+  "msg.what_information_do_we_collect_and_why": {
+    "defaults": "What information do we collect and why?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        90
+      ]
+    ]
+  },
+  "msg.privacy_policy_p5": {
+    "defaults": "We collect personal information that you submit in our referral form (e.g., name, contact information, reason for referral) when you make a request for mental health services. This information is then accessed by a youth mental health team located in your community that is participating in this new Referral Service. This information is necessary for the youth mental health team to be able to contact you and to respond to your request for services. Contact information may also be used to provide you with information and updates regarding your referral. The youth mental health teams that we work with are part of the public health care sector, which means they provide their services for free.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        93
+      ]
+    ]
+  },
+  "msg.privacy_policy_p6_before": {
+    "defaults": "Information",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        98
+      ]
+    ]
+  },
+  "msg.privacy_policy_p6_bold": {
+    "defaults": "without your name and without identifying information",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        99
+      ]
+    ]
+  },
+  "msg.privacy_policy_p6_after": {
+    "defaults": "will also be used to evaluate and improve this Referral Service. Examples of this information include: how many people used the form, their average age, and the types of concerns they had.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        99
+      ]
+    ]
+  },
+  "msg.privacy_policy_p7_title": {
+    "defaults": "Statistical and Cookie Information:",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        102
+      ]
+    ]
+  },
+  "msg.privacy_policy_p7": {
+    "defaults": "Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matamo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages).",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        102
+      ]
+    ]
+  },
+  "msg.privacy_policy_p8": {
+    "defaults": "This information helps us to improve our Website and Referral Service.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        105
+      ]
+    ]
+  },
+  "msg.privacy_policy_p9": {
+    "defaults": "Like many sites, we use \"cookies\" to collect information. We use cookies to help recognize you as a repeat visitor, to save your preferences for future visits to our website, and to compile aggregate statistical data about the use of this Website to help us improve it.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        110
+      ]
+    ]
+  },
+  "msg.privacy_policy_p10": {
+    "defaults": "You can choose to accept the cookies by clicking Agree in the banner located at the bottom of the website, or you can click Decline and continue to navigate the website without being tracked. You also have the option of deleting the cookies via your internet browser after you have visited this website.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        115
+      ]
+    ]
+  },
+  "msg.how_do_we_protect_your_information": {
+    "defaults": "How do we protect your information?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        120
+      ]
+    ]
+  },
+  "msg.privacy_policy_p11": {
+    "defaults": "The security of your Personal Information is important to us. We have adopted appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information provided through this Referral Service. We use an SSL secured communication channel and encryption when sensitive and private data is being exchanged between our Referral Service and its Users. Also, all information pertaining to the use of this Website and Referral Service are maintained and stored securely in Canada. This information is contained behind secured networks and accessible only by those who have special access rights and are required to keep the information confidential. But remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        123
+      ]
+    ]
+  },
+  "msg.privacy_policy_p12": {
+    "defaults": "In rare circumstances, for your safety and for others, the youth mental health team may have to, by law, share some information with a person in authority (like Youth Protection, Emergency Services, or a parent/guardian). This may apply in the following situations:",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        128
       ]
     ]
   },
@@ -67,7 +229,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        83
+        134
       ]
     ]
   },
@@ -76,7 +238,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        88
+        139
       ]
     ]
   },
@@ -85,16 +247,52 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        95
+        146
       ]
     ]
   },
-  "msg.privacy_policy_return": {
+  "msg.will_this_privacy_policy_change": {
+    "defaults": "Will this Privacy Policy change?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        152
+      ]
+    ]
+  },
+  "msg.privacy_policy_under_15": {
+    "defaults": "This Privacy Policy is effective as of January 4, 2021. Any changes to this Privacy Policy  will be posted to the website as soon as they go into effect, and the new date will be revised in this section.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        157
+      ]
+    ]
+  },
+  "msg.who_can_i_contact_if_i_want_more_information_about_this_privacy_policy": {
+    "defaults": "Who can I contact if I want more information about this Privacy Policy?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        162
+      ]
+    ]
+  },
+  "msg.privacy_policy_under_16": {
+    "defaults": "If you have any questions about this Privacy Policy or about this new Referral Service that we are in the process of evaluating, please contact us at:",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        167
+      ]
+    ]
+  },
+  "msg.privacy_policy_return_button": {
     "defaults": "Click the button below to return to the Terms of Use.",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        101
+        173
       ]
     ]
   },
@@ -103,7 +301,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        107
+        179
       ]
     ]
   }

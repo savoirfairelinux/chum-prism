@@ -552,6 +552,24 @@ button {
   color: $title-color;
   font-size: 24px;
 }
+
+.forms .classicParagraphDiv {
+
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+
+  p.classicParagraph {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 7px;
+  }
+  a {
+    color: #3c78d8;
+  }
+}
+
 .formsButtonSection {
   p {
     color: white;
@@ -815,6 +833,10 @@ button {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  p.centered {
+    text-align: center;
+  }
 }
 
 .privacyPolicy h1 {

@@ -43,5 +43,23 @@
         58
       ]
     ]
+  },
+  "msg.technical_issues": {
+    "defaults": "For any technical issues accessing or completing the referral form, please contact:",
+    "origin": [
+      [
+        "src/pages/forms.js",
+        67
+      ]
+    ]
+  },
+  "msg.general_informations": {
+    "defaults": "For any general information about this new referral service, please contact:",
+    "origin": [
+      [
+        "src/pages/forms.js",
+        68
+      ]
+    ]
   }
 }

@@ -5,6 +5,7 @@ import Footer from "./footer"
 import Sidebar from "./sidebar"
 import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
+import ConsentPopup from "./consentPopup"
 
 const ResourcesLayout = props => {
   return (
@@ -12,6 +13,7 @@ const ResourcesLayout = props => {
       <div id="content" className={layoutStyles.resourcesContent}>
         <div className={layoutStyles.mainResources}>{props.children}</div>
       </div>
+      <ConsentPopup/>
     </div>
   )
 }

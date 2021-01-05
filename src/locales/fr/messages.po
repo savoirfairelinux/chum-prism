@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/main.js:39
-msgid "msg.about_the_prism_access_open_minds_project"
-msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
+#: src/pages/index.js:38
+#~ msgid "msg.about_the_prism_access_open_minds_project"
+#~ msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
 
-#: src/pages/privacy-policy.js:107
+#: src/pages/privacy-policy.js:179
 msgid "msg.back"
 msgstr "Précédent"
 
@@ -44,12 +44,12 @@ msgstr "APPELER 811"
 msgid "msg.chat"
 msgstr "CLAVARDER"
 
-#: src/pages/main.js:89
-msgid "msg.click_here_for_the_form"
-msgstr "CLIQUEZ ICI POUR LE FORMULAIRE"
+#: src/pages/index.js:88
+#~ msgid "msg.click_here_for_the_form"
+#~ msgstr "CLIQUEZ ICI POUR LE FORMULAIRE"
 
-#: src/pages/term-of-use.js:122
-#: src/pages/term-of-use.js:127
+#: src/pages/term-of-use.js:128
+#: src/pages/term-of-use.js:133
 #: src/pages/welcome.js:128
 msgid "msg.continue"
 msgstr "Continuer"
@@ -74,6 +74,10 @@ msgstr "QUELQU’UN D’AUTRE"
 msgid "msg.forms_yourself"
 msgstr "VOUS-MÊME"
 
+#: src/pages/forms.js:68
+msgid "msg.general_informations"
+msgstr "Pour toute information générale sur ce nouveau service de référence, veuillez contacter :"
+
 #: src/pages/welcome.js:33
 msgid "msg.header"
 msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouverts!"
@@ -82,102 +86,178 @@ msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouve
 msgid "msg.here_are_other_ressources"
 msgstr "Voici d'autres ressources qui pourraient vous aider"
 
-#: src/pages/main.js:45
-msgid "msg.main_page_p1"
-msgstr "PRISM-ACCESS Esprits Ouverts est un projet de recherche mené en collaboration avec le réseau pancanadien ACCESS Esprits Ouverts pour la transformation des services de santé mentale destinés aux jeunes, des organismes communautaires (p. ex. Jeunesse J'écoute, mindyourmind) ainsi que les entreprises canadiennes de technologies de la santé."
+#: src/pages/privacy-policy.js:120
+msgid "msg.how_do_we_protect_your_information"
+msgstr "Comment protégeons-nous vos informations ?"
 
-#: src/pages/main.js:50
-msgid "msg.main_page_p2"
-msgstr "PRISM-AEO vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
+#: src/pages/index.js:44
+#~ msgid "msg.main_page_p1"
+#~ msgstr "PRISM-ACCESS Esprits Ouverts est un projet de recherche mené en collaboration avec le réseau pancanadien ACCESS Esprits Ouverts pour la transformation des services de santé mentale destinés aux jeunes, des organismes communautaires (p. ex. Jeunesse J'écoute, mindyourmind) ainsi que les entreprises canadiennes de technologies de la santé."
 
-#: src/pages/main.js:55
-msgid "msg.main_page_p3"
-msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM-AEO. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
+#: src/pages/index.js:49
+#~ msgid "msg.main_page_p2"
+#~ msgstr "PRISM-AEO vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
 
-#: src/pages/main.js:62
-msgid "msg.main_page_p4"
-msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou contacter un des services énumérés à droite de cette page."
+#: src/pages/index.js:54
+#~ msgid "msg.main_page_p3"
+#~ msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM-AEO. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
 
-#: src/pages/main.js:60
-msgid "msg.main_page_p4_intro"
-msgstr "PRISM-AEO n'est pas un service d'urgence."
+#: src/pages/index.js:61
+#~ msgid "msg.main_page_p4"
+#~ msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou contacter un des services énumérés à droite de cette page."
 
-#: src/pages/main.js:67
-msgid "msg.main_page_p5"
-msgstr "Parmi les partenaires clé figurent : ACCESS Esprits ouverts, Strata Santé, des jeunes, des familles et des aidants, Tickit Health, Savoir-faire Linux, Jeunesse j’écoute, La jeunesse au coeur de l'action (W2A) et mindyourmind."
+#: src/pages/index.js:59
+#~ msgid "msg.main_page_p4_intro"
+#~ msgstr "PRISM-AEO n'est pas un service d'urgence."
 
-#: src/pages/main.js:75
-msgid "msg.main_page_p6"
-msgstr "Le projet a été mis en ligne ! Cliquez sur le lien ci-dessous si vous souhaitez accéder au formulaire de référence."
+#: src/pages/index.js:66
+#~ msgid "msg.main_page_p5"
+#~ msgstr "Parmi les partenaires clé figurent : ACCESS Esprits ouverts, Strata Santé, des jeunes, des familles et des aidants, Tickit Health, Savoir-faire Linux, Jeunesse j’écoute, La jeunesse au coeur de l'action (W2A) et mindyourmind."
 
-#: src/pages/main.js:80
-msgid "msg.main_page_p7"
-msgstr "*Veuillez prendre note que ceci est un nouveau service de référence actuellement à l'essai pour les jeunes de 11 à 25 ans au Canada vivant au centre- ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario."
+#: src/pages/index.js:74
+#~ msgid "msg.main_page_p6"
+#~ msgstr "Le projet a été mis en ligne ! Cliquez sur le lien ci-dessous si vous souhaitez accéder au formulaire de référence."
+
+#: src/pages/index.js:79
+#~ msgid "msg.main_page_p7"
+#~ msgstr "*Veuillez prendre note que ceci est un nouveau service de référence actuellement à l'essai pour les jeunes de 11 à 25 ans au Canada vivant au centre- ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario."
 
 #: src/pages/resources.js:63
 #: src/pages/resources.js:77
 msgid "msg.or"
 msgstr "ou"
 
-#: src/pages/main.js:33
-msgid "msg.pathway_for_rapid"
-msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse"
+#: src/pages/index.js:32
+#~ msgid "msg.pathway_for_rapid"
+#~ msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse"
 
-#: src/pages/term-of-use.js:135
+#: src/pages/term-of-use.js:141
 msgid "msg.popup_terms"
 msgstr "Avant de continuer, veuillez cocher la case ci-dessous pour indiquer que vous avez lu, compris et accepté les conditions d'utilisation."
 
 #: src/pages/privacy-policy.js:61
-msgid "msg.privacy_policy"
-msgstr "POLITIQUES DE CONFIDENTIALITÉ"
-
-#: src/pages/privacy-policy.js:33
-msgid "msg.privacy_policy_aom"
-msgstr "PRISM-AEO"
-
-#: src/pages/privacy-policy.js:88
-msgid "msg.privacy_policy_harming_yourself"
-msgstr "Si vous avez sérieusement l’intention de vous faire du mal ou de faire du mal à quelqu’un d’autre."
-
-#: src/pages/privacy-policy.js:46
-msgid "msg.privacy_policy_link1"
-msgstr "Pour plus d'informations sur ACCESS Esprits ouverts, visitez:"
-
-#: src/pages/privacy-policy.js:54
-msgid "msg.privacy_policy_link2"
-msgstr "Pour plus d'informations sur PRISM-ACCESS Esprits ouverts, visitez:"
+#~ msgid "msg.privacy_policy"
+#~ msgstr "POLITIQUES DE CONFIDENTIALITÉ"
 
 #: src/pages/privacy-policy.js:36
+msgid "msg.privacy_policy_aom"
+msgstr "PRISM-AEO politique de confidentialité"
+
+#: src/pages/privacy-policy.js:39
+msgid "msg.privacy_policy_aom_update_date"
+msgstr "Dernière mise à jour: le 4 janvier 2021"
+
+#: src/pages/privacy-policy.js:139
+msgid "msg.privacy_policy_harming_yourself"
+msgstr "Si vous pensez sérieusement à vous blesser ou à blesser autrui."
+
+#: src/pages/privacy-policy.js:56
+msgid "msg.privacy_policy_link1"
+msgstr "Pour plus d’informations concernant ACCESS Esprits ouverts, consultez"
+
+#: src/pages/privacy-policy.js:50
+msgid "msg.privacy_policy_link2"
+msgstr "Pour plus d’informations au sujet du laboratoire Santé mentale des jeunes et technologies et au sujet du projet PRISM-AEO, consultez"
+
+#: src/components/consentPopup.js:44
+#~ msgid "msg.privacy_policy_lowercase"
+#~ msgstr "politique de confidentialité."
+
+#: src/pages/privacy-policy.js:45
 msgid "msg.privacy_policy_p1"
-msgstr "Ce nouveau formulaire de référence en ligne a été créé avec les membres d’ACCESS Open Minds/Esprits ouverts. ACCESS Open Minds/Esprits ouverts est un projet améliorant l’accès aux services de santé mentale pour les jeunes à travers le Canada. Les représentants des jeunes et de leurs familles, les partenaires technologiques canadiens, les chercheurs en santé mentale, et les prestataires de services ont contribué à ce formulaire."
+msgstr "Ce site web et le service de référence sont gérés par le laboratoire Santé mentale des jeunes et technologies situé au Centre hospitalier de l’Université de Montréal, à Montréal, Canada (une organisation à but non lucratif, institution publique de santé). Notre équipe a développé ce nouveau service de référence en collaboration avec le réseau national de services pour la santé mentale des jeunes ACCESS Esprits ouverts. Partenaires jeunesse et familiaux, compagnies canadiennes de technologies, chercheurs en santé mentale, et fournisseurs de services ont collaboré au développement de ce nouveau service, actuellement en phase d'essai pilote."
+
+#: src/pages/privacy-policy.js:115
+msgid "msg.privacy_policy_p10"
+msgstr "Vous pouvez choisir d'accepter les cookies en cliquant sur \"Accepter\" dans l’encadré situé au bas du site web, ou vous pouvez cliquer sur \"Refuser\" et continuer à naviguer sur le site web sans être suivi. Vous avez également la possibilité de supprimer les cookies via votre navigateur internet après avoir visité ce site web."
+
+#: src/pages/privacy-policy.js:123
+msgid "msg.privacy_policy_p11"
+msgstr "La sécurité de vos informations personnelles est importante pour nous. Nous avons adopté des pratiques appropriées de collecte, de stockage et de traitement des données ainsi que des mesures de sécurité pour nous protéger contre l’accès non autorisé, l’altération, la divulgation ou la destruction des informations personnelles que vous nous avez fournies via le service de référence. Lorsque des données sensibles et privées sont échangées entre notre service de référence et ses utilisateurs, nous utilisons un canal de communication sécurisé SSL et le cryptage. Aussi, toutes les informations relatives à l’utilisation de ce site web et du service de référence sont conservées en toute sécurité au Canada. Ces informations sont contenues dans un réseau sécurisé et sont accessibles uniquement par ceux qui ont des droits d’accès spéciaux et qui sont tenus de garder ces informations confidentielles. Cependant, rappelez-vous, aucune méthode de transmission par internet ou de stockage électronique n’est 100% sécurisée."
+
+#: src/pages/privacy-policy.js:128
+msgid "msg.privacy_policy_p12"
+msgstr "Dans de rares circonstances, pour votre sécurité et celle des autres, l’équipe de santé mentale jeunesse pourrait, pour des raisons juridiques, partager certaines informations avec une personne en position d’autorité (comme la protection jeunesse, les services d’urgence, ou un parent/tuteur). Ceci pourrait être applicable dans les situations suivantes:"
 
 #: src/pages/privacy-policy.js:64
+msgid "msg.privacy_policy_p1_1"
+msgstr "Nous nous engageons à protéger votre vie privée. Cette page décrit notre politique de confidentialité, et inclut les informations que nous recueillons sur les utilisateurs de ce site et du service de référence, les raisons pour lesquelles nous recueillons ces informations, et la façon dont les informations seront utilisées. En utilisant ce site web et le service de référence, vous confirmez accepter la collecte et l'utilisation des informations selon ce qui est indiqué dans cette politique de confidentialité."
+
+#: src/pages/privacy-policy.js:72
 msgid "msg.privacy_policy_p2"
-msgstr "Des informations sans votre nom seront utilisées pour évaluer et améliorer ce service de référence. Ces informations incluent, par exemple : le nombre de personnes ayant utilisé le formulaire, leur âge moyen, le type de préoccupations, et le nombre de personne ayant essayé de compléter le formulaire avant de quitter."
+msgstr "Nous collectons des informations dans le seul but de développer et améliorer ce site web et le service de référence, et de les évaluer dans le cadre d’un projet de recherche visant à améliorer l'accessibilité des services de santé mentale pour les jeunes. L’évaluation de ce projet de service de référence en ligne a reçu l’approbation éthique centrale de la part du comité d’évaluation éthique du Centre de recherche du Centre hospitalier de l’Université de Montréal."
 
-#: src/pages/privacy-policy.js:73
+#: src/pages/privacy-policy.js:77
 msgid "msg.privacy_policy_p3"
-msgstr "La protection de la vie privée nous tient à cœur. Toutefois, pour votre sécurité et pour celle des autres, l’équipe de santé mentale jeunesse pourrait être obligée, légalement, à partager certaines informations avec une personne en position d’autorité (comme la protection de la jeunesse, les services d’urgence, ou un parent/tuteur). Cela pourrait s’appliquer dans les situations suivantes :"
+msgstr "Nous ne divulguons pas, ne vendons pas, n’échangeons pas et ne transférons pas vos informations personnelles à des organisations tierces, qui ne sont pas directement impliquées dans ce projet."
 
-#: src/pages/privacy-policy.js:101
-msgid "msg.privacy_policy_return"
-msgstr "Cliquez sur le bouton ci-bas pour retourner aux Conditions d’utilisation"
+#: src/pages/privacy-policy.js:85
+msgid "msg.privacy_policy_p4"
+msgstr "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence."
+
+#: src/pages/privacy-policy.js:93
+msgid "msg.privacy_policy_p5"
+msgstr "Nous collectons les informations personnelles que vous soumettez dans le formulaire de référence (p. ex., nom, informations de contact, raison de la référence) lorsque vous faites une demande pour des services de santé mentale. Ces informations sont ensuite consultées par une équipe de santé mentale jeunesse située dans votre communauté et participant à ce nouveau service de référence. Ces informations sont nécessaires afin que l’équipe de santé mentale jeunesse puisse vous contacter et répondre à votre demande de services. Les informations de contact peuvent aussi être utilisées pour vous transmettre des informations et mises à jour sur votre demande. Les équipes de santé mentale avec lesquelles nous travaillons font partie du secteur public de soins de santé, ce qui signifie qu’elles fournissent leurs services gratuitement."
 
 #: src/pages/privacy-policy.js:95
+#~ msgid "msg.privacy_policy_p6"
+#~ msgstr "Les informations sans votre nom et vos informations d’identification seront également utilisées pour évaluer et améliorer ce service de référence. Des exemples de ces informations incluent : nombre de personnes ayant utilisé le formulaire, leur âge moyen, et les types de préoccupations qu’ils ont eus."
+
+#: src/pages/privacy-policy.js:99
+msgid "msg.privacy_policy_p6_after"
+msgstr "seront également utilisées pour évaluer et améliorer ce service de référence. Des exemples de ces informations incluent : nombre de personnes ayant utilisé le formulaire, leur âge moyen, et les types de préoccupations qu’ils ont eus."
+
+#: src/pages/privacy-policy.js:98
+msgid "msg.privacy_policy_p6_before"
+msgstr "Les informations"
+
+#: src/pages/privacy-policy.js:99
+msgid "msg.privacy_policy_p6_bold"
+msgstr "sans votre nom et vos informations d’identification"
+
+#: src/pages/privacy-policy.js:102
+msgid "msg.privacy_policy_p7"
+msgstr "Des informations statistiques anonymes sur la façon dont les visiteurs et utilisateurs interagissent avec ce site web sous la forme d’analyses de trafic sur le site web (c.-à-d., Matamo Analytics) seront également collectées. Le moteur d’analyse recueillit passivement des informations sur les visiteurs et les utilisateurs, y compris votre adresse IP (anonymisée à 2 bytes); le type d’appareil, le système d’exploitation, et le navigateur que vous utilisez; et votre activité sur notre site web (p. ex., les pages de notre site web que vous visitez, l’heure et la date de votre visite, le temps passé sur ces pages)."
+
+#: src/pages/privacy-policy.js:102
+msgid "msg.privacy_policy_p7_title"
+msgstr "Statistiques et informations sur les cookies:"
+
+#: src/pages/privacy-policy.js:105
+msgid "msg.privacy_policy_p8"
+msgstr "Ces informations nous aident à améliorer notre site web et notre service de référence."
+
+#: src/pages/privacy-policy.js:110
+msgid "msg.privacy_policy_p9"
+msgstr "Comme pour plusieurs sites, nous utilisons des \"cookies\" pour collecter les informations. Nous utilisons les cookies pour vous reconnaître en tant que visiteurs récurrents, pour enregistrer vos préférences pour vos visites futures sur notre site web, et pour compiler des données statistiques globales concernant l’utilisation de ce site web dans le but de l’améliorer."
+
+#: src/pages/privacy-policy.js:173
+msgid "msg.privacy_policy_return_button"
+msgstr "Cliquez sur le bouton ci-bas pour retourner aux Conditions d’utilisation"
+
+#: src/pages/privacy-policy.js:146
 msgid "msg.privacy_policy_under_14"
-msgstr "De plus, si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse devra contacter vos parents/tuteurs (sauf dans de rares exceptions)."
+msgstr "Aussi, si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse devra contacter vos parent(s)/tuteur(s) (sauf dans de rares exceptions)."
 
-#: src/pages/privacy-policy.js:83
+#: src/pages/privacy-policy.js:157
+msgid "msg.privacy_policy_under_15"
+msgstr "Cette politique de confidentialité est effective à partir du 4 janvier 2021.  Tout changement apporté à cette politique de confidentialité sera affiché sur le site web dès qu’ils entreront en vigueur, et les nouvelles données contenues dans cette section seront révisées."
+
+#: src/pages/privacy-policy.js:167
+msgid "msg.privacy_policy_under_16"
+msgstr "Si vous avez des questions au sujet de cette politique de confidentialité ou de notre nouveau service de référence, en processus d’évaluation, veuillez nous contacter au:"
+
+#: src/pages/privacy-policy.js:134
 msgid "msg.privacy_policy_under_17"
-msgstr "Si vous avez moins de 17 ans et que vous avez signalé un abus physique ou sexuel ;"
+msgstr "Si vous avez moins de 17 ans et que vous rapportez un abus physique ou sexuel;"
 
-#: src/pages/main.js:42
-msgid "msg.project_summary"
-msgstr "Résumé du projet"
+#: src/pages/index.js:41
+#~ msgid "msg.project_summary"
+#~ msgstr "Résumé du projet"
 
-#: src/pages/main.js:72
-msgid "msg.project_updates"
-msgstr "Mises à jour"
+#: src/pages/index.js:71
+#~ msgid "msg.project_updates"
+#~ msgstr "Mises à jour"
 
 #: src/pages/resources.js:448
 msgid "msg.resource_LGBTQIA2SP"
@@ -308,11 +388,15 @@ msgstr "Cliquez ici pour plus d’informations sur ces ressources"
 msgid "msg.sidebar_urgent"
 msgstr "Si vous êtes en situation d’urgence, veuillez composer le:"
 
+#: src/pages/forms.js:67
+msgid "msg.technical_issues"
+msgstr "Pour toute question technique concernant l'accès ou le remplissage du formulaire de référence, veuillez contacter :"
+
 #: src/pages/term-of-use.js:41
 msgid "msg.term_of_use"
 msgstr "Conditions d’utilisation"
 
-#: src/pages/term-of-use.js:109
+#: src/pages/term-of-use.js:115
 msgid "msg.term_of_use_agree_terms"
 msgstr "J’ai lu, compris, et j’accepte les conditions d’utilisation."
 
@@ -332,7 +416,7 @@ msgstr "Cliquez"
 msgid "msg.term_of_use_hate"
 msgstr "Vous n’utiliserez pas le formulaire pour diffuser toute forme de discours haineux (c'est-à-dire un discours destiné à insulter, offenser ou intimider une personne)."
 
-#: src/pages/term-of-use.js:84
+#: src/pages/term-of-use.js:90
 msgid "msg.term_of_use_here"
 msgstr "ICI"
 
@@ -344,7 +428,7 @@ msgstr "Si vous êtes en situation de crise, veuillez composer le 9-1-1 ou conta
 msgid "msg.term_of_use_information_name"
 msgstr "Les informations sans votre nom seront utilisées pour évaluer et pour améliorer ce service de référence."
 
-#: src/pages/term-of-use.js:86
+#: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_know_more"
 msgstr "si vous souhaitez en savoir plus sur le projet PRISM-AEO et sur notre politique de confidentialité."
 
@@ -352,7 +436,7 @@ msgstr "si vous souhaitez en savoir plus sur le projet PRISM-AEO et sur notre po
 msgid "msg.term_of_use_not_emergency"
 msgstr "PRISM-AEO n'est pas un service d'urgence."
 
-#: src/pages/term-of-use.js:92
+#: src/pages/term-of-use.js:98
 msgid "msg.term_of_use_under_14"
 msgstr "Si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse pourrait avoir besoin de contacter vos parents/tuteurs (sauf dans de rares situations)."
 
@@ -367,6 +451,26 @@ msgstr "TEXTER"
 #: src/pages/resources.js:359
 msgid "msg.text_connect"
 msgstr "TEXTER \"PARLER\" "
+
+#: src/components/consentPopup.js:44
+#~ msgid "msg.tracking_consent_message"
+#~ msgstr "Nous utilisons des cookies pour collecter des informations concernant l’utilisation de ce site web et ainsi nous aider à évaluer et à améliorer ce nouveau service. Vous pouvez choisir de désactiver les cookies via les préférences de votre navigateur internet. Pour en connaître davantage, consultez notre"
+
+#: src/components/consentPopup.js:32
+msgid "msg.tracking_consent_message_accept"
+msgstr "J'accepte"
+
+#: src/components/consentPopup.js:33
+msgid "msg.tracking_consent_message_decline"
+msgstr "Je refuse"
+
+#: src/components/consentPopup.js:44
+msgid "msg.tracking_consent_text"
+msgstr "Nous utilisons des cookies pour collecter des informations concernant l’utilisation de ce site web et ainsi nous aider à évaluer et à améliorer ce nouveau service de référence. Pour en connaître davantage, consultez notre"
+
+#: src/components/consentPopup.js:49
+msgid "msg.tracking_consent_text_privacy_policy"
+msgstr "politique de confidentialité"
 
 #: src/pages/resources.js:534
 msgid "msg.website"
@@ -403,3 +507,27 @@ msgstr "Étape 2:"
 #: src/pages/welcome.js:91
 msgid "msg.welcome_step2_text"
 msgstr "Une fois le formulaire complété, votre référence sera envoyée à un-e intervenant-e en santé mentale jeunesse dans votre communauté. Il/elle vous contactera dans un délai de trois jours selon la méthode de votre choix (p. ex. message texte, appel téléphonique, courriel)."
+
+#: src/pages/privacy-policy.js:90
+msgid "msg.what_information_do_we_collect_and_why"
+msgstr "Quelles informations collectons-nous et pourquoi ?"
+
+#: src/pages/privacy-policy.js:82
+msgid "msg.when_do_we_collect_information"
+msgstr "Quand collectons-nous les informations ?"
+
+#: src/pages/privacy-policy.js:42
+msgid "msg.who_are_we"
+msgstr "Qui somme-nous?"
+
+#: src/pages/privacy-policy.js:162
+msgid "msg.who_can_i_contact_if_i_want_more_information_about_this_privacy_policy"
+msgstr "Qui puis-je contacter si je désire obtenir plus d’informations au sujet de cette politique de confidentialité ?"
+
+#: src/pages/privacy-policy.js:69
+msgid "msg.why_do_we_collect_information"
+msgstr "Pourquoi collectons-nous des informations ?"
+
+#: src/pages/privacy-policy.js:152
+msgid "msg.will_this_privacy_policy_change"
+msgstr "Cette politique de confidentialité va-t-elle changer ?"
