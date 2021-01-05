@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import MainLayout from "../components/mainLayout"
-import headStyle from "../components/head.module.scss"
 import layoutStyles from "../components/layout.module.scss"
 
 /* Translation using lingui */
@@ -10,6 +8,7 @@ import { I18nProvider } from "@lingui/react"
 import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
+import { Link } from "gatsby"
 
 const IndexPage = ({ location }) => {
   const [language, setLanguage] = React.useState("en")
@@ -30,7 +29,7 @@ const IndexPage = ({ location }) => {
     >
       <MainLayout index={false} language={language}>
         <div className={layoutStyles.termOfUse}>
-          <h2>
+          <h2 style={{ textAlign: "center"}}>
             <Trans id="msg.pathway_for_rapid">
             Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth
             </Trans>
@@ -81,6 +80,9 @@ const IndexPage = ({ location }) => {
             <Trans id="msg.main_page_p7">
             *Please note that this is a new referral service that is being piloted for youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario.
             </Trans>
+          </p>
+          <p>
+            <Trans id="msg.click">Click</Trans> <Link to="/privacy-policy" className={layoutStyles.blueStrong}><Trans id="msg.here">HERE</Trans></Link> <Trans id="msg.main_page_p8">if you would like to know more about the PRISM-AOM project and our Privacy Policy.</Trans>
           </p>
         </div>
 

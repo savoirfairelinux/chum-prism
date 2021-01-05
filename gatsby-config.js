@@ -20,7 +20,8 @@ module.exports = {
       options: {
         siteId: '2',
         matomoUrl: 'https://matomo.prismref.ca/',
-        siteUrl: 'https://prismref.ca'
+        siteUrl: 'https://prismref.ca',
+        requireConsent: true
       }
     }
   ],

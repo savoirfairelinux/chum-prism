@@ -3,7 +3,7 @@
     "defaults": "Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         33
       ]
     ]
@@ -12,7 +12,7 @@
     "defaults": "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         39
       ]
     ]
@@ -21,7 +21,7 @@
     "defaults": "Project Summary",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         42
       ]
     ]
@@ -30,7 +30,7 @@
     "defaults": "PRISM-ACCESS Open Minds is a services research project conducted in collaboration with the ACCESS Open Minds pan-Canadian network for youth mental health service transformation, community organizations (e.g., Kids Help Phone, mindyourmind), and Canadian-based health technology companies.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         45
       ]
     ]
@@ -39,7 +39,7 @@
     "defaults": "PRISM-AOM aims to develop, implement, and evaluate the use of an online self-referral pathway to facilitate rapid and direct access to mental health services for youth.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         50
       ]
     ]
@@ -48,7 +48,7 @@
     "defaults": "Through this pathway, youth with mental health concerns will be able to connect with, and refer themselves directly to a local team specializing in youth mental health care using their phone, computer, or tablet. Parents and service providers will also be able to refer a young person to mental health services via PRISM-AOM. Clinicians will be able to triage, track, and manage referrals through a secured platform.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         55
       ]
     ]
@@ -57,7 +57,7 @@
     "defaults": "PRISM-AOM is not an emergency service.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         60
       ]
     ]
@@ -66,7 +66,7 @@
     "defaults": "If you are in a crisis, please call 9-1-1 or contact one of the services listed on the right side of this page.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         62
       ]
     ]
@@ -75,7 +75,7 @@
     "defaults": "Key partners include: ACCESS Open Minds, Strata Health Solutions, Youth and Family representatives, Tickit Health, Savoir-faire Linux, Kids Help Phone, Wisdom2Action, and mindyourmind.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         67
       ]
     ]
@@ -84,7 +84,7 @@
     "defaults": "Project Updates",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         72
       ]
     ]
@@ -93,7 +93,7 @@
     "defaults": "The project has gone live! Click the link below if you would like to access the referral form.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         75
       ]
     ]
@@ -102,8 +102,35 @@
     "defaults": "*Please note that this is a new referral service that is being piloted for youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario.",
     "origin": [
       [
-        "src/pages/main.js",
+        "src/pages/index.js",
         80
+      ]
+    ]
+  },
+  "msg.click": {
+    "defaults": "Click",
+    "origin": [
+      [
+        "src/pages/index.js",
+        85
+      ]
+    ]
+  },
+  "msg.here": {
+    "defaults": "HERE",
+    "origin": [
+      [
+        "src/pages/index.js",
+        85
+      ]
+    ]
+  },
+  "msg.main_page_p8": {
+    "defaults": "if you would like to know more about the PRISM-AOM project and our Privacy Policy.",
+    "origin": [
+      [
+        "src/pages/index.js",
+        85
       ]
     ]
   },
@@ -111,8 +138,8 @@
     "defaults": "CLICK HERE FOR THE FORM",
     "origin": [
       [
-        "src/pages/main.js",
-        89
+        "src/pages/index.js",
+        92
       ]
     ]
   }

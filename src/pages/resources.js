@@ -300,7 +300,7 @@ const Resources = ({ location }) => {
                 </Trans>
               </i>
             </h1>
-            <p>
+            <p className={layoutStyles.mainResourceContainer}>
               <Trans id="msg.resource_urgent_situation">
                 If there is an urgent situation (for example, losing control of
                 aggressive or suicidal thoughts), please call:
@@ -321,7 +321,7 @@ const Resources = ({ location }) => {
                 or go to the nearest Emergency Department.
               </Trans>
             </h2>
-            <p>
+            <p className={layoutStyles.mainResourceContainer}>
               <Trans id="msg.resource_other_resources">
                 Here are other resources that could help (all toll-free, open
                 24/7). All of these services are offered in English and French.

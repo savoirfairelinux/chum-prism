@@ -284,6 +284,7 @@ p {
     color: white;
     margin: 1rem;
     font-weight: 700;
+    text-align: center;
   }
 }
 
@@ -339,6 +340,7 @@ p {
 .main-nav-list {
   p {
     color: $button-background-color;
+    text-align: center;
   }
 
   p > a {
@@ -353,7 +355,7 @@ p {
   }
 }
 
-.left {
+p.left {
   text-align: left;
 }
 
@@ -815,6 +817,11 @@ button {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  p.centered {
+    text-align: center;
+  }
+
 }
 
 .privacyPolicy h1 {
@@ -1207,6 +1214,10 @@ body {
 .mainResourceContainer {
   text-align: center;
   background-color: $title-color;
+
+  p.centered {
+    text-align: center;
+  }
 }
 
 .mainResourceContainer p,
@@ -1214,6 +1225,10 @@ body {
   margin: 0.5rem;
   text-decoration: none;
   color: white;
+}
+
+.mainResourceContainer p {
+  font-size: 20px;
 }
 
 .mainResourceContainer img {

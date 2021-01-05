@@ -1,0 +1,38 @@
+{
+  "msg.tracking_consent_message_accept": {
+    "defaults": "Accept",
+    "origin": [
+      [
+        "src/components/consentPopup.js",
+        32
+      ]
+    ]
+  },
+  "msg.tracking_consent_message_decline": {
+    "defaults": "Decline",
+    "origin": [
+      [
+        "src/components/consentPopup.js",
+        33
+      ]
+    ]
+  },
+  "msg.tracking_consent_text": {
+    "defaults": "We use cookies to collect information about the use of this Website to help us evaluate and improve this new Referral Service. To learn more, read our",
+    "origin": [
+      [
+        "src/components/consentPopup.js",
+        44
+      ]
+    ]
+  },
+  "msg.tracking_consent_text_privacy_policy": {
+    "defaults": "privacy policy",
+    "origin": [
+      [
+        "src/components/consentPopup.js",
+        44
+      ]
+    ]
+  }
+}
