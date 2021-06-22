@@ -141,7 +141,7 @@ msgstr "Avant de continuer, veuillez cocher la case ci-dessous pour indiquer que
 
 #: src/pages/privacy-policy.js:36
 msgid "msg.privacy_policy_aom"
-msgstr "PRISM-AEO politique de confidentialité"
+msgstr "PRISM-AEO politique de confidentialité Test20210622"
 
 #: src/pages/privacy-policy.js:39
 msgid "msg.privacy_policy_aom_update_date"
