@@ -30,7 +30,7 @@ const PrivacyPolicyPage = ({ location }) => {
       <Layout index={false} language={language}>
         <div className={layoutStyles.privacyPolicy}>
           <h1>
-            <Trans id="msg.privacy_policy_aom">PRISM-AOM Privacy Policy</Trans>
+            <Trans id="msg.privacy_policy_aom">PRISM-AOM Privacy Policy Test20210622</Trans>
           </h1>
           <p className={layoutStyles.centered}>
             <Trans id="msg.privacy_policy_aom_update_date">Last updated: January 4, 2021</Trans>
