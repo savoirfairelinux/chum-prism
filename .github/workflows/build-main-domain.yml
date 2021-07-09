@@ -1,0 +1,19 @@
+name: Build main domain
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install dependencies
+        run: npm i
+      - name: Install Browser List
+        run: npx browserslist@latest --update-db
+      - name: Build gatsby for translation
+        run: npm run build
+      - name: Extract translations
+        run: npm run extract
+      - name: Compile translations
+        run: npm run compile
+      - name: Build gatsby
+        run: npm run build
