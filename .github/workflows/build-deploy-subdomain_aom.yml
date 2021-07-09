@@ -1,0 +1,30 @@
+name: 🚀 Build and deploy subdomain
+on:
+  push:
+    branches:
+      - subdomain_aom
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install dependencies
+        run: npm i
+      - name: Install Browser List
+        run: npx browserslist@latest --update-db
+      - name: Build gatsby for translation
+        run: npm run build
+      - name: Extract translations
+        run: npm run extract
+      - name: Compile translations
+        run: npm run compile
+      - name: Build gatsby
+        run: npm run build
+      - name: 📂 Deploy to aom.prismref.ca
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.prismref.ca
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: public/
+          server-dir: /aom.prismref.ca/
