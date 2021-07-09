@@ -31,7 +31,7 @@ const IndexPage = ({ location }) => {
         <div className={layoutStyles.termOfUse}>
           <h2 style={{ textAlign: "center"}}>
             <Trans id="msg.pathway_for_rapid">
-            Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth (test)
+            Pathway for Rapid, Internet-based, Self-referral to Mental health services for youth
             </Trans>
           </h2>
 

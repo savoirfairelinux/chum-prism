@@ -137,7 +137,7 @@ msgstr "ou"
 
 #: src/pages/index.js:33
 msgid "msg.pathway_for_rapid"
-msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse (test)"
+msgstr "Parcours d’autoréférence Rapide, via Internet, aux services en Santé Mentale jeunesse"
 
 #: src/pages/term-of-use.js:135
 #~ msgid "msg.popup_terms"
