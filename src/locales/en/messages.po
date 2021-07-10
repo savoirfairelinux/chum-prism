@@ -322,7 +322,7 @@ msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
 
 #: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
-msgstr "Contact a counsellor at Kids Help Phone (Test)"
+msgstr "Contact a counsellor at Kids Help Phone"
 
 #: src/pages/resources.js:364
 msgid "msg.resource_kid_help_phone_chat"
