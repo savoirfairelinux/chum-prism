@@ -322,7 +322,7 @@ msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
 
 #: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
-msgstr "Parlez à un-e intervenant-e de Jeunesse, J’écoute"
+msgstr "Parlez à un-e intervenant-e de Jeunesse, J’écoute (Test)"
 
 #: src/pages/resources.js:364
 msgid "msg.resource_kid_help_phone_chat"
