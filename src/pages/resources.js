@@ -335,7 +335,7 @@ const Resources = ({ location }) => {
                   <div className={layoutStyles.cardTitle}>
                     <h3>
                       <Trans id="msg.resource_kid_help_phone">
-                        Contact a counsellor at Kids Help Phone
+                        Contact a counsellor at Kids Help Phone (Test)
                       </Trans>
                     </h3>
                   </div>
