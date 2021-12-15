@@ -141,7 +141,7 @@ msgstr "Please click the box below to indicate that you have read, understand, a
 
 #: src/pages/privacy-policy.js:36
 msgid "msg.privacy_policy_aom"
-msgstr "PRISM-AOM Privacy Policy Test20210622"
+msgstr "PRISM-AOM Privacy Policy"
 
 #: src/pages/privacy-policy.js:39
 msgid "msg.privacy_policy_aom_update_date"
