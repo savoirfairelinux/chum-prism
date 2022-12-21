@@ -46,7 +46,7 @@ const IndexPage = ({ location }) => {
               *Please note that this is a new referral service that is only
               available to youth 11 to 25 years old in Canada living in Downtown
               Montreal, Quebec (for youth in homeless situations) and Chatham
-              Kent, Ontario.
+              Kent, Ontario...
             </Trans>
           </p>
 
