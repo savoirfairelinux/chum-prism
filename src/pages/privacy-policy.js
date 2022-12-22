@@ -40,12 +40,12 @@ const PrivacyPolicyPage = ({ location }) => {
           </h2>
           <p>
             <Trans id="msg.privacy_policy_p1">
-                This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested...
+                This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested.
             </Trans>
           </p>
           <p>
             <Trans id="msg.privacy_policy_link2">
-                For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project, visit
+                For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project; visit
             </Trans>{" "}
             <a href={language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"} target="_blank">{language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"}</a>
           </p>
