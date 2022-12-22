@@ -157,7 +157,7 @@ msgstr "For more information about ACCESS Open Minds, visit"
 
 #: src/pages/privacy-policy.js:50
 msgid "msg.privacy_policy_link2"
-msgstr "For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project, visit"
+msgstr "For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project; visit"
 
 #: src/components/consentPopup.js:44
 #~ msgid "msg.privacy_policy_lowercase"
