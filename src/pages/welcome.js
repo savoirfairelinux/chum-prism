@@ -58,7 +58,7 @@ const IndexPage = ({ location }) => {
         </div>
         <div className={layoutStyles.welcomeSecondBlock}>
           <h1>
-            <Trans id="msg.welcome_how">How does it work??</Trans>
+            <Trans id="msg.welcome_how">How does it work???</Trans>
           </h1>
           <div className={layoutStyles.row}>
             <div className={layoutStyles.column}>
