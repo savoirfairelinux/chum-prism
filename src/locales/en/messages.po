@@ -478,7 +478,7 @@ msgstr "WEBSITE"
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"
-msgstr "How does it work?"
+msgstr "How does it work???"
 
 #: src/pages/welcome.js:54
 msgid "msg.welcome_not_emergency"
