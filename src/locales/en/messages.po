@@ -365,8 +365,8 @@ msgid "msg.sidebar_call"
 msgstr "Call"
 
 #: src/components/sidebar.js:96
-#msgid "msg.sidebar_chatham"
-#msgstr "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)"
+msgid "msg.sidebar_chatham"
+msgstr "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)"
 
 #: src/components/sidebar.js:79
 msgid "msg.sidebar_first_nation"
