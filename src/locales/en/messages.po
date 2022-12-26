@@ -310,7 +310,7 @@ msgstr "www.hopeforwellness.ca (live chat available)"
 #: src/components/sidebar.js:41
 #: src/pages/resources.js:298
 msgid "msg.resource_header"
-msgstr "PRISM-AOM IS NOT AN EMERGENCY SERVICE."
+msgstr "PRISM IS NOT AN EMERGENCY SERVICE."
 
 #: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
