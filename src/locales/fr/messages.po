@@ -64,7 +64,7 @@ msgstr "Vous remplissez le formulaire pour..."
 
 #: src/pages/forms.js:35
 msgid "msg.forms_referral_form"
-msgstr "formulaire de référence en ligne PRISM-AEO !"
+msgstr "formulaire de référence en ligne PRISM !"
 
 #: src/pages/forms.js:58
 msgid "msg.forms_seomeone_else"
@@ -96,7 +96,7 @@ msgstr "Comment protégeons-nous vos informations ?"
 
 #: src/pages/index.js:49
 #~ msgid "msg.main_page_p2"
-#~ msgstr "PRISM-AEO vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
+#~ msgstr "PRISM vise à développer, à implanter et à évaluer un parcours d’autoréférence en ligne afin de favoriser l’accès rapide et direct aux soins en santé mentale pour les jeunes."
 
 #: src/pages/index.js:54
 #~ msgid "msg.main_page_p3"
@@ -108,7 +108,7 @@ msgstr "Comment protégeons-nous vos informations ?"
 
 #: src/pages/index.js:59
 #~ msgid "msg.main_page_p4_intro"
-#~ msgstr "PRISM-AEO n'est pas un service d'urgence."
+#~ msgstr "PRISM n'est pas un service d'urgence."
 
 #: src/pages/index.js:66
 #~ msgid "msg.main_page_p5"
@@ -430,11 +430,11 @@ msgstr "Les informations sans votre nom seront utilisées pour évaluer et pour 
 
 #: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_know_more"
-msgstr "si vous souhaitez en savoir plus sur le projet PRISM-AEO et sur notre politique de confidentialité."
+msgstr "si vous souhaitez en savoir plus sur le projet PRISM et sur notre politique de confidentialité."
 
 #: src/pages/term-of-use.js:56
 msgid "msg.term_of_use_not_emergency"
-msgstr "PRISM-AEO n'est pas un service d'urgence."
+msgstr "PRISM n'est pas un service d'urgence."
 
 #: src/pages/term-of-use.js:98
 msgid "msg.term_of_use_under_14"
