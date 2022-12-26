@@ -100,7 +100,7 @@ msgstr "Comment protégeons-nous vos informations ?"
 
 #: src/pages/index.js:54
 #~ msgid "msg.main_page_p3"
-#~ msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM-AEO. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
+#~ msgstr "Grâce à ce parcours, les jeunes qui ont des inquiétudes liées à la santé mentale pourront se référer directement à une équipe locale spécialisée en soins «santé mentale» en utilisant leur téléphone, leur ordinateur ou leur tablette. Les parents et les intervenants pourront également orienter le jeune vers des services en santé mentale grâce à PRISM. Les cliniciens seront en mesure de trier, suivre et gérer les références sur une plateforme sécurisée."
 
 #: src/pages/index.js:61
 #~ msgid "msg.main_page_p4"
@@ -357,16 +357,16 @@ msgid "msg.sidebar_LGBTQIA2SP"
 msgstr "Interligne (pour la communauté LGBTQIA2SP+)"
 
 #: src/components/sidebar.js:102
-msgid "msg.sidebar_WAYS"
-msgstr "La ligne de crise WAYS (519-354-4095)"
+#msgid "msg.sidebar_WAYS"
+#msgstr "La ligne de crise WAYS (519-354-4095)"
 
 #: src/components/sidebar.js:92
 msgid "msg.sidebar_call"
 msgstr "Appeler"
 
 #: src/components/sidebar.js:96
-msgid "msg.sidebar_chatham"
-msgstr "La ligne de crise pour la santé mentale de Chatham Kent (519-436-6100 ou 1-866-299-7447)"
+#msgid "msg.sidebar_chatham"
+#msgstr "La ligne de crise pour la santé mentale de Chatham Kent (519-436-6100 ou 1-866-299-7447)"
 
 #: src/components/sidebar.js:79
 msgid "msg.sidebar_first_nation"
