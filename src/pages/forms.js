@@ -33,7 +33,7 @@ const IndexPage = ({ location }) => {
             </Trans>{" "}
             <span className={layoutStyles.redColor}>
               <Trans id="msg.forms_referral_form">
-                PRISM-AOM online referral form!
+                PRISM online referral form!
               </Trans>
             </span>
           </h1>
