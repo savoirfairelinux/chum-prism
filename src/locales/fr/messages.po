@@ -80,7 +80,7 @@ msgstr "Pour toute information générale sur ce nouveau service de référence,
 
 #: src/pages/welcome.js:33
 msgid "msg.header"
-msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouverts!"
+msgstr "Bienvenue au service de référence en ligne PRISM!"
 
 #: src/components/sidebar.js:35
 msgid "msg.here_are_other_ressources"
@@ -310,7 +310,7 @@ msgstr "www.espoirpourlemieuxetre.ca (clavardage en ligne disponible)"
 #: src/components/sidebar.js:41
 #: src/pages/resources.js:298
 msgid "msg.resource_header"
-msgstr "PRISM-AEO N’EST PAS UN SERVICE D’URGENCE."
+msgstr "PRISM N’EST PAS UN SERVICE D’URGENCE."
 
 #: src/pages/resources.js:337
 msgid "msg.resource_kid_help_phone"
@@ -478,7 +478,7 @@ msgstr "SITE WEB"
 
 #: src/pages/welcome.js:61
 msgid "msg.welcome_how"
-msgstr "Comment fonctionne-t-il??"
+msgstr "Comment fonctionne-t-il?"
 
 #: src/pages/welcome.js:54
 msgid "msg.welcome_not_emergency"
@@ -486,11 +486,11 @@ msgstr "Il ne s’agit pas d’un service d’urgence."
 
 #: src/pages/welcome.js:38
 msgid "msg.welcome_p1"
-msgstr "Par ce site, vous aurez accès à un formulaire de référence vous permettant de recevoir de l’aide directement de la part d’un-e intervenant-e en santé mentale jeunesse, pour vous-même ou pour un-e jeune qui vous est cher/chère."
+msgstr "Par ce site, vous aurez accès à un formulaire de référence permettant à vous-même ou à un·e jeune qui vous est cher/chère de recevoir de l’aide. Un·e intervenant-e jeunesse pourra directement offrir des services en matière de santé mentale, ou physique, des conseils pour les relations avec les autres, les études, le travail, des renseignements sur un aide financière et juridique, ou tout autre situation !"
 
 #: src/pages/welcome.js:45
 msgid "msg.welcome_p1_note"
-msgstr "*Veuillez prendre note que ceci est un nouveau service de référence seulement disponible pour les jeunes de 11 à 25 ans au Canada vivant au centre de ville de Montréal, Québec (pour les jeunes en situation d’itinérance) et à Chatham Kent, Ontario. "
+msgstr "*Veuillez prendre note que ceci est un nouveau service de référence seulement disponible pour les jeunes de 12 à 25 ans au Canada fréquentant un des quartiers suivants de Montréal : St-Henri; Petite-Bourgogne; Griffintown; Verdun; Pointe St-Charles; Côtes-St-Paul; Ville-Émard; Ville-Marie; Île-des-Soeurs."
 
 #: src/pages/welcome.js:72
 msgid "msg.welcome_step1"
