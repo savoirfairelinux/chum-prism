@@ -54,7 +54,7 @@ const IndexPage = ({ location }) => {
             <li>
               <strong className={layoutStyles.blueStrong}>
                 <Trans id="msg.term_of_use_not_emergency">
-                  PRISM-AOM is not an emergency service.
+                  PRISM is not an emergency service.
                 </Trans>
               </strong>{" "}
               <Trans id="msg.term_of_use_if_crisis">
@@ -90,7 +90,7 @@ const IndexPage = ({ location }) => {
                 <Trans id="msg.term_of_use_here">HERE</Trans>
               </Link>{" "}
               <Trans id="msg.term_of_use_know_more">
-                if you would like to know more about the PRISM-AOM project and
+                if you would like to know more about the PRISM project and
                 our Privacy Policy.
               </Trans>
             </li>
