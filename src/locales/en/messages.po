@@ -64,7 +64,7 @@ msgstr "Click if you are filling out this form for…."
 
 #: src/pages/forms.js:35
 msgid "msg.forms_referral_form"
-msgstr "PRISM-AOM online referral form!"
+msgstr "PRISM online referral form!"
 
 #: src/pages/forms.js:58
 msgid "msg.forms_seomeone_else"
