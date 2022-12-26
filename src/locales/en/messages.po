@@ -430,11 +430,11 @@ msgstr "Information without your name will be used to evaluate and improve this 
 
 #: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_know_more"
-msgstr "if you would like to know more about the PRISM-AOM project and our Privacy Policy."
+msgstr "if you would like to know more about the PRISM project and our Privacy Policy."
 
 #: src/pages/term-of-use.js:56
 msgid "msg.term_of_use_not_emergency"
-msgstr "PRISM-AOM is not an emergency service."
+msgstr "PRISM is not an emergency service."
 
 #: src/pages/term-of-use.js:98
 msgid "msg.term_of_use_under_14"
