@@ -13,18 +13,35 @@ const Header = props => {
   return (
     <div className={headerStyles.header}>
       <Link to="/">
-        {(url === "/" || url === "/forms") ?         
-        <img
-          src={"/prism.png"}
-          alt="Prism"
-          className={headerStyles.logo1}
-        /> 
-        : 
-        <img
-        src={"/prism.png"}
-        alt="Prism"
-        className={headerStyles.logo2}
-      />}
+        {url === "/" || url === "/forms" ? (
+          <div className={headerStyles.headerHomePageImages}>
+            <img
+              src={"/aire_ouverte.png"}
+              alt="Aire ouverte"
+              className={headerStyles.logo3}
+            />
+            <img
+              src={"/prism.png"}
+              alt="Prism"
+              className={headerStyles.logo1}
+            />
+            <div className={headerStyles.logo3}></div>
+          </div>
+        ) : (
+          <div className={headerStyles.headerHomePageImages}>
+            <img
+              src={"/aire_ouverte.png"}
+              alt="Aire ouverte"
+              className={headerStyles.logo3}
+            />
+            <img
+              src={"/prism.png"}
+              alt="Prism"
+              className={headerStyles.logo2}
+            />
+            <div className={headerStyles.logo3}></div>
+          </div>
+        )}
       </Link>
     </div>
   )

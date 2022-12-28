@@ -1,10 +1,10 @@
 {
   "msg.privacy_policy_aom": {
-    "defaults": "PRISM-AOM Privacy Policy",
+    "defaults": "PRISM-AOM Privacy Policy Test20210622",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        36
+        33
       ]
     ]
   },
@@ -13,7 +13,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        39
+        36
       ]
     ]
   },
@@ -22,16 +22,16 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        42
+        39
       ]
     ]
   },
   "msg.privacy_policy_p1": {
-    "defaults": "This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested.",
+    "defaults": "This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested...",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        45
+        42
       ]
     ]
   },
@@ -40,7 +40,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        50
+        47
       ]
     ]
   },
@@ -49,7 +49,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        56
+        53
       ]
     ]
   },
@@ -58,7 +58,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        64
+        61
       ]
     ]
   },
@@ -67,7 +67,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        69
+        66
       ]
     ]
   },
@@ -76,7 +76,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        72
+        69
       ]
     ]
   },
@@ -85,7 +85,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        77
+        74
       ]
     ]
   },
@@ -94,7 +94,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        82
+        79
       ]
     ]
   },
@@ -103,7 +103,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        85
+        82
       ]
     ]
   },
@@ -112,7 +112,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        90
+        87
       ]
     ]
   },
@@ -121,7 +121,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        93
+        90
       ]
     ]
   },
@@ -130,7 +130,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        98
+        95
       ]
     ]
   },
@@ -139,7 +139,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        99
+        96
       ]
     ]
   },
@@ -148,7 +148,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        99
+        96
       ]
     ]
   },
@@ -157,7 +157,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        102
+        99
       ]
     ]
   },
@@ -166,7 +166,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        102
+        99
       ]
     ]
   },
@@ -175,7 +175,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        105
+        102
       ]
     ]
   },
@@ -184,7 +184,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        110
+        107
       ]
     ]
   },
@@ -193,7 +193,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        115
+        112
       ]
     ]
   },
@@ -202,7 +202,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        120
+        117
       ]
     ]
   },
@@ -211,7 +211,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        123
+        120
       ]
     ]
   },
@@ -220,7 +220,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        128
+        125
       ]
     ]
   },
@@ -229,7 +229,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        134
+        131
       ]
     ]
   },
@@ -238,7 +238,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        139
+        136
       ]
     ]
   },
@@ -247,7 +247,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        146
+        143
       ]
     ]
   },
@@ -256,7 +256,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        152
+        149
       ]
     ]
   },
@@ -265,7 +265,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        157
+        154
       ]
     ]
   },
@@ -274,7 +274,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        162
+        159
       ]
     ]
   },
@@ -283,7 +283,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        167
+        164
       ]
     ]
   },
@@ -292,7 +292,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        173
+        170
       ]
     ]
   },
@@ -301,7 +301,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        179
+        176
       ]
     ]
   }
