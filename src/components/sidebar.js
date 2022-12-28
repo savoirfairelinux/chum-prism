@@ -92,17 +92,6 @@ const Sidebar = props => {
               <p className={layoutStyles.left}><Trans id="msg.sidebar_call">Call</Trans></p>
               <ul className={layoutStyles.navList}>
                 <li className={layoutStyles.navItem}>Info-Santé (8-1-1)</li>
-                <li className={layoutStyles.navItem}>
-                  <Trans id="msg.sidebar_chatham">
-                    The Chatham Kent Mental Health Crisis Line (519-436-6100
-                    or 1-866-299-7447)
-                  </Trans>
-                </li>
-                <li className={layoutStyles.navItem}>
-                  <Trans id="msg.sidebar_WAYS">
-                    The WAYS’ Crisis Line (519-354-4095)
-                  </Trans>
-                </li>
               </ul>
           </div>
         </nav>
