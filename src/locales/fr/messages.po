@@ -17,7 +17,7 @@ msgstr ""
 #~ msgid "msg.about_the_prism_access_open_minds_project"
 #~ msgstr "À PROPOS DU PROJET PRISM-ACCESS ESPRITS OUVERTS"
 
-#: src/pages/privacy-policy.js:179
+#: src/pages/privacy-policy.js:176
 msgid "msg.back"
 msgstr "Précédent"
 
@@ -74,7 +74,7 @@ msgstr "QUELQU’UN D’AUTRE"
 msgid "msg.forms_yourself"
 msgstr "VOUS-MÊME"
 
-#: src/pages/forms.js:68
+#: src/pages/forms.js:69
 msgid "msg.general_informations"
 msgstr "Pour toute information générale sur ce nouveau service de référence, veuillez contacter :"
 
@@ -86,7 +86,7 @@ msgstr "Bienvenue au service de référence en ligne PRISM-ACCESS Esprits ouve
 msgid "msg.here_are_other_ressources"
 msgstr "Voici d'autres ressources qui pourraient vous aider"
 
-#: src/pages/privacy-policy.js:120
+#: src/pages/privacy-policy.js:117
 msgid "msg.how_do_we_protect_your_information"
 msgstr "Comment protégeons-nous vos informations ?"
 
@@ -139,23 +139,23 @@ msgstr "Avant de continuer, veuillez cocher la case ci-dessous pour indiquer que
 #~ msgid "msg.privacy_policy"
 #~ msgstr "POLITIQUES DE CONFIDENTIALITÉ"
 
-#: src/pages/privacy-policy.js:36
+#: src/pages/privacy-policy.js:33
 msgid "msg.privacy_policy_aom"
 msgstr "PRISM-AEO politique de confidentialité"
 
-#: src/pages/privacy-policy.js:39
+#: src/pages/privacy-policy.js:36
 msgid "msg.privacy_policy_aom_update_date"
 msgstr "Dernière mise à jour: le 4 janvier 2021"
 
-#: src/pages/privacy-policy.js:139
+#: src/pages/privacy-policy.js:136
 msgid "msg.privacy_policy_harming_yourself"
 msgstr "Si vous pensez sérieusement à vous blesser ou à blesser autrui."
 
-#: src/pages/privacy-policy.js:56
+#: src/pages/privacy-policy.js:53
 msgid "msg.privacy_policy_link1"
 msgstr "Pour plus d’informations concernant ACCESS Esprits ouverts, consultez"
 
-#: src/pages/privacy-policy.js:50
+#: src/pages/privacy-policy.js:47
 msgid "msg.privacy_policy_link2"
 msgstr "Pour plus d’informations au sujet du laboratoire Santé mentale des jeunes et technologies et au sujet du projet PRISM-AEO, consultez"
 
@@ -163,39 +163,39 @@ msgstr "Pour plus d’informations au sujet du laboratoire Santé mentale des je
 #~ msgid "msg.privacy_policy_lowercase"
 #~ msgstr "politique de confidentialité."
 
-#: src/pages/privacy-policy.js:45
+#: src/pages/privacy-policy.js:42
 msgid "msg.privacy_policy_p1"
-msgstr "Ce site web et le service de référence sont gérés par le laboratoire Santé mentale des jeunes et technologies situé au Centre hospitalier de l’Université de Montréal, à Montréal, Canada (une organisation à but non lucratif, institution publique de santé). Notre équipe a développé ce nouveau service de référence en collaboration avec le réseau national de services pour la santé mentale des jeunes ACCESS Esprits ouverts. Partenaires jeunesse et familiaux, compagnies canadiennes de technologies, chercheurs en santé mentale, et fournisseurs de services ont collaboré au développement de ce nouveau service, actuellement en phase d'essai pilote."
+msgstr "Ce site web et le service de référence sont gérés par le laboratoire Santé mentale des jeunes et technologies situé au Centre hospitalier de l’Université de Montréal, à Montréal, Canada (une organisation à but non lucratif, institution publique de santé). Notre équipe a développé ce nouveau service de référence en collaboration avec le réseau national de services pour la santé mentale des jeunes ACCESS Esprits ouverts. Partenaires jeunesse et familiaux, compagnies canadiennes de technologies, chercheurs en santé mentale, et fournisseurs de services ont collaboré au développement de ce nouveau service, actuellement en phase d'essai pilote..."
 
-#: src/pages/privacy-policy.js:115
+#: src/pages/privacy-policy.js:112
 msgid "msg.privacy_policy_p10"
 msgstr "Vous pouvez choisir d'accepter les cookies en cliquant sur \"Accepter\" dans l’encadré situé au bas du site web, ou vous pouvez cliquer sur \"Refuser\" et continuer à naviguer sur le site web sans être suivi. Vous avez également la possibilité de supprimer les cookies via votre navigateur internet après avoir visité ce site web."
 
-#: src/pages/privacy-policy.js:123
+#: src/pages/privacy-policy.js:120
 msgid "msg.privacy_policy_p11"
 msgstr "La sécurité de vos informations personnelles est importante pour nous. Nous avons adopté des pratiques appropriées de collecte, de stockage et de traitement des données ainsi que des mesures de sécurité pour nous protéger contre l’accès non autorisé, l’altération, la divulgation ou la destruction des informations personnelles que vous nous avez fournies via le service de référence. Lorsque des données sensibles et privées sont échangées entre notre service de référence et ses utilisateurs, nous utilisons un canal de communication sécurisé SSL et le cryptage. Aussi, toutes les informations relatives à l’utilisation de ce site web et du service de référence sont conservées en toute sécurité au Canada. Ces informations sont contenues dans un réseau sécurisé et sont accessibles uniquement par ceux qui ont des droits d’accès spéciaux et qui sont tenus de garder ces informations confidentielles. Cependant, rappelez-vous, aucune méthode de transmission par internet ou de stockage électronique n’est 100% sécurisée."
 
-#: src/pages/privacy-policy.js:128
+#: src/pages/privacy-policy.js:125
 msgid "msg.privacy_policy_p12"
 msgstr "Dans de rares circonstances, pour votre sécurité et celle des autres, l’équipe de santé mentale jeunesse pourrait, pour des raisons juridiques, partager certaines informations avec une personne en position d’autorité (comme la protection jeunesse, les services d’urgence, ou un parent/tuteur). Ceci pourrait être applicable dans les situations suivantes:"
 
-#: src/pages/privacy-policy.js:64
+#: src/pages/privacy-policy.js:61
 msgid "msg.privacy_policy_p1_1"
 msgstr "Nous nous engageons à protéger votre vie privée. Cette page décrit notre politique de confidentialité, et inclut les informations que nous recueillons sur les utilisateurs de ce site et du service de référence, les raisons pour lesquelles nous recueillons ces informations, et la façon dont les informations seront utilisées. En utilisant ce site web et le service de référence, vous confirmez accepter la collecte et l'utilisation des informations selon ce qui est indiqué dans cette politique de confidentialité."
 
-#: src/pages/privacy-policy.js:72
+#: src/pages/privacy-policy.js:69
 msgid "msg.privacy_policy_p2"
 msgstr "Nous collectons des informations dans le seul but de développer et améliorer ce site web et le service de référence, et de les évaluer dans le cadre d’un projet de recherche visant à améliorer l'accessibilité des services de santé mentale pour les jeunes. L’évaluation de ce projet de service de référence en ligne a reçu l’approbation éthique centrale de la part du comité d’évaluation éthique du Centre de recherche du Centre hospitalier de l’Université de Montréal."
 
-#: src/pages/privacy-policy.js:77
+#: src/pages/privacy-policy.js:74
 msgid "msg.privacy_policy_p3"
 msgstr "Nous ne divulguons pas, ne vendons pas, n’échangeons pas et ne transférons pas vos informations personnelles à des organisations tierces, qui ne sont pas directement impliquées dans ce projet."
 
-#: src/pages/privacy-policy.js:85
+#: src/pages/privacy-policy.js:82
 msgid "msg.privacy_policy_p4"
 msgstr "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence."
 
-#: src/pages/privacy-policy.js:93
+#: src/pages/privacy-policy.js:90
 msgid "msg.privacy_policy_p5"
 msgstr "Nous collectons les informations personnelles que vous soumettez dans le formulaire de référence (p. ex., nom, informations de contact, raison de la référence) lorsque vous faites une demande pour des services de santé mentale. Ces informations sont ensuite consultées par une équipe de santé mentale jeunesse située dans votre communauté et participant à ce nouveau service de référence. Ces informations sont nécessaires afin que l’équipe de santé mentale jeunesse puisse vous contacter et répondre à votre demande de services. Les informations de contact peuvent aussi être utilisées pour vous transmettre des informations et mises à jour sur votre demande. Les équipes de santé mentale avec lesquelles nous travaillons font partie du secteur public de soins de santé, ce qui signifie qu’elles fournissent leurs services gratuitement."
 
@@ -203,51 +203,51 @@ msgstr "Nous collectons les informations personnelles que vous soumettez dans le
 #~ msgid "msg.privacy_policy_p6"
 #~ msgstr "Les informations sans votre nom et vos informations d’identification seront également utilisées pour évaluer et améliorer ce service de référence. Des exemples de ces informations incluent : nombre de personnes ayant utilisé le formulaire, leur âge moyen, et les types de préoccupations qu’ils ont eus."
 
-#: src/pages/privacy-policy.js:99
+#: src/pages/privacy-policy.js:96
 msgid "msg.privacy_policy_p6_after"
 msgstr "seront également utilisées pour évaluer et améliorer ce service de référence. Des exemples de ces informations incluent : nombre de personnes ayant utilisé le formulaire, leur âge moyen, et les types de préoccupations qu’ils ont eus."
 
-#: src/pages/privacy-policy.js:98
+#: src/pages/privacy-policy.js:95
 msgid "msg.privacy_policy_p6_before"
 msgstr "Les informations"
 
-#: src/pages/privacy-policy.js:99
+#: src/pages/privacy-policy.js:96
 msgid "msg.privacy_policy_p6_bold"
 msgstr "sans votre nom et vos informations d’identification"
 
-#: src/pages/privacy-policy.js:102
+#: src/pages/privacy-policy.js:99
 msgid "msg.privacy_policy_p7"
 msgstr "Des informations statistiques anonymes sur la façon dont les visiteurs et utilisateurs interagissent avec ce site web sous la forme d’analyses de trafic sur le site web (c.-à-d., Matamo Analytics) seront également collectées. Le moteur d’analyse recueillit passivement des informations sur les visiteurs et les utilisateurs, y compris votre adresse IP (anonymisée à 2 bytes); le type d’appareil, le système d’exploitation, et le navigateur que vous utilisez; et votre activité sur notre site web (p. ex., les pages de notre site web que vous visitez, l’heure et la date de votre visite, le temps passé sur ces pages)."
 
-#: src/pages/privacy-policy.js:102
+#: src/pages/privacy-policy.js:99
 msgid "msg.privacy_policy_p7_title"
 msgstr "Statistiques et informations sur les cookies:"
 
-#: src/pages/privacy-policy.js:105
+#: src/pages/privacy-policy.js:102
 msgid "msg.privacy_policy_p8"
 msgstr "Ces informations nous aident à améliorer notre site web et notre service de référence."
 
-#: src/pages/privacy-policy.js:110
+#: src/pages/privacy-policy.js:107
 msgid "msg.privacy_policy_p9"
 msgstr "Comme pour plusieurs sites, nous utilisons des \"cookies\" pour collecter les informations. Nous utilisons les cookies pour vous reconnaître en tant que visiteurs récurrents, pour enregistrer vos préférences pour vos visites futures sur notre site web, et pour compiler des données statistiques globales concernant l’utilisation de ce site web dans le but de l’améliorer."
 
-#: src/pages/privacy-policy.js:173
+#: src/pages/privacy-policy.js:170
 msgid "msg.privacy_policy_return_button"
 msgstr "Cliquez sur le bouton ci-bas pour retourner aux Conditions d’utilisation"
 
-#: src/pages/privacy-policy.js:146
+#: src/pages/privacy-policy.js:143
 msgid "msg.privacy_policy_under_14"
 msgstr "Aussi, si vous avez moins de 14 ans, l’équipe de santé mentale jeunesse devra contacter vos parent(s)/tuteur(s) (sauf dans de rares exceptions)."
 
-#: src/pages/privacy-policy.js:157
+#: src/pages/privacy-policy.js:154
 msgid "msg.privacy_policy_under_15"
 msgstr "Cette politique de confidentialité est effective à partir du 4 janvier 2021.  Tout changement apporté à cette politique de confidentialité sera affiché sur le site web dès qu’ils entreront en vigueur, et les nouvelles données contenues dans cette section seront révisées."
 
-#: src/pages/privacy-policy.js:167
+#: src/pages/privacy-policy.js:164
 msgid "msg.privacy_policy_under_16"
 msgstr "Si vous avez des questions au sujet de cette politique de confidentialité ou de notre nouveau service de référence, en processus d’évaluation, veuillez nous contacter au:"
 
-#: src/pages/privacy-policy.js:134
+#: src/pages/privacy-policy.js:131
 msgid "msg.privacy_policy_under_17"
 msgstr "Si vous avez moins de 17 ans et que vous rapportez un abus physique ou sexuel;"
 
@@ -388,7 +388,7 @@ msgstr "Cliquez ici pour plus d’informations sur ces ressources"
 msgid "msg.sidebar_urgent"
 msgstr "Si vous êtes en situation d’urgence, veuillez composer le:"
 
-#: src/pages/forms.js:67
+#: src/pages/forms.js:68
 msgid "msg.technical_issues"
 msgstr "Pour toute question technique concernant l'accès ou le remplissage du formulaire de référence, veuillez contacter :"
 
@@ -468,7 +468,7 @@ msgstr "Je refuse"
 msgid "msg.tracking_consent_text"
 msgstr "Nous utilisons des cookies pour collecter des informations concernant l’utilisation de ce site web et ainsi nous aider à évaluer et à améliorer ce nouveau service de référence. Pour en connaître davantage, consultez notre"
 
-#: src/components/consentPopup.js:49
+#: src/components/consentPopup.js:50
 msgid "msg.tracking_consent_text_privacy_policy"
 msgstr "politique de confidentialité"
 
@@ -508,26 +508,26 @@ msgstr "Étape 2:"
 msgid "msg.welcome_step2_text"
 msgstr "Une fois le formulaire complété, votre référence sera envoyée à un-e intervenant-e en santé mentale jeunesse dans votre communauté. Il/elle vous contactera dans un délai de trois jours selon la méthode de votre choix (p. ex. message texte, appel téléphonique, courriel)."
 
-#: src/pages/privacy-policy.js:90
+#: src/pages/privacy-policy.js:87
 msgid "msg.what_information_do_we_collect_and_why"
 msgstr "Quelles informations collectons-nous et pourquoi ?"
 
-#: src/pages/privacy-policy.js:82
+#: src/pages/privacy-policy.js:79
 msgid "msg.when_do_we_collect_information"
 msgstr "Quand collectons-nous les informations ?"
 
-#: src/pages/privacy-policy.js:42
+#: src/pages/privacy-policy.js:39
 msgid "msg.who_are_we"
 msgstr "Qui somme-nous?"
 
-#: src/pages/privacy-policy.js:162
+#: src/pages/privacy-policy.js:159
 msgid "msg.who_can_i_contact_if_i_want_more_information_about_this_privacy_policy"
 msgstr "Qui puis-je contacter si je désire obtenir plus d’informations au sujet de cette politique de confidentialité ?"
 
-#: src/pages/privacy-policy.js:69
+#: src/pages/privacy-policy.js:66
 msgid "msg.why_do_we_collect_information"
 msgstr "Pourquoi collectons-nous des informations ?"
 
-#: src/pages/privacy-policy.js:152
+#: src/pages/privacy-policy.js:149
 msgid "msg.will_this_privacy_policy_change"
 msgstr "Cette politique de confidentialité va-t-elle changer ?"
