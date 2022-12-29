@@ -9,7 +9,7 @@
     ]
   },
   "msg.forms_referral_form": {
-    "defaults": "PRISM-AOM online referral form!",
+    "defaults": "PRISM online referral form!",
     "origin": [
       [
         "src/pages/forms.js",

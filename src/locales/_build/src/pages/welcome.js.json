@@ -36,7 +36,7 @@
     ]
   },
   "msg.welcome_how": {
-    "defaults": "How does it work?",
+    "defaults": "How does it work???",
     "origin": [
       [
         "src/pages/welcome.js",
