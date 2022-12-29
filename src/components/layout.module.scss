@@ -909,6 +909,19 @@ button {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
+.modal-index {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -916,6 +929,15 @@ button {
   border: 1px solid #888;
   border-radius: 5px;
   width: 50%;
+}
+
+.modal-content-service-down {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 40%;
 }
 
 .modal-content-close {
@@ -1786,6 +1808,15 @@ body {
   }
   .web {
     display: none;
+  }
+
+
+  .modal-index {
+    padding-top: 160px;
+  }
+
+  .modal-content-service-down {
+    width: 80%;
   }
 
   .seconde-resource-container {
