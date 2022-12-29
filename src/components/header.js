@@ -12,37 +12,43 @@ const Header = props => {
 
   return (
     <div className={headerStyles.header}>
-      <Link to="/">
-        {url === "/" || url === "/forms" ? (
-          <div className={headerStyles.headerHomePageImages}>
+      {url === "/" || url === "/forms" ? (
+        <div className={headerStyles.headerHomePageImages}>
+          <a href="https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte">
             <img
               src={"/aire_ouverte.png"}
               alt="Aire ouverte"
               className={headerStyles.logo3}
             />
+          </a>
+          <Link to="/">
             <img
               src={"/prism.png"}
               alt="Prism"
               className={headerStyles.logo1}
             />
-            <div className={headerStyles.logo3}></div>
-          </div>
-        ) : (
-          <div className={headerStyles.headerHomePageImages}>
+          </Link>
+          <div className={headerStyles.logo3}></div>
+        </div>
+      ) : (
+        <div className={headerStyles.headerHomePageImages}>
+          <a href="https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte">
             <img
               src={"/aire_ouverte.png"}
               alt="Aire ouverte"
               className={headerStyles.logo3}
             />
+          </a>
+          <Link to="/">
             <img
               src={"/prism.png"}
               alt="Prism"
               className={headerStyles.logo2}
             />
-            <div className={headerStyles.logo3}></div>
-          </div>
-        )}
-      </Link>
+          </Link>
+          <div className={headerStyles.logo3}></div>
+        </div>
+      )}
     </div>
   )
 }
