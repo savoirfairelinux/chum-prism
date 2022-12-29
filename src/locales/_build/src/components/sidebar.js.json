@@ -9,7 +9,7 @@
     ]
   },
   "msg.resource_header": {
-    "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
+    "defaults": "PRISM IS NOT AN EMERGENCY SERVICE.",
     "origin": [
       [
         "src/components/sidebar.js",
@@ -68,24 +68,6 @@
       [
         "src/components/sidebar.js",
         92
-      ]
-    ]
-  },
-  "msg.sidebar_chatham": {
-    "defaults": "The Chatham Kent Mental Health Crisis Line (519-436-6100 or 1-866-299-7447)",
-    "origin": [
-      [
-        "src/components/sidebar.js",
-        96
-      ]
-    ]
-  },
-  "msg.sidebar_WAYS": {
-    "defaults": "The WAYS’ Crisis Line (519-354-4095)",
-    "origin": [
-      [
-        "src/components/sidebar.js",
-        102
       ]
     ]
   }

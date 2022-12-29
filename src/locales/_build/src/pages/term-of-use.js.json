@@ -27,7 +27,7 @@
     ]
   },
   "msg.term_of_use_not_emergency": {
-    "defaults": "PRISM-AOM is not an emergency service.",
+    "defaults": "PRISM is not an emergency service.",
     "origin": [
       [
         "src/pages/term-of-use.js",
@@ -90,7 +90,7 @@
     ]
   },
   "msg.term_of_use_know_more": {
-    "defaults": "if you would like to know more about the PRISM-AOM project and our Privacy Policy.",
+    "defaults": "if you would like to know more about the PRISM project and our Privacy Policy.",
     "origin": [
       [
         "src/pages/term-of-use.js",
