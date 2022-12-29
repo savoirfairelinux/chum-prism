@@ -10,8 +10,13 @@ import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
 
+import ServiceDownPopup from "../components/serviceDownPopup"
+
 const IndexPage = ({ location }) => {
   const [language, setLanguage] = React.useState("en")
+  
+  const [valide, setValide] = React.useState(false)
+  const [clicked, setClicked] = React.useState(true)
 
   React.useEffect(() => {
     if (localStorage.getItem("language") !== "") {
@@ -129,6 +134,12 @@ const IndexPage = ({ location }) => {
             </button>
           </Link>
         </div>
+        {!valide && clicked &&<div className={layoutStyles.modalIndex}>
+          <div className={layoutStyles.modalContentServiceDown}>
+            <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
+            <ServiceDownPopup />
+          </div>
+        </div>}
       </Layout>
     </I18nProvider>
   )
