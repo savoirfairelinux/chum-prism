@@ -414,7 +414,7 @@ msgstr "Click"
 
 #: src/pages/term-of-use.js:72
 msgid "msg.term_of_use_hate"
-msgstr "You will not use the form to spread any hate speech (i.e., speech that is intended to insult, offend, or bully a person)."
+msgstr "You will not use the form to spread any type of hate speech (i.e., speech that is intended to insult, offend, or bully an individual or group of individuals)."
 
 #: src/pages/term-of-use.js:90
 msgid "msg.term_of_use_here"
@@ -426,7 +426,7 @@ msgstr "If you are in a crisis, please call 9-1-1 or contact one of the services
 
 #: src/pages/term-of-use.js:78
 msgid "msg.term_of_use_information_name"
-msgstr "Information without your name will be used to evaluate and improve this referral service."
+msgstr "Information, excluding your name, will be used to evaluate and improve this referral service."
 
 #: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_know_more"
@@ -438,11 +438,11 @@ msgstr "PRISM is not an emergency service."
 
 #: src/pages/term-of-use.js:98
 msgid "msg.term_of_use_under_14"
-msgstr "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations)."
+msgstr "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in certain situations)."
 
 #: src/pages/term-of-use.js:66
 msgid "msg.term_of_use_wrongly"
-msgstr "You will not use the form wrongly (e.g., spamming or writing false information)."
+msgstr "You will not use the form inappropriately (e.g., spamming or writing false information)."
 
 #: src/pages/resources.js:179
 msgid "msg.text"
