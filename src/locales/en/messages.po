@@ -56,7 +56,7 @@ msgstr "Continue"
 
 #: src/pages/forms.js:31
 msgid "msg.forms_choose_button"
-msgstr "Please choose one of the buttons to enter the"
+msgstr "Please choose one of the buttons to access the"
 
 #: src/pages/forms.js:41
 msgid "msg.forms_filling_for"
