@@ -486,11 +486,11 @@ msgstr "This is not an emergency service."
 
 #: src/pages/welcome.js:38
 msgid "msg.welcome_p1"
-msgstr "Through this website, you can access a referral form to get help directly from a youth mental health worker in your community, for yourself or a young person you care about."
+msgstr "Through this website, you can access a referral form that will allow you or a young person you care about to receive help. A youth worker will be able to directly offer services pertaining to mental and physical health, advice on relationships, studies, work, information on financial and legal aid, or any other situation."
 
 #: src/pages/welcome.js:45
 msgid "msg.welcome_p1_note"
-msgstr "*Please note that this is a new referral service that is only available to youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario."
+msgstr "*Please note that this is a new referral service that is only available to youth between the ages of 12 and 25 years old in Canada who frequent one of the following Montreal neighbourhoods: St-Henri; Little Burgundy; Griffintown; Verdun; Pointe St-Charles; Côte-St-Paul; Ville-Émard; Plateau Ville-Marie; Nuns’ Island."
 
 #: src/pages/welcome.js:72
 msgid "msg.welcome_step1"
