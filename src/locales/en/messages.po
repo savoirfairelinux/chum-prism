@@ -56,7 +56,7 @@ msgstr "Continue"
 
 #: src/pages/forms.js:31
 msgid "msg.forms_choose_button"
-msgstr "Please choose one of the buttons to enter the"
+msgstr "Please choose one of the buttons to access the"
 
 #: src/pages/forms.js:41
 msgid "msg.forms_filling_for"
@@ -414,7 +414,7 @@ msgstr "Click"
 
 #: src/pages/term-of-use.js:72
 msgid "msg.term_of_use_hate"
-msgstr "You will not use the form to spread any hate speech (i.e., speech that is intended to insult, offend, or bully a person)."
+msgstr "You will not use the form to spread any type of hate speech (i.e., speech that is intended to insult, offend, or bully an individual or group of individuals)."
 
 #: src/pages/term-of-use.js:90
 msgid "msg.term_of_use_here"
@@ -426,7 +426,7 @@ msgstr "If you are in a crisis, please call 9-1-1 or contact one of the services
 
 #: src/pages/term-of-use.js:78
 msgid "msg.term_of_use_information_name"
-msgstr "Information without your name will be used to evaluate and improve this referral service."
+msgstr "Information, excluding your name, will be used to evaluate and improve this referral service."
 
 #: src/pages/term-of-use.js:92
 msgid "msg.term_of_use_know_more"
@@ -438,11 +438,11 @@ msgstr "PRISM is not an emergency service."
 
 #: src/pages/term-of-use.js:98
 msgid "msg.term_of_use_under_14"
-msgstr "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations)."
+msgstr "If you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in certain situations)."
 
 #: src/pages/term-of-use.js:66
 msgid "msg.term_of_use_wrongly"
-msgstr "You will not use the form wrongly (e.g., spamming or writing false information)."
+msgstr "You will not use the form inappropriately (e.g., spamming or writing false information)."
 
 #: src/pages/resources.js:179
 msgid "msg.text"
@@ -486,11 +486,11 @@ msgstr "This is not an emergency service."
 
 #: src/pages/welcome.js:38
 msgid "msg.welcome_p1"
-msgstr "Through this website, you can access a referral form to get help directly from a youth mental health worker in your community, for yourself or a young person you care about."
+msgstr "Through this website, you can access a referral form that will allow you or a young person you care about to receive help. A youth worker will be able to directly offer services pertaining to mental and physical health, advice on relationships, studies, work, information on financial and legal aid, or any other situation."
 
 #: src/pages/welcome.js:45
 msgid "msg.welcome_p1_note"
-msgstr "*Please note that this is a new referral service that is only available to youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario."
+msgstr "*Please note that this is a new referral service that is only available to youth between the ages of 12 and 25 years old in Canada who frequent one of the following Montreal neighbourhoods: St-Henri; Little Burgundy; Griffintown; Verdun; Pointe St-Charles; Côte-St-Paul; Ville-Émard; Plateau Ville-Marie; Nuns’ Island."
 
 #: src/pages/welcome.js:72
 msgid "msg.welcome_step1"
