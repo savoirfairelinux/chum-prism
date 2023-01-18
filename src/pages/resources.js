@@ -551,7 +551,7 @@ const Resources = ({ location }) => {
           </div>
           <div className={layoutStyles.wrapper}>
             <div className={layoutStyles.secondeResourceContainer}>
-              {getContent()}
+              {quebecContent()}
             </div>
           </div>
         </div>
