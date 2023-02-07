@@ -134,12 +134,12 @@ const IndexPage = ({ location }) => {
             </button>
           </Link>
         </div>
-        {/* {!valide && clicked &&<div className={layoutStyles.modalIndex}>
+        {!valide && clicked &&<div className={layoutStyles.modalIndex}>
           <div className={layoutStyles.modalContentServiceDown}>
             <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
             <ServiceDownPopup />
           </div>
-        </div>} */}
+        </div>}
       </Layout>
     </I18nProvider>
   )
