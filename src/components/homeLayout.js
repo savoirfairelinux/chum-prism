@@ -4,6 +4,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
+import HomeConsentPopup from "./homeConsentPopup"
 
 const Layout = props => {
   return (
@@ -13,6 +14,7 @@ const Layout = props => {
         <div className={layoutStyles.main}>{props.children}</div>
         <Footer />
       </div>
+      <HomeConsentPopup/>
     </div>
   )
 }

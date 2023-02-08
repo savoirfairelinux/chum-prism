@@ -18,7 +18,7 @@
     ]
   },
   "msg.welcome_p1_note": {
-    "defaults": "*Please note that this is a new referral service that is only available to youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario.",
+    "defaults": "*Please note that this is a new referral service that is only available to youth 11 to 25 years old in Canada living in Downtown Montreal, Quebec (for youth in homeless situations) and Chatham Kent, Ontario...",
     "origin": [
       [
         "src/pages/welcome.js",
@@ -36,7 +36,7 @@
     ]
   },
   "msg.welcome_how": {
-    "defaults": "How does it work?",
+    "defaults": "How does it work???",
     "origin": [
       [
         "src/pages/welcome.js",

@@ -167,7 +167,7 @@
     ]
   },
   "msg.resource_header": {
-    "defaults": "PRISM-AOM IS NOT AN EMERGENCY SERVICE.",
+    "defaults": "PRISM IS NOT AN EMERGENCY SERVICE.",
     "origin": [
       [
         "src/pages/resources.js",

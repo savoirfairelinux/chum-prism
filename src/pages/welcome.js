@@ -10,8 +10,13 @@ import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
 
+import ServiceDownPopup from "../components/serviceDownPopup"
+
 const IndexPage = ({ location }) => {
   const [language, setLanguage] = React.useState("en")
+  
+  const [valide, setValide] = React.useState(false)
+  const [clicked, setClicked] = React.useState(true)
 
   React.useEffect(() => {
     if (localStorage.getItem("language") !== "") {
@@ -46,7 +51,7 @@ const IndexPage = ({ location }) => {
               *Please note that this is a new referral service that is only
               available to youth 11 to 25 years old in Canada living in Downtown
               Montreal, Quebec (for youth in homeless situations) and Chatham
-              Kent, Ontario.
+              Kent, Ontario...
             </Trans>
           </p>
 
@@ -58,7 +63,7 @@ const IndexPage = ({ location }) => {
         </div>
         <div className={layoutStyles.welcomeSecondBlock}>
           <h1>
-            <Trans id="msg.welcome_how">How does it work?</Trans>
+            <Trans id="msg.welcome_how">How does it work???</Trans>
           </h1>
           <div className={layoutStyles.row}>
             <div className={layoutStyles.column}>
@@ -129,6 +134,12 @@ const IndexPage = ({ location }) => {
             </button>
           </Link>
         </div>
+        {!valide && clicked &&<div className={layoutStyles.modalIndex}>
+          <div className={layoutStyles.modalContentServiceDown}>
+            <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
+            <ServiceDownPopup />
+          </div>
+        </div>}
       </Layout>
     </I18nProvider>
   )

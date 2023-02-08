@@ -7,6 +7,12 @@ $xl: 1920px;
   margin: 2rem;
 }
 
+.headerHomePageImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .nav-list {
   display: flex;
   list-style-type: none;
@@ -32,7 +38,11 @@ $xl: 1920px;
   width: 20rem;
 }
 .logo2 {
-  width: 15rem;
+  width: 20rem;
+}
+.logo3 {
+  width: 10rem;
+  height: 8rem;
 }
 
 @media (min-width: $lg) {
@@ -120,10 +130,17 @@ $xl: 1920px;
 
 @media only screen and (max-width: $sm) {
   .logo1 {
-    width: 13rem;
+    width: 7rem;
+    height: 4rem;
   }
   .logo2 {
-    width: 12rem;
+    width: 7rem;
+    height: 4rem;
+  }
+
+  .logo3 {
+    width: 5rem;
+    height: 4rem;
   }
 
   .headerMain {

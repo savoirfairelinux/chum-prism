@@ -5,6 +5,7 @@ import Footer from "./footer"
 import Sidebar from "./sidebar"
 import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
+import ConsentPopup from "./consentPopup"
 
 const Layout = props => {
   return (
@@ -18,6 +19,7 @@ const Layout = props => {
         <Footer />
       </div>
       <Sidebar />
+      <ConsentPopup/>
     </div>
   )
 }

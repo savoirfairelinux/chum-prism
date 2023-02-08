@@ -296,7 +296,7 @@ const Resources = ({ location }) => {
             <h1>
               <i>
                 <Trans id="msg.resource_header">
-                  PRISM-AOM IS NOT AN EMERGENCY SERVICE.
+                  PRISM IS NOT AN EMERGENCY SERVICE.
                 </Trans>
               </i>
             </h1>
@@ -551,7 +551,7 @@ const Resources = ({ location }) => {
           </div>
           <div className={layoutStyles.wrapper}>
             <div className={layoutStyles.secondeResourceContainer}>
-              {getContent()}
+              {quebecContent()}
             </div>
           </div>
         </div>

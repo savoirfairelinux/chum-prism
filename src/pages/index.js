@@ -6,8 +6,13 @@ import Layout from "../components/homeLayout"
 import headStyle from "../components/head.module.scss"
 import layoutStyles from "../components/layout.module.scss"
 
+import ServiceDownPopup from "../components/serviceDownPopup"
 
 const IndexPage = () => {
+
+  const [valide, setValide] = React.useState(false)
+  const [clicked, setClicked] = React.useState(true)
+
   React.useEffect(() => {
     localStorage.removeItem("language")
   })
@@ -40,6 +45,12 @@ const IndexPage = () => {
           <img src={"/head_with_text.png"} alt="Head" className={headStyle.logohead} />
         </div>
       </div>
+      {!valide && clicked &&<div className={layoutStyles.modalIndex}>
+          <div className={layoutStyles.modalContentServiceDown}>
+            <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
+            <ServiceDownPopup />
+          </div>
+        </div>}
     </Layout>
   )
 }

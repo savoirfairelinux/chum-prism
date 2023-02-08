@@ -9,7 +9,7 @@
     ]
   },
   "msg.forms_referral_form": {
-    "defaults": "PRISM-AOM online referral form!",
+    "defaults": "PRISM online referral form!",
     "origin": [
       [
         "src/pages/forms.js",
@@ -41,6 +41,24 @@
       [
         "src/pages/forms.js",
         58
+      ]
+    ]
+  },
+  "msg.technical_issues": {
+    "defaults": "For any technical issues accessing or completing the referral form, please contact:",
+    "origin": [
+      [
+        "src/pages/forms.js",
+        68
+      ]
+    ]
+  },
+  "msg.general_informations": {
+    "defaults": "For any general information about this new referral service, please contact:",
+    "origin": [
+      [
+        "src/pages/forms.js",
+        69
       ]
     ]
   }

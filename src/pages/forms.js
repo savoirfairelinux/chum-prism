@@ -33,7 +33,7 @@ const IndexPage = ({ location }) => {
             </Trans>{" "}
             <span className={layoutStyles.redColor}>
               <Trans id="msg.forms_referral_form">
-                PRISM-AOM online referral form!
+                PRISM online referral form!
               </Trans>
             </span>
           </h1>
@@ -63,6 +63,10 @@ const IndexPage = ({ location }) => {
                 />
               </button>
             </a>
+          </div>
+          <div className={layoutStyles.classicParagraphDiv}>
+            <p className={layoutStyles.classicParagraph}><Trans id="msg.technical_issues">For any technical issues accessing or completing the referral form, please contact:</Trans> <strong><a href="mailto:support@tickithealth.com">support@tickithealth.com</a></strong></p>
+            <p className={layoutStyles.classicParagraph}><Trans id="msg.general_informations">For any general information about this new referral service, please contact:</Trans> <strong><a href="mailto:info@aom.prismref.ca">info@aom.prismref.ca</a></strong></p>
           </div>
         </div>
       </Layout>

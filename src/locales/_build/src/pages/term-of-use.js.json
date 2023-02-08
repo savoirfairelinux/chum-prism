@@ -27,7 +27,7 @@
     ]
   },
   "msg.term_of_use_not_emergency": {
-    "defaults": "PRISM-AOM is not an emergency service.",
+    "defaults": "PRISM is not an emergency service.",
     "origin": [
       [
         "src/pages/term-of-use.js",
@@ -85,16 +85,16 @@
     "origin": [
       [
         "src/pages/term-of-use.js",
-        84
+        90
       ]
     ]
   },
   "msg.term_of_use_know_more": {
-    "defaults": "if you would like to know more about the PRISM-AOM project and our Privacy Policy.",
+    "defaults": "if you would like to know more about the PRISM project and our Privacy Policy.",
     "origin": [
       [
         "src/pages/term-of-use.js",
-        86
+        92
       ]
     ]
   },
@@ -103,7 +103,7 @@
     "origin": [
       [
         "src/pages/term-of-use.js",
-        92
+        98
       ]
     ]
   },
@@ -112,7 +112,7 @@
     "origin": [
       [
         "src/pages/term-of-use.js",
-        109
+        115
       ]
     ]
   },
@@ -121,11 +121,11 @@
     "origin": [
       [
         "src/pages/term-of-use.js",
-        122
+        128
       ],
       [
         "src/pages/term-of-use.js",
-        127
+        133
       ]
     ]
   },
@@ -134,7 +134,7 @@
     "origin": [
       [
         "src/pages/term-of-use.js",
-        135
+        141
       ]
     ]
   }

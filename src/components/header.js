@@ -12,20 +12,47 @@ const Header = props => {
 
   return (
     <div className={headerStyles.header}>
-      <Link to="/">
-        {(url === "/" || url === "/forms") ?         
-        <img
-          src={"/prism.png"}
-          alt="Prism"
-          className={headerStyles.logo1}
-        /> 
-        : 
-        <img
-        src={"/prism.png"}
-        alt="Prism"
-        className={headerStyles.logo2}
-      />}
-      </Link>
+      {url === "/" || url === "/forms" ? (
+        <div className={headerStyles.headerHomePageImages}>
+          <a href="https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte">
+            <img
+              src={"/aire_ouverte.png"}
+              alt="Aire ouverte"
+              className={headerStyles.logo3}
+            />
+          </a>
+          <Link to="/">
+            <img
+              src={"/prism.png"}
+              alt="Prism"
+              className={headerStyles.logo1}
+            />
+          </Link>
+          <div className={headerStyles.logo3}>
+            <a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank"><img src={"/CIUSSS_logo.png"} alt="CIUSSS" /></a>
+          </div>
+        </div>
+      ) : (
+        <div className={headerStyles.headerHomePageImages}>
+          <a href="https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte">
+            <img
+              src={"/aire_ouverte.png"}
+              alt="Aire ouverte"
+              className={headerStyles.logo3}
+            />
+          </a>
+          <Link to="/">
+            <img
+              src={"/prism.png"}
+              alt="Prism"
+              className={headerStyles.logo2}
+            />
+          </Link>
+          <div className={headerStyles.logo3}>
+            <a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank"><img src={"/CIUSSS_logo.png"} alt="CIUSSS" /></a>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
