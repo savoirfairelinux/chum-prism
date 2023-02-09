@@ -1,6 +1,6 @@
 {
   "msg.privacy_policy_aom": {
-    "defaults": "PRISM-AOM Privacy Policy Test20210622",
+    "defaults": "PRISM Privacy Policy",
     "origin": [
       [
         "src/pages/privacy-policy.js",
@@ -35,12 +35,21 @@
       ]
     ]
   },
+  "msg.privacy_policy_p1_important_message": {
+    "defaults": "This service is currently only available to make a referral to the Aire ouverte team in the South-West-Verdun and Center-South areas of the island of Montreal.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        47
+      ]
+    ]
+  },
   "msg.privacy_policy_link2": {
     "defaults": "For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project; visit",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        47
+        52
       ]
     ]
   },
@@ -49,7 +58,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        53
+        58
       ]
     ]
   },
@@ -58,52 +67,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        61
-      ]
-    ]
-  },
-  "msg.why_do_we_collect_information": {
-    "defaults": "Why do we collect information?",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
         66
-      ]
-    ]
-  },
-  "msg.privacy_policy_p2": {
-    "defaults": "We collect information for the sole purpose of providing and improving this Website and Referral Service, and to evaluate it as part of a research project to improve access to mental health services for youth. The evaluation of this online Referral Service project has received central ethics approval from the University of Montreal Hospital Research Centre’s Ethics Review Board.",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        69
-      ]
-    ]
-  },
-  "msg.privacy_policy_p3": {
-    "defaults": "We do not disclose, sell, trade, or otherwise transfer your personal information to third-party organizations that are not directly involved in this project.",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        74
-      ]
-    ]
-  },
-  "msg.when_do_we_collect_information": {
-    "defaults": "When do we collect information?",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        79
-      ]
-    ]
-  },
-  "msg.privacy_policy_p4": {
-    "defaults": "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence.",
-    "origin": [
-      [
-        "src/pages/privacy-policy.js",
-        82
       ]
     ]
   },
@@ -112,7 +76,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        87
+        71
       ]
     ]
   },
@@ -121,7 +85,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        90
+        74
       ]
     ]
   },
@@ -130,7 +94,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        95
+        79
       ]
     ]
   },
@@ -139,7 +103,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        96
+        80
       ]
     ]
   },
@@ -148,7 +112,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        96
+        80
       ]
     ]
   },
@@ -157,16 +121,16 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        99
+        83
       ]
     ]
   },
   "msg.privacy_policy_p7": {
-    "defaults": "Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matamo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages).",
+    "defaults": "Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matomo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages).",
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        99
+        83
       ]
     ]
   },
@@ -175,7 +139,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        102
+        86
       ]
     ]
   },
@@ -184,7 +148,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        107
+        91
       ]
     ]
   },
@@ -193,7 +157,52 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        112
+        96
+      ]
+    ]
+  },
+  "msg.why_do_we_collect_information": {
+    "defaults": "Why do we collect information?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        101
+      ]
+    ]
+  },
+  "msg.privacy_policy_p2": {
+    "defaults": "We collect information for the sole purpose of providing and improving this Website and Referral Service, and to evaluate it as part of a research project to improve access to mental health services for youth. The evaluation of this online Referral Service project has received central ethics approval from the University of Montreal Hospital Research Centre’s Ethics Review Board.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        104
+      ]
+    ]
+  },
+  "msg.privacy_policy_p3": {
+    "defaults": "We do not disclose, sell, trade, or otherwise transfer your personal information to third-party organizations that are not directly involved in this project.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        109
+      ]
+    ]
+  },
+  "msg.when_do_we_collect_information": {
+    "defaults": "When do we collect information?",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        114
+      ]
+    ]
+  },
+  "msg.privacy_policy_p4": {
+    "defaults": "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence.",
+    "origin": [
+      [
+        "src/pages/privacy-policy.js",
+        117
       ]
     ]
   },
@@ -202,7 +211,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        117
+        122
       ]
     ]
   },
@@ -211,7 +220,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        120
+        125
       ]
     ]
   },
@@ -220,7 +229,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        125
+        130
       ]
     ]
   },
@@ -229,7 +238,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        131
+        136
       ]
     ]
   },
@@ -238,7 +247,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        136
+        141
       ]
     ]
   },
@@ -247,7 +256,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        143
+        148
       ]
     ]
   },
@@ -256,7 +265,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        149
+        154
       ]
     ]
   },
@@ -265,7 +274,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        154
+        159
       ]
     ]
   },
@@ -274,7 +283,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        159
+        164
       ]
     ]
   },
@@ -283,7 +292,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        164
+        169
       ]
     ]
   },
@@ -292,7 +301,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        170
+        175
       ]
     ]
   },
@@ -301,7 +310,7 @@
     "origin": [
       [
         "src/pages/privacy-policy.js",
-        176
+        181
       ]
     ]
   }
