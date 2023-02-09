@@ -28,7 +28,9 @@ const Header = props => {
               className={headerStyles.logo1}
             />
           </Link>
-          <div className={headerStyles.logo3}></div>
+          <div className={headerStyles.logo3}>
+            <a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank"><img src={"/CIUSSS_logo.png"} alt="CIUSSS" /></a>
+          </div>
         </div>
       ) : (
         <div className={headerStyles.headerHomePageImages}>
@@ -46,7 +48,9 @@ const Header = props => {
               className={headerStyles.logo2}
             />
           </Link>
-          <div className={headerStyles.logo3}></div>
+          <div className={headerStyles.logo3}>
+            <a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank"><img src={"/CIUSSS_logo.png"} alt="CIUSSS" /></a>
+          </div>
         </div>
       )}
     </div>
