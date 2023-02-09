@@ -4,7 +4,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        33
+        38
       ]
     ]
   },
@@ -13,7 +13,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        38
+        43
       ]
     ]
   },
@@ -22,7 +22,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        45
+        50
       ]
     ]
   },
@@ -31,7 +31,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        54
+        59
       ]
     ]
   },
@@ -40,7 +40,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        61
+        66
       ]
     ]
   },
@@ -49,7 +49,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        72
+        77
       ]
     ]
   },
@@ -58,7 +58,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        74
+        79
       ]
     ]
   },
@@ -67,7 +67,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        89
+        94
       ]
     ]
   },
@@ -76,7 +76,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        91
+        96
       ]
     ]
   },
@@ -85,7 +85,7 @@
     "origin": [
       [
         "src/pages/welcome.js",
-        128
+        133
       ]
     ]
   }

@@ -30,7 +30,7 @@ const PrivacyPolicyPage = ({ location }) => {
       <Layout index={false} language={language}>
         <div className={layoutStyles.privacyPolicy}>
           <h1>
-            <Trans id="msg.privacy_policy_aom">PRISM-AOM Privacy Policy Test20210622</Trans>
+            <Trans id="msg.privacy_policy_aom">PRISM Privacy Policy</Trans>
           </h1>
           <p className={layoutStyles.centered}>
             <Trans id="msg.privacy_policy_aom_update_date">Last updated: January 4, 2021</Trans>
@@ -43,23 +43,58 @@ const PrivacyPolicyPage = ({ location }) => {
                 This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested.
             </Trans>
           </p>
+          <p style={{ fontWeight: "bold"}}>
+            <Trans id="msg.privacy_policy_p1_important_message">
+                This service is currently only available to make a referral to the Aire ouverte team in the South-West-Verdun and Center-South areas of the island of Montreal. 
+            </Trans>
+          </p>
           <p>
             <Trans id="msg.privacy_policy_link2">
                 For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project; visit
             </Trans>{" "}
-            <a href={language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"} target="_blank">{language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"}</a>
+            <a href="https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte" target="_blank">https://ciusss-centresudmtl.gouv.qc.ca/aire-ouverte </a>
           </p>
           <p>
             <Trans id="msg.privacy_policy_link1">
               For more information about ACCESS Open Minds, visit:
             </Trans>{" "}
-            <a href={language === "fr" ? "https://accessopenminds.ca/fr" : "https://accessopenminds.ca/"} target="_blank">
-            {language === "fr" ? "https://accessopenminds.ca/fr" : "https://accessopenminds.ca/"}
+            <a href={language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"} target="_blank">
+            {language === "fr" ? "https://www.smjtechno.com" : "https://www.ymhtech.com"}
             </a>
           </p>
           <p>
             <Trans id="msg.privacy_policy_p1_1">
             We are committed to protecting your privacy. This page describes our Privacy Policy, including the information we collect from users of this Website and Referral Service, why we collect this information, and how we use that information. By using this Website and the Referral Service, you signify your acceptance of the collection and use of information in accordance with this Privacy Policy.
+            </Trans>
+          </p>
+          <h2>
+            <Trans id="msg.what_information_do_we_collect_and_why">What information do we collect and why? </Trans>
+          </h2>
+          <p>
+            <Trans id="msg.privacy_policy_p5">
+            We collect personal information that you submit in our referral form (e.g., name, contact information, reason for referral) when you make a request for mental health services. This information is then accessed by a youth mental health team located in your community that is participating in this new Referral Service. This information is necessary for the youth mental health team to be able to contact you and to respond to your request for services. Contact information may also be used to provide you with information and updates regarding your referral. The youth mental health teams that we work with are part of the public health care sector, which means they provide their services for free.
+            </Trans>
+          </p>
+          <p>
+            <Trans id="msg.privacy_policy_p6_before">
+            Information </Trans> <strong><Trans id="msg.privacy_policy_p6_bold">without your name and without identifying information</Trans></strong> <Trans id="msg.privacy_policy_p6_after">will also be used to evaluate and improve this Referral Service. Examples of this information include: how many people used the form, their average age, and the types of concerns they had.</Trans>
+          </p>
+          <p>
+          <strong><Trans id="msg.privacy_policy_p7_title">Statistical and Cookie Information:</Trans></strong> <Trans id="msg.privacy_policy_p7">Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matomo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages).</Trans>
+          </p>
+          <p>
+            <Trans id="msg.privacy_policy_p8">
+            This information helps us to improve our Website and Referral Service.
+            </Trans>
+          </p>
+          <p>
+            <Trans id="msg.privacy_policy_p9">
+            Like many sites, we use "cookies" to collect information. We use cookies to help recognize you as a repeat visitor, to save your preferences for future visits to our website, and to compile aggregate statistical data about the use of this Website to help us improve it.
+            </Trans>
+          </p>
+          <p>
+            <Trans id="msg.privacy_policy_p10">
+            You can choose to accept the cookies by clicking Agree in the banner located at the bottom of the website, or you can click Decline and continue to navigate the website without being tracked. You also have the option of deleting the cookies via your internet browser after you have visited this website.
             </Trans>
           </p>
           <h2>
@@ -81,36 +116,6 @@ const PrivacyPolicyPage = ({ location }) => {
           <p>
             <Trans id="msg.privacy_policy_p4">
             Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence.
-            </Trans>
-          </p>
-          <h2>
-            <Trans id="msg.what_information_do_we_collect_and_why">What information do we collect and why? </Trans>
-          </h2>
-          <p>
-            <Trans id="msg.privacy_policy_p5">
-            We collect personal information that you submit in our referral form (e.g., name, contact information, reason for referral) when you make a request for mental health services. This information is then accessed by a youth mental health team located in your community that is participating in this new Referral Service. This information is necessary for the youth mental health team to be able to contact you and to respond to your request for services. Contact information may also be used to provide you with information and updates regarding your referral. The youth mental health teams that we work with are part of the public health care sector, which means they provide their services for free.
-            </Trans>
-          </p>
-          <p>
-            <Trans id="msg.privacy_policy_p6_before">
-            Information </Trans> <strong><Trans id="msg.privacy_policy_p6_bold">without your name and without identifying information</Trans></strong> <Trans id="msg.privacy_policy_p6_after">will also be used to evaluate and improve this Referral Service. Examples of this information include: how many people used the form, their average age, and the types of concerns they had.</Trans>
-          </p>
-          <p>
-          <strong><Trans id="msg.privacy_policy_p7_title">Statistical and Cookie Information:</Trans></strong> <Trans id="msg.privacy_policy_p7">Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matamo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages).</Trans>
-          </p>
-          <p>
-            <Trans id="msg.privacy_policy_p8">
-            This information helps us to improve our Website and Referral Service.
-            </Trans>
-          </p>
-          <p>
-            <Trans id="msg.privacy_policy_p9">
-            Like many sites, we use "cookies" to collect information. We use cookies to help recognize you as a repeat visitor, to save your preferences for future visits to our website, and to compile aggregate statistical data about the use of this Website to help us improve it.
-            </Trans>
-          </p>
-          <p>
-            <Trans id="msg.privacy_policy_p10">
-            You can choose to accept the cookies by clicking Agree in the banner located at the bottom of the website, or you can click Decline and continue to navigate the website without being tracked. You also have the option of deleting the cookies via your internet browser after you have visited this website.
             </Trans>
           </p>
           <h2>

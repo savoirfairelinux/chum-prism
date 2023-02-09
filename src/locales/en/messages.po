@@ -17,7 +17,7 @@ msgstr ""
 #~ msgid "msg.about_the_prism_access_open_minds_project"
 #~ msgstr "ABOUT THE PRISM-ACCESS OPEN MINDS PROJECT"
 
-#: src/pages/privacy-policy.js:176
+#: src/pages/privacy-policy.js:181
 msgid "msg.back"
 msgstr "BACK"
 
@@ -50,7 +50,7 @@ msgstr "CHAT"
 
 #: src/pages/term-of-use.js:128
 #: src/pages/term-of-use.js:133
-#: src/pages/welcome.js:128
+#: src/pages/welcome.js:133
 msgid "msg.continue"
 msgstr "Continue"
 
@@ -78,7 +78,7 @@ msgstr "YOURSELF"
 msgid "msg.general_informations"
 msgstr "For any general information about this new referral service, please contact:"
 
-#: src/pages/welcome.js:33
+#: src/pages/welcome.js:38
 msgid "msg.header"
 msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 
@@ -86,7 +86,7 @@ msgstr "Welcome to the PRISM-ACCESS Open Minds online referral service!"
 msgid "msg.here_are_other_ressources"
 msgstr "Here are other resources that could help"
 
-#: src/pages/privacy-policy.js:117
+#: src/pages/privacy-policy.js:122
 msgid "msg.how_do_we_protect_your_information"
 msgstr "How do we protect your information?"
 
@@ -141,23 +141,23 @@ msgstr "Please click the box below to indicate that you have read, understand, a
 
 #: src/pages/privacy-policy.js:33
 msgid "msg.privacy_policy_aom"
-msgstr "PRISM-AOM Privacy Policy"
+msgstr "PRISM Privacy Policy"
 
 #: src/pages/privacy-policy.js:36
 msgid "msg.privacy_policy_aom_update_date"
-msgstr "Last updated: January 4, 2021"
+msgstr "Last updated: January 31, 2023"
 
-#: src/pages/privacy-policy.js:136
+#: src/pages/privacy-policy.js:141
 msgid "msg.privacy_policy_harming_yourself"
 msgstr "If you are seriously thinking about harming yourself or someone else."
 
-#: src/pages/privacy-policy.js:53
+#: src/pages/privacy-policy.js:58
 msgid "msg.privacy_policy_link1"
-msgstr "For more information about ACCESS Open Minds, visit"
+msgstr "For more information about the Youth Mental Health and Technology Lab that manages this project:"
 
-#: src/pages/privacy-policy.js:47
+#: src/pages/privacy-policy.js:52
 msgid "msg.privacy_policy_link2"
-msgstr "For more information about the Youth Mental Health and Technology Lab and the PRISM-AOM project; visit"
+msgstr "For more information on the Aire ouverte of South-West-Verdun and the Center-South of the island of Montreal team:"
 
 #: src/components/consentPopup.js:44
 #~ msgid "msg.privacy_policy_lowercase"
@@ -165,37 +165,41 @@ msgstr "For more information about the Youth Mental Health and Technology Lab an
 
 #: src/pages/privacy-policy.js:42
 msgid "msg.privacy_policy_p1"
-msgstr "This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team has developed this new referral service in collaboration with the ACCESS Open Minds national network of youth mental health services. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have given input on the development of this new service, which is now being pilot tested..."
+msgstr "This Website and Referral Service is managed by the Youth Mental Health and Technology Lab of the University of Montreal Hospital Research Centre in Montreal, Canada (a not-for-profit, public healthcare institution). Our team developed this new referral service initially in collaboration with the ACCESS Open Minds national network of youth mental health services and subsequently with input from other youth mental health services and teams in Quebec, including Aire ouverte. Youth and family partners, Canadian technology companies, mental health researchers, and service providers have collaborated in creating and optimizing this new service, which is now being pilot tested."
 
-#: src/pages/privacy-policy.js:112
+#: src/pages/privacy-policy.js:96
 msgid "msg.privacy_policy_p10"
 msgstr "You can choose to accept the cookies by clicking Agree in the banner located at the bottom of the website, or you can click Decline and continue to navigate the website without being tracked. You also have the option of deleting the cookies via your internet browser after you have visited this website."
 
-#: src/pages/privacy-policy.js:120
-msgid "msg.privacy_policy_p11"
-msgstr "The security of your Personal Information is important to us. We have adopted appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information provided through this Referral Service. We use an SSL secured communication channel and encryption when sensitive and private data is being exchanged between our Referral Service and its Users. Also, all information pertaining to the use of this Website and Referral Service are maintained and stored securely in Canada. This information is contained behind secured networks and accessible only by those who have special access rights and are required to keep the information confidential. But remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure."
-
 #: src/pages/privacy-policy.js:125
+msgid "msg.privacy_policy_p11"
+msgstr "The security of your Personal Information is important to us. We have adopted appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information provided through this Referral Service. We use an SSL secured communication channel and encryption when sensitive and private data is being exchanged between our Referral Service and its Users. Also, all information pertaining to the use of this Website and Referral Service are maintained and stored securely in Quebec, Canada. This information is contained behind secured networks and accessible only by those who have special access rights and are required to keep the information confidential. "
+
+#: src/pages/privacy-policy.js:130
 msgid "msg.privacy_policy_p12"
 msgstr "In rare circumstances, for your safety and for others, the youth mental health team may have to, by law, share some information with a person in authority (like Youth Protection, Emergency Services, or a parent/guardian). This may apply in the following situations:"
 
-#: src/pages/privacy-policy.js:61
+#: src/pages/privacy-policy.js:66
 msgid "msg.privacy_policy_p1_1"
 msgstr "We are committed to protecting your privacy. This page describes our Privacy Policy, including the information we collect from users of this Website and Referral Service, why we collect this information, and how we use that information. By using this Website and the Referral Service, you signify your acceptance of the collection and use of information in accordance with this Privacy Policy."
 
-#: src/pages/privacy-policy.js:69
+#: src/pages/privacy-policy.js:47
+msgid "msg.privacy_policy_p1_important_message"
+msgstr "This service is currently only available to make a referral to the Aire ouverte team in the South-West-Verdun and Center-South areas of the island of Montreal. "
+
+#: src/pages/privacy-policy.js:104
 msgid "msg.privacy_policy_p2"
 msgstr "We collect information for the sole purpose of providing and improving this Website and Referral Service, and to evaluate it as part of a research project to improve access to mental health services for youth. The evaluation of this online Referral Service project has received central ethics approval from the University of Montreal Hospital Research Centre’s Ethics Review Board."
 
-#: src/pages/privacy-policy.js:74
+#: src/pages/privacy-policy.js:109
 msgid "msg.privacy_policy_p3"
 msgstr "We do not disclose, sell, trade, or otherwise transfer your personal information to third-party organizations that are not directly involved in this project."
 
-#: src/pages/privacy-policy.js:82
+#: src/pages/privacy-policy.js:117
 msgid "msg.privacy_policy_p4"
-msgstr "We collect information when you visit this Website and when you complete a request for mental health services through our Referral Form."
+msgstr "We collect the Personal Information when you visit this Website and when you complete a request for mental health services through our Referral Form. Statistical and Cookie Information are collected whether the form has been completed or not."
 
-#: src/pages/privacy-policy.js:90
+#: src/pages/privacy-policy.js:74
 msgid "msg.privacy_policy_p5"
 msgstr "We collect personal information that you submit in our referral form (e.g., name, contact information, reason for referral) when you make a request for mental health services. This information is then accessed by a youth mental health team located in your community that is participating in this new Referral Service. This information is necessary for the youth mental health team to be able to contact you and to respond to your request for services. Contact information may also be used to provide you with information and updates regarding your referral. The youth mental health teams that we work with are part of the public health care sector, which means they provide their services for free."
 
@@ -203,51 +207,51 @@ msgstr "We collect personal information that you submit in our referral form (e.
 #~ msgid "msg.privacy_policy_p6"
 #~ msgstr "Information without <0>your name and without identifying information</0> will also be used to evaluate and improve this Referral Service. Examples of this information include: how many people used the form, their average age, and the types of concerns they had."
 
-#: src/pages/privacy-policy.js:96
+#: src/pages/privacy-policy.js:80
 msgid "msg.privacy_policy_p6_after"
 msgstr "will also be used to evaluate and improve this Referral Service. Examples of this information include: how many people used the form, their average age, and the types of concerns they had."
 
-#: src/pages/privacy-policy.js:95
+#: src/pages/privacy-policy.js:79
 msgid "msg.privacy_policy_p6_before"
 msgstr "Information"
 
-#: src/pages/privacy-policy.js:96
+#: src/pages/privacy-policy.js:80
 msgid "msg.privacy_policy_p6_bold"
 msgstr "without your name and identifying information"
 
-#: src/pages/privacy-policy.js:99
+#: src/pages/privacy-policy.js:83
 msgid "msg.privacy_policy_p7"
-msgstr "Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matamo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages)."
+msgstr "Anonymous statistical information about the way visitors and users interact with this Website, in the form of website traffic analytics (i.e., Matomo Analytics) will also be collected. The analytics engine passively gathers visitor and user information, including your IP address (anonymized to 2 bytes); the type of device, operating system, and browser you use; and your activity on our website (e.g., the pages of our Website that you visit, the time and date of your visit, the time spent on those pages)."
 
-#: src/pages/privacy-policy.js:99
+#: src/pages/privacy-policy.js:83
 msgid "msg.privacy_policy_p7_title"
 msgstr "Statistical and Cookie Information:"
 
-#: src/pages/privacy-policy.js:102
+#: src/pages/privacy-policy.js:86
 msgid "msg.privacy_policy_p8"
 msgstr "This information helps us to improve our Website and Referral Service."
 
-#: src/pages/privacy-policy.js:107
+#: src/pages/privacy-policy.js:91
 msgid "msg.privacy_policy_p9"
 msgstr "Like many sites, we use \"cookies\" to collect information. We use cookies to help recognize you as a repeat visitor, to save your preferences for future visits to our website, and to compile aggregate statistical data about the use of this Website to help us improve it."
 
-#: src/pages/privacy-policy.js:170
+#: src/pages/privacy-policy.js:175
 msgid "msg.privacy_policy_return_button"
 msgstr "Click the button below to return to the Terms of Use."
 
-#: src/pages/privacy-policy.js:143
+#: src/pages/privacy-policy.js:148
 msgid "msg.privacy_policy_under_14"
 msgstr "Also, if you are under 14, the youth mental health team will need to contact your parent(s)/guardian(s) (except in rare situations)."
 
-#: src/pages/privacy-policy.js:154
+#: src/pages/privacy-policy.js:159
 msgid "msg.privacy_policy_under_15"
-msgstr "This Privacy Policy is effective as of January 4, 2021. Any changes to this Privacy Policy  will be posted to the website as soon as they go into effect, and the new date will be revised in this section."
+msgstr "This Privacy Policy is effective as of January 18, 2023. Any changes to this Privacy Policy will be posted to the website as soon as they go into effect, and the new date will be revised in this section."
 
-#: src/pages/privacy-policy.js:164
+#: src/pages/privacy-policy.js:169
 msgid "msg.privacy_policy_under_16"
 msgstr "If you have any questions about this Privacy Policy or about this new Referral Service that we are in the process of evaluating, please contact us at:"
 
-#: src/pages/privacy-policy.js:131
+#: src/pages/privacy-policy.js:136
 msgid "msg.privacy_policy_under_17"
 msgstr "If you are under 17 and have reported physical or sexual abuse;"
 
@@ -476,43 +480,43 @@ msgstr "privacy policy"
 msgid "msg.website"
 msgstr "WEBSITE"
 
-#: src/pages/welcome.js:61
+#: src/pages/welcome.js:66
 msgid "msg.welcome_how"
 msgstr "How does it work???"
 
-#: src/pages/welcome.js:54
+#: src/pages/welcome.js:59
 msgid "msg.welcome_not_emergency"
 msgstr "This is not an emergency service."
 
-#: src/pages/welcome.js:38
+#: src/pages/welcome.js:43
 msgid "msg.welcome_p1"
 msgstr "Through this website, you can access a referral form that will allow you or a young person you care about to receive help. A youth worker will be able to directly offer services pertaining to mental and physical health, advice on relationships, studies, work, information on financial and legal aid, or any other situation."
 
-#: src/pages/welcome.js:45
+#: src/pages/welcome.js:50
 msgid "msg.welcome_p1_note"
 msgstr "*Please note that this is a new referral service that is only available to youth between the ages of 12 and 25 years old in Canada who frequent one of the following Montreal neighbourhoods: St-Henri; Little Burgundy; Griffintown; Verdun; Pointe St-Charles; Côte-St-Paul; Ville-Émard; Plateau Ville-Marie; Nuns’ Island."
 
-#: src/pages/welcome.js:72
+#: src/pages/welcome.js:77
 msgid "msg.welcome_step1"
 msgstr "Step 1:"
 
-#: src/pages/welcome.js:74
+#: src/pages/welcome.js:79
 msgid "msg.welcome_step1_text"
 msgstr "You’ll be asked for some basic information about yourself. There are no right or wrong answers. You can skip questions by clicking “next” or change your information by clicking “back.”"
 
-#: src/pages/welcome.js:89
+#: src/pages/welcome.js:94
 msgid "msg.welcome_step2"
 msgstr "Step 2:"
 
-#: src/pages/welcome.js:91
+#: src/pages/welcome.js:96
 msgid "msg.welcome_step2_text"
 msgstr "Once you have completed the form, your referral will be sent to a youth mental health worker in your community. They will contact you within three days, using the method of your choice (e.g., text, phone, email)."
 
-#: src/pages/privacy-policy.js:87
+#: src/pages/privacy-policy.js:71
 msgid "msg.what_information_do_we_collect_and_why"
 msgstr "What information do we collect and why?"
 
-#: src/pages/privacy-policy.js:79
+#: src/pages/privacy-policy.js:114
 msgid "msg.when_do_we_collect_information"
 msgstr "When do we collect information?"
 
@@ -520,14 +524,14 @@ msgstr "When do we collect information?"
 msgid "msg.who_are_we"
 msgstr "Who are we?"
 
-#: src/pages/privacy-policy.js:159
+#: src/pages/privacy-policy.js:164
 msgid "msg.who_can_i_contact_if_i_want_more_information_about_this_privacy_policy"
 msgstr "Who can I contact if I want more information about this Privacy Policy?"
 
-#: src/pages/privacy-policy.js:66
+#: src/pages/privacy-policy.js:101
 msgid "msg.why_do_we_collect_information"
 msgstr "Why do we collect information?"
 
-#: src/pages/privacy-policy.js:149
+#: src/pages/privacy-policy.js:154
 msgid "msg.will_this_privacy_policy_change"
 msgstr "Will this Privacy Policy change?"
