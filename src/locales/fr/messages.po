@@ -197,7 +197,7 @@ msgstr "Nous ne divulguons pas, ne vendons pas, n’échangeons pas et ne transf
 
 #: src/pages/privacy-policy.js:117
 msgid "msg.privacy_policy_p4"
-msgstr "Les informations sont collectées lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence."
+msgstr "Nous collectons ces informations personnelles lorsque vous visitez le site web ou lorsque vous complétez une demande pour des services de santé mentale en utilisant notre formulaire de référence. Les informations statistiques et les cookies sont collectés, que le formulaire ait été rempli ou pas."
 
 #: src/pages/privacy-policy.js:74
 msgid "msg.privacy_policy_p5"
