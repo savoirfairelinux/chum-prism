@@ -45,12 +45,12 @@ const IndexPage = () => {
           <img src={"/head_with_text.png"} alt="Head" className={headStyle.logohead} />
         </div>
       </div>
-      {!valide && clicked &&<div className={layoutStyles.modalIndex}>
+      {/* {!valide && clicked &&<div className={layoutStyles.modalIndex}>
           <div className={layoutStyles.modalContentServiceDown}>
             <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
             <ServiceDownPopup />
           </div>
-        </div>}
+        </div>} */}
     </Layout>
   )
 }
