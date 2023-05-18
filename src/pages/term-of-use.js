@@ -9,7 +9,7 @@ import { I18nProvider } from "@lingui/react"
 import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
-
+import Popup from "../components/Popup"
 const IndexPage = ({ location }) => {
   const [valide, setValide] = React.useState(false)
   const [clicked, setClicked] = React.useState(false)
@@ -142,6 +142,7 @@ const IndexPage = ({ location }) => {
           </div>
         </div>}
       </Layout>
+      <Popup/>
     </I18nProvider>
   )
 }
