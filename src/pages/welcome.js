@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -10,15 +10,13 @@ import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
 
-import ServiceDownPopup from "../components/serviceDownPopup"
+import Popup from "../components/Popup"
 
 const IndexPage = ({ location }) => {
-  const [language, setLanguage] = React.useState("en")
-  
-  const [valide, setValide] = React.useState(false)
-  const [clicked, setClicked] = React.useState(true)
+  const [language, setLanguage] = useState("en")
 
-  React.useEffect(() => {
+
+  useEffect(() => {
     if (localStorage.getItem("language") !== "") {
       setLanguage(localStorage.getItem("language"))
     }
@@ -68,11 +66,11 @@ const IndexPage = ({ location }) => {
           <div className={layoutStyles.row}>
             <div className={layoutStyles.column}>
               <img
-                  src={"/listarrow.png"}
-                  alt="Yellow arrow"
-                  className={layoutStyles.listArrow}
-                />
-              <p className={layoutStyles.right }>
+                src={"/listarrow.png"}
+                alt="Yellow arrow"
+                className={layoutStyles.listArrow}
+              />
+              <p className={layoutStyles.right}>
                 <strong className={layoutStyles.step}>
                   <Trans id="msg.welcome_step1">Step 1:</Trans>{" "}
                 </strong>
@@ -85,10 +83,10 @@ const IndexPage = ({ location }) => {
             </div>
             <div className={layoutStyles.column}>
               <img
-                  src={"/listarrow.png"}
-                  alt="Yellow arrow"
-                  className={layoutStyles.listArrow}
-                />
+                src={"/listarrow.png"}
+                alt="Yellow arrow"
+                className={layoutStyles.listArrow}
+              />
               <p>
                 <strong className={layoutStyles.step}>
                   <Trans id="msg.welcome_step2">Step 2:</Trans>{" "}
@@ -109,17 +107,17 @@ const IndexPage = ({ location }) => {
             src={"/welcome_illustration_web_fr.png"}
             alt="Weclome illustration web"
             className={layoutStyles.schemaImageWeb}
-          /> :           <img
-          src={"/welcome_illustration_web.png"}
-          alt="Weclome illustration web"
-          className={layoutStyles.schemaImageWeb}
-        />}
+          /> : <img
+            src={"/welcome_illustration_web.png"}
+            alt="Weclome illustration web"
+            className={layoutStyles.schemaImageWeb}
+          />}
           {language === "fr" ? <img
             src={"/welcome_illustration_mobile_fr.png"}
             alt="Welcome illustration mobile"
             className={layoutStyles.schemaImageMobile}
           />
-          : <img
+            : <img
               src={"/welcome_illustration_mobile.png"}
               alt="Welcome illustration mobile"
               className={layoutStyles.schemaImageMobile}
@@ -134,12 +132,7 @@ const IndexPage = ({ location }) => {
             </button>
           </Link>
         </div>
-        {/* {!valide && clicked &&<div className={layoutStyles.modalIndex}>
-          <div className={layoutStyles.modalContentServiceDown}>
-            <span className={layoutStyles.modalContentClose} onClick={()=>setClicked(false)}>&times;</span>
-            <ServiceDownPopup />
-          </div>
-        </div>} */}
+        <Popup />
       </Layout>
     </I18nProvider>
   )
