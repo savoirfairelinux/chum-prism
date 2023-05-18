@@ -6,7 +6,6 @@ import Layout from "../components/homeLayout"
 import headStyle from "../components/head.module.scss"
 import layoutStyles from "../components/layout.module.scss"
 
-import Popup from "../components/Popup"
 
 const IndexPage = () => {
 
@@ -43,7 +42,6 @@ const IndexPage = () => {
           <img src={"/head_with_text.png"} alt="Head" className={headStyle.logohead} />
         </div>
       </div>
-      <Popup />
     </Layout>
   )
 }

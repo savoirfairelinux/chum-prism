@@ -10,8 +10,6 @@ import catalogEn from "../locales/en/messages"
 import catalogFr from "../locales/fr/messages"
 import { Trans } from "@lingui/macro"
 
-import Popup from "../components/Popup"
-
 const IndexPage = ({ location }) => {
   const [language, setLanguage] = useState("en")
 
@@ -132,7 +130,6 @@ const IndexPage = ({ location }) => {
             </button>
           </Link>
         </div>
-        <Popup />
       </Layout>
     </I18nProvider>
   )
