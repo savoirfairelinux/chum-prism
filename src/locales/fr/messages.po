@@ -145,7 +145,7 @@ msgstr "PRISM politique de confidentialité"
 
 #: src/pages/privacy-policy.js:36
 msgid "msg.privacy_policy_aom_update_date"
-msgstr "Dernière mise à jour: le 18 janvier 2023"
+msgstr "Dernière mise à jour: le 31 janvier 2023"
 
 #: src/pages/privacy-policy.js:141
 msgid "msg.privacy_policy_harming_yourself"
