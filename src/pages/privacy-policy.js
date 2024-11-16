@@ -33,7 +33,7 @@ const PrivacyPolicyPage = ({ location }) => {
             <Trans id="msg.privacy_policy_aom">PRISM Privacy Policy</Trans>
           </h1>
           <p className={layoutStyles.centered}>
-            <Trans id="msg.privacy_policy_aom_update_date">Last updated: January 4, 2021</Trans>
+            <Trans id="msg.privacy_policy_aom_update_date">Last updated: January 31, 2023</Trans>
           </p>
           <h2>
             <Trans id="msg.who_are_we">Who are we?</Trans>
