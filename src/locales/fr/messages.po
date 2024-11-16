@@ -245,7 +245,7 @@ msgstr "Aussi, si vous avez moins de 14 ans, l’équipe de santé mentale jeune
 
 #: src/pages/privacy-policy.js:159
 msgid "msg.privacy_policy_under_15"
-msgstr "Cette politique de confidentialité est effective à partir du 18 janvier 2023. Tout changement apporté à cette politique de confidentialité sera affiché sur le site web dès qu’ils entreront en vigueur, et les nouvelles données contenues dans cette section seront révisées."
+msgstr "Cette politique de confidentialité est effective à partir du 31 janvier 2023. Tout changement apporté à cette politique de confidentialité sera affiché sur le site web dès qu’ils entreront en vigueur, et les nouvelles données contenues dans cette section seront révisées."
 
 #: src/pages/privacy-policy.js:169
 msgid "msg.privacy_policy_under_16"
