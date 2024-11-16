@@ -24,7 +24,7 @@ const MainFooter = () => {
         <br/>PRISM-ACCESS Esprits ouverts est un projet d’innovation dans les services de santé visant à améliorer l’accès des jeunes aux soins de santé mentale. Il est géré par le laboratoire Santé mentale des jeunes et technologies (SMJ-techno) 
         du Centre hospitalier de l'Université de Montréal est dirigé par la Chaire de recherche du Canada sur l’innovation et les technologies pour les services de soins de santé mentale pour les jeunes 
         <br/>
-        <a href="https://www.ymhtech.com" target="_blank">www.ymhtech.com</a> / <a href="https://www.smjtechno.com" target="_blank">www.smjtechno.com</a></p>
+        <a href="https://www.ymhtech.com" target="_blank">www.ymhtech.com</a></p>
         </div>
     </div>
   )
