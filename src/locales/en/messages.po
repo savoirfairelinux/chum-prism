@@ -245,7 +245,7 @@ msgstr "Also, if you are under 14, the youth mental health team will need to con
 
 #: src/pages/privacy-policy.js:159
 msgid "msg.privacy_policy_under_15"
-msgstr "This Privacy Policy is effective as of January 18, 2023. Any changes to this Privacy Policy will be posted to the website as soon as they go into effect, and the new date will be revised in this section."
+msgstr "This Privacy Policy is effective as of January 31, 2023. Any changes to this Privacy Policy will be posted to the website as soon as they go into effect, and the new date will be revised in this section."
 
 #: src/pages/privacy-policy.js:169
 msgid "msg.privacy_policy_under_16"
